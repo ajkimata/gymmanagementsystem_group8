@@ -2,24 +2,25 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Classes from "./components/classes";
-import Login from "./components/login";
+import Classes from "./components/classes"
+import Login from "./components/login" 
 import AboutUs from "./components/about";
-import ContactUs from "./components/contact";
-
+import ContactUs from "./components/contact"
+import { Register } from "./components/Register";
 function App() {
   return (
     <Router>
-      
+      <div>
         <Navbar />
         <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/classes" component={Classes} />
-          <Route path="/login" component={Login} />
-          <Route path="/about" component={AboutUs} />
-          <Route path="/contact" component={ContactUs} />
+          <Route path="/" element={<Home />} />
+          <Route path="/classes" element={<Classes />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/Register" element={<Register/>}/>
         </Routes>
-      
+      </div>
     </Router>
   );
 }
