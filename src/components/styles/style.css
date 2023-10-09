@@ -832,4 +832,399 @@
   }
   
 
+  .meet-the-team {
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 1043px;
+    overflow: hidden;
+    width: 1720px;
+  }
+  
+  .meet-the-team .overlap-group {
+    background-image: url(./image-5.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1043px;
+    position: relative;
+  }
+  
+  .meet-the-team .overlap {
+    height: 322px;
+    left: 36px;
+    position: absolute;
+    top: 264px;
+    width: 477px;
+  }
+  
+  .meet-the-team .rectangle {
+    height: 201px;
+    left: 0;
+    position: absolute;
+    top: 79px;
+    width: 477px;
+  }
+  
+  .meet-the-team .image {
+    height: 322px;
+    left: 82px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 311px;
+  }
+  
+  .meet-the-team .div {
+    height: 316px;
+    left: 604px;
+    position: absolute;
+    top: 264px;
+    width: 477px;
+  }
+  
+  .meet-the-team .img {
+    height: 316px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 310px;
+  }
+  
+  .meet-the-team .overlap-2 {
+    height: 316px;
+    left: 1172px;
+    position: absolute;
+    top: 264px;
+    width: 477px;
+  }
+  
+  .meet-the-team .image-2 {
+    height: 316px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 311px;
+  }
+  
+  .meet-the-team .overlap-3 {
+    height: 311px;
+    left: 604px;
+    position: absolute;
+    top: 675px;
+    width: 477px;
+  }
+  
+  .meet-the-team .rectangle-2 {
+    height: 201px;
+    left: 0;
+    position: absolute;
+    top: 55px;
+    width: 477px;
+  }
+  
+  .meet-the-team .image-3 {
+    height: 311px;
+    left: 87px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 303px;
+  }
+  
+  .meet-the-team .overlap-4 {
+    height: 155px;
+    left: 81px;
+    position: absolute;
+    top: 41px;
+    width: 1434px;
+  }
+  
+  .meet-the-team .text-wrapper {
+    color: #d6fd51;
+    font-family: "Orbitron-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 139px;
+    letter-spacing: 0;
+    line-height: 85.7px;
+    position: absolute;
+    text-align: center;
+    top: 43px;
+    white-space: nowrap;
+    width: 815px;
+  }
+  
+  .meet-the-team .frame {
+    height: 111px;
+    left: 1174px;
+    position: absolute;
+    top: 44px;
+    width: 260px;
+  }
+  
+  .meet-the-team .vector {
+    height: 37px;
+    left: 36px;
+    position: absolute;
+    top: 45px;
+    width: 26px;
+  }
+  
+  .meet-the-team .vector-2 {
+    height: 37px;
+    left: 115px;
+    position: absolute;
+    top: 45px;
+    width: 26px;
+  }
+  
+  .meet-the-team .vector-3 {
+    height: 37px;
+    left: 194px;
+    position: absolute;
+    top: 45px;
+    width: 26px;
+  }
+  
+  .meet-the-team .powerhouse {
+    color: transparent;
+    font-family: "Calligraphy Brillian-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+  }
+  
+  .meet-the-team .span {
+    color: #d61c4e;
+  }
+  
+  .meet-the-team .text-wrapper-2 {
+    color: #d6fd51;
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .meet-the-team .navbar {
+    background-color: #0000001a;
+    height: 70px;
+    left: 237px;
+    position: absolute;
+    top: 0;
+    width: 1147px;
+  }
+  
+  .meet-the-team .group {
+    height: 35px;
+    left: 920px;
+    position: absolute;
+    top: 14px;
+    width: 100px;
+  }
+  
+  .meet-the-team .bx-bx-search-alt {
+    height: 35px;
+    left: 65px;
+    position: absolute;
+    top: 0;
+    width: 35px;
+  }
+  
+  .meet-the-team .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 199px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-6 {
+    color: #d6fd51;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 476px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 646px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .button-wrapper {
+    background-image: url(./rectangle-86.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 168px;
+    position: absolute;
+    top: 603px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 38px;
+    position: relative;
+    top: 5px;
+    width: 141px;
+  }
+  
+  .meet-the-team .text-wrapper-8 {
+    color: var(--white);
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 30.6px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .meet-the-team .div-wrapper {
+    background-image: url(./image.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 736px;
+    position: absolute;
+    top: 595px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 69px;
+    position: relative;
+    top: 5px;
+    width: 78px;
+  }
+  
+  .meet-the-team .group-2 {
+    background-image: url(./rectangle-86-2.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 1268px;
+    position: absolute;
+    top: 598px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 48px;
+    position: relative;
+    top: 5px;
+    width: 115px;
+  }
+  
+  .meet-the-team .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 30.6px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .meet-the-team .group-3 {
+    background-image: url(./rectangle-86-3.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 736px;
+    position: absolute;
+    top: 991px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button-4 {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 40px;
+    position: relative;
+    top: 5px;
+    width: 129px;
+  }
+  
+  .meet-the-team .browse-all-trainers {
+    background-color: #d6fd51;
+    height: 126px;
+    left: 1246px;
+    position: absolute;
+    top: 860px;
+    width: 340px;
+  }
+  
+  .meet-the-team .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 38px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 21px;
+    width: 266px;
+  }
   
