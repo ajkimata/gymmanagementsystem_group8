@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className="main-landing-page">
       <div className="overlap-group">
-        <img className="image" alt="Image" src="image-1.png" />
+        <img className="image" alt="Image" src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victor-freitas-841130.jpg&fm=jpg" />
         <div className="rectangle" />
         <p className="text-wrapper">REACH YOUR LIMITS AND GET TO THE NEXT LEVEL</p>
         <img className="img" alt="Rectangle" src="rectangle-2.svg" />
