@@ -36,11 +36,6 @@ const Home = () => {
           <div className="bx-bx-search-alt-wrapper">
             <img className="bx-bx-search-alt" alt="Bx bx search alt" src="bx-bx-search-alt-2.svg" />
           </div>
-          <div className="text-wrapper-5">HOME</div>
-          <div className="text-wrapper-6">CLASSES</div>
-          <div className="text-wrapper-7">LOG IN</div>
-          <div className="text-wrapper-8">ABOUT US</div>
-          <div className="text-wrapper-9">CONTACT US</div>
         </div>
         <p className="powerhouse">
           <span className="span">P</span>
