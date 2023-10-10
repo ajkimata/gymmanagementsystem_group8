@@ -22,9 +22,9 @@ const Home = () => {
         <p className="text-wrapper">REACH YOUR LIMITS AND GET TO THE NEXT LEVEL</p>
         <img className="img" alt="Rectangle" src="rectangle-2.svg" />
         <p className="div">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
+        Regular physical activity can improve your muscle strength and boost your endurance.
+        Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently.
+        And when your heart and lung health improve, you have more energy to tackle daily chores.
         </p>
         <div className="rectangle-2" />
         <div className="text-wrapper-2">LEARN MORE</div>
