@@ -1,585 +1,985 @@
 .user-login-page {
-    background-color: #999999;
-    border-radius: 54px;
-    height: 773px;
-    overflow: hidden;
-    position: relative;
-    width: 1722px;
+  background-color: #999999;
+  border-radius: 54px;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  width: 2000px;
+}
+/* Default styles for register */
+.user-login-page {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for screens with a maximum width of 600px (e.g., mobile devices) */
+@media (max-width: 800px) {
+  .user-login-page {
+    max-width: 100%;
   }
-  
-  .user-login-page .rectangle {
-    height: 773px;
-    left: 760px;
-    object-fit: cover;
-    position: absolute;
-    top: -1px;
-    transform: rotate(0.16deg);
-    width: 961px;
-  }
-  
-  .user-login-page .overlap {
-    height: 657px;
-    left: 60px;
-    position: absolute;
-    top: 58px;
-    width: 511px;
-  }
-  
-  .user-login-page .frame {
-    height: 620px;
-    left: 63px;
-    position: absolute;
-    top: 37px;
-    transform: rotate(0.16deg);
-    width: 447px;
-  }
-  
-  .user-login-page .group {
-    height: 105px;
-    left: 44px;
-    position: absolute;
-    top: 26px;
-    transform: rotate(-0.16deg);
-    width: 351px;
-  }
-  
-  .user-login-page .text-wrapper {
-    color: #1c1c1c;
-    font-family: "Smooch Sans-Bold", Helvetica;
-    font-size: 120px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    white-space: nowrap;
-  }
-  
-  .user-login-page .div {
-    color: #1c1c1c;
-    font-family: "Poppins-Regular", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 84px;
-  }
-  
-  .user-login-page .overlap-group-wrapper {
-    height: 24px;
-    left: 37px;
-    position: absolute;
-    top: 383px;
-    transform: rotate(-0.16deg);
-    width: 366px;
-  }
-  
-  .user-login-page .overlap-group {
-    height: 24px;
-    position: relative;
-    width: 364px;
-  }
-  
-  .user-login-page .login-with-others {
-    color: #1c1c1c;
-    font-family: "Poppins-Bold", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 113px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .user-login-page .span {
-    font-weight: 700;
-  }
-  
-  .user-login-page .text-wrapper-2 {
-    font-family: "Poppins-Regular", Helvetica;
-  }
-  
-  .user-login-page .subtract {
-    height: 2px;
-    left: 0;
-    position: absolute;
-    top: 10px;
-    transform: rotate(0.16deg);
-    width: 364px;
-  }
-  
-  .user-login-page .overlap-wrapper {
-    height: 52px;
-    left: 36px;
-    position: absolute;
-    top: 231px;
-    transform: rotate(-0.16deg);
-    width: 366px;
-  }
-  
-  .user-login-page .overlap-2 {
-    background-color: #ffffff;
-    height: 52px;
-    position: relative;
-    width: 364px;
-  }
-  
-  .user-login-page .text-wrapper-3 {
-    color: #1c1c1c;
-    font-family: "Poppins-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    left: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 17px;
-  }
-  
-  .user-login-page .img {
-    height: 24px;
-    left: 18px;
-    position: absolute;
-    top: 14px;
-    transform: rotate(0.16deg);
-    width: 24px;
-  }
-  
-  .user-login-page .div-wrapper {
-    height: 52px;
-    left: 36px;
-    position: absolute;
-    top: 155px;
-    transform: rotate(-0.16deg);
-    width: 366px;
-  }
-  
-  .user-login-page .group-2 {
-    height: 52px;
-    left: 37px;
-    position: absolute;
-    top: 307px;
-    transform: rotate(-0.16deg);
-    width: 366px;
-  }
-  
-  .user-login-page .overlap-3 {
-    background-color: #d6fd51b2;
-    height: 52px;
-    position: relative;
-    width: 364px;
-  }
-  
-  .user-login-page .text-wrapper-4 {
-    color: #000000;
-    font-family: "Poppins-Bold", Helvetica;
-    font-size: 12px;
-    font-weight: 700;
-    left: 166px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 17px;
-  }
-  
-  .user-login-page .group-3 {
-    height: 101px;
-    left: 96px;
-    position: absolute;
-    top: 431px;
-    transform: rotate(-0.16deg);
-    width: 256px;
-  }
-  
-  .user-login-page .don-t-have-account {
-    color: #000000;
-    font-family: "Cabinet Grotesk-Medium", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 91px;
-    white-space: nowrap;
-    width: 249px;
-  }
-  
-  .user-login-page .text-wrapper-5 {
-    font-weight: 500;
-  }
-  
-  .user-login-page .text-wrapper-6 {
-    font-family: "Cabinet Grotesk-Bold", Helvetica;
-    font-weight: 700;
-  }
-  
-  .user-login-page .google-g-logo-wrapper {
-    background-color: #e6f1f4;
-    border-radius: 9px;
-    height: 60px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 113px;
-  }
-  
-  .user-login-page .google-g-logo {
-    height: 27px;
-    left: 43px;
-    position: absolute;
-    top: 17px;
-    transform: rotate(0.16deg);
-    width: 28px;
-  }
-  
-  .user-login-page .XMLID-wrapper {
-    background-color: #e6f1f4;
-    border-radius: 9px;
-    height: 60px;
-    left: 140px;
-    position: absolute;
-    top: 0;
-    width: 113px;
-  }
-  
-  .user-login-page .XMLID {
-    height: 27px;
-    left: 42px;
-    position: absolute;
-    top: 17px;
-    transform: rotate(0.16deg);
-    width: 29px;
-  }
-  
-  .user-login-page .powerhouse {
-    color: transparent;
-    font-family: "Calligraphy Brillian-Regular", Helvetica;
-    font-size: 36px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    transform: rotate(0.16deg);
-  }
-  
-  .user-login-page .text-wrapper-7 {
-    color: #d61c4e;
-  }
-  
-  .user-login-page .text-wrapper-8 {
-    color: #d6fd51;
-    font-family: "Inter-BoldItalic", Helvetica;
-    font-style: italic;
-    font-weight: 700;
-  }
+}
+.user-login-page .rectangle {
+  height: 773px;
+  left: 760px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  transform: rotate(0.16deg);
+  width: 961px;
+}
+
+.user-login-page .overlap {
+  height: 657px;
+  left: 60px;
+  position: absolute;
+  top: 58px;
+  width: 511px;
+}
+
+.user-login-page .frame {
+  height: 620px;
+  left: 63px;
+  position: absolute;
+  top: 37px;
+  transform: rotate(0.16deg);
+  width: 447px;
+}
+
+.user-login-page .group {
+  height: 105px;
+  left: 44px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(-0.16deg);
+  width: 351px;
+}
+
+.user-login-page .text-wrapper {
+  color: #1c1c1c;
+  font-family: "Smooch Sans-Bold", Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.user-login-page .div {
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 84px;
+}
+
+.user-login-page .overlap-group-wrapper {
+  height: 24px;
+  left: 37px;
+  position: absolute;
+  top: 383px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .overlap-group {
+  height: 24px;
+  position: relative;
+  width: 364px;
+}
+
+.user-login-page .login-with-others {
+  color: #1c1c1c;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 113px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.user-login-page .span {
+  font-weight: 700;
+}
+
+.user-login-page .text-wrapper-2 {
+  font-family: "Poppins-Regular", Helvetica;
+}
+
+.user-login-page .subtract {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  transform: rotate(0.16deg);
+  width: 364px;
+}
+
+.user-login-page .overlap-wrapper {
+  height: 52px;
+  left: 36px;
+  position: absolute;
+  top: 231px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .overlap-2 {
+  background-color: #ffffff;
+  height: 52px;
+  position: relative;
+  width: 364px;
+}
+
+.user-login-page .text-wrapper-3 {
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+}
+
+.user-login-page .img {
+  height: 24px;
+  left: 18px;
+  position: absolute;
+  top: 14px;
+  transform: rotate(0.16deg);
+  width: 24px;
+}
+
+.user-login-page .div-wrapper {
+  height: 52px;
+  left: 36px;
+  position: absolute;
+  top: 155px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .group-2 {
+  height: 52px;
+  left: 37px;
+  position: absolute;
+  top: 307px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .overlap-3 {
+  background-color: #d6fd51b2;
+  height: 52px;
+  position: relative;
+  width: 364px;
+}
+
+.user-login-page .text-wrapper-4 {
+  color: #000000;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 166px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+}
+
+.user-login-page .group-3 {
+  height: 101px;
+  left: 96px;
+  position: absolute;
+  top: 431px;
+  transform: rotate(-0.16deg);
+  width: 256px;
+}
+
+.user-login-page .don-t-have-account {
+  color: #000000;
+  font-family: "Cabinet Grotesk-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 91px;
+  white-space: nowrap;
+  width: 249px;
+}
+
+.user-login-page .text-wrapper-5 {
+  font-weight: 500;
+}
+
+.user-login-page .text-wrapper-6 {
+  font-family: "Cabinet Grotesk-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.user-login-page .google-g-logo-wrapper {
+  background-color: #e6f1f4;
+  border-radius: 9px;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 113px;
+}
+
+.user-login-page .google-g-logo {
+  height: 27px;
+  left: 43px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(0.16deg);
+  width: 28px;
+}
+
+.user-login-page .XMLID-wrapper {
+  background-color: #e6f1f4;
+  border-radius: 9px;
+  height: 60px;
+  left: 140px;
+  position: absolute;
+  top: 0;
+  width: 113px;
+}
+
+.user-login-page .XMLID {
+  height: 27px;
+  left: 42px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(0.16deg);
+  width: 29px;
+}
+
+.user-login-page .powerhouse {
+  color: transparent;
+  font-family: "Calligraphy Brillian-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: rotate(0.16deg);
+}
+
+.user-login-page .text-wrapper-7 {
+  color: #d61c4e;
+}
+
+.user-login-page .text-wrapper-8 {
+  color: #d6fd51;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-style: italic;
+  font-weight: 700;
+}
 
 /* classes */
 .classes-book-now {
-    background-color: #000000;
-    border-radius: 30px;
-    height: 1308px;
-    overflow: hidden;
-    position: relative;
-    width: 1720px;
+  background-color: #000000;
+  border-radius: 30px;
+  height: 1308px;
+  overflow: hidden;
+  position: relative;
+  width: 1720px;
+}
+
+.classes-book-now .text-wrapper {
+  color: #d6fd51;
+  font-family: "Orbitron-Black", Helvetica;
+  font-size: 48px;
+  font-weight: 900;
+  left: 285px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 190px;
+  width: 952px;
+}
+
+.classes-book-now .overlap {
+  height: 543px;
+  left: 1191px;
+  position: absolute;
+  top: 325px;
+  width: 377px;
+}
+
+.classes-book-now .image {
+  height: 543px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 360px;
+}
+
+.classes-book-now .div {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 485px;
+  white-space: nowrap;
+  width: 377px;
+}
+
+.classes-book-now .overlap-group {
+  height: 552px;
+  left: 687px;
+  position: absolute;
+  top: 334px;
+  width: 377px;
+}
+
+.classes-book-now .img {
+  height: 552px;
+  left: 16px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 360px;
+}
+
+.classes-book-now .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 478px;
+  white-space: nowrap;
+  width: 377px;
+}
+
+.classes-book-now .overlap-2 {
+  height: 543px;
+  left: 186px;
+  position: absolute;
+  top: 325px;
+  width: 377px;
+}
+
+.classes-book-now .image-2 {
+  height: 543px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 368px;
+}
+
+.classes-book-now .join-our-advanced {
+  color: transparent;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 1219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 908px;
+  width: 340px;
+}
+
+.classes-book-now .span {
+  color: #d61c4e;
+}
+
+.classes-book-now .text-wrapper-3 {
+  color: #ffffff;
+}
+
+.classes-book-now .achieve-your-fitness {
+  color: transparent;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 705px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 909px;
+  width: 340px;
+}
+
+.classes-book-now .explore-our-beginner {
+  color: transparent;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 199px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 908px;
+  width: 340px;
+}
+
+.classes-book-now .frame {
+  background-color: #d6fd51;
+  height: 60px;
+  left: 186px;
+  position: absolute;
+  top: 1039px;
+  width: 359px;
+}
+
+.classes-book-now .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Black", Helvetica;
+  font-size: 24px;
+  font-weight: 900;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+}
+
+.classes-book-now .div-wrapper {
+  background-image: url(https://images.pexels.com/photos/14471495/pexels-photo-14471495.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+  background-size: 100% 100%;
+  height: 60px;
+  left: 703px;
+  position: absolute;
+  top: 1039px;
+  width: 359px;
+}
+
+.classes-book-now .frame-2 {
+  background-color: #d6fd51;
+  height: 60px;
+  left: 1209px;
+  position: absolute;
+  top: 1039px;
+  width: 359px;
+}
+
+.classes-book-now .navbar {
+  height: 70px;
+  left: 369px;
+  position: absolute;
+  top: 51px;
+  width: 1147px;
+}
+
+.classes-book-now .group {
+  height: 35px;
+  left: 920px;
+  position: absolute;
+  top: 14px;
+  width: 100px;
+}
+
+.classes-book-now .bx-bx-search-alt {
+  height: 35px;
+  left: 65px;
+  position: absolute;
+  top: 0;
+  width: 35px;
+}
+
+.classes-book-now .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+}
+
+.classes-book-now .text-wrapper-6 {
+  color: #d6fd51;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 199px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+}
+
+.classes-book-now .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 350px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+}
+
+.classes-book-now .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 476px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+}
+
+.classes-book-now .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 646px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+}
+
+.classes-book-now .powerhouse {
+  color: transparent;
+  font-family: "Calligraphy Brillian-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 57px;
+}
+
+.classes-book-now .text-wrapper-10 {
+  color: #d6fd51;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-style: italic;
+  font-weight: 700;
+}
+.register {
+  background-color: #999999;
+  border-radius: 60px;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1720px;
+}
+
+.register .form {
+  height: 401px;
+  left: 167px;
+  position: absolute;
+  top: 479px;
+  width: 414px;
+}
+
+.register .div {
+  height: 401px;
+  position: relative;
+}
+
+.register .remember-me {
+  height: 22px;
+  left: 292px;
+  position: absolute;
+  top: 218px;
+  width: 120px;
+}
+
+.register .frame {
+  border: 1px solid;
+  border-color: #d6fd51;
+  border-radius: 3px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.register .text-wrapper {
+  color: #1c1c1c;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+.register .textfields {
+  align-items: flex-start;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 196px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 410px;
+}
+
+.register .username {
+  align-self: stretch;
+  background-color: #ffffff;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.register .group {
+  height: 18px;
+  left: 55px;
+  position: absolute;
+  top: 18px;
+  transform: rotate(-0.16deg);
+  width: 74px;
+}
+
+.register .text-wrapper-2 {
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 72px;
+}
+
+.register .bx-user {
+  height: 24px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 24px;
+}
+
+.register .email {
+  background-color: #ffffff;
+  height: 52px;
+  margin-right: -3.95px;
+  position: relative;
+  width: 414px;
+}
+
+.register .group-2 {
+  height: 19px;
+  left: 51px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(-0.16deg);
+  width: 40px;
+}
+
+.register .input {
+  background: transparent;
+  border: none;
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.register .mdi-light-email {
+  height: 24px;
+  left: 16px;
+  position: absolute;
+  top: 14px;
+  width: 24px;
+}
+
+.register .password {
+  background-color: #ffffff;
+  height: 50px;
+  margin-right: -3.95px;
+  position: relative;
+  width: 414px;
+}
+
+.register .iconamoon-eye-light {
+  height: 24px;
+  left: 374px;
+  position: absolute;
+  top: 13px;
+  width: 24px;
+}
+
+.register .circum-lock {
+  height: 24px;
+  left: 8px;
+  position: absolute;
+  top: 13px;
+  width: 24px;
+}
+
+.register .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+}
+
+.register .button {
+  all: unset;
+  box-sizing: border-box;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 262px;
+  width: 416px;
+}
+
+.register .overlap-group {
+  background-color: #d6fd51b2;
+  height: 50px;
+  position: relative;
+  width: 414px;
+}
+
+.register .text-wrapper-4 {
+  color: #000000;
+  font-family: "Cabin-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 171px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  width: 55px;
+}
+
+.register .already-have-an {
+  color: transparent;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 342px;
+  white-space: nowrap;
+}
+
+.register .span {
+  color: #ffffff;
+}
+
+.register .text-wrapper-5 {
+  color: #d6fd51;
+  font-family: "Urbanist-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.register .seperater {
+  align-items: center;
+  display: inline-flex;
+  gap: 16px;
+  left: 288px;
+  position: absolute;
+  top: 448px;
+}
+
+.register .line {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 60px;
+}
+
+.register .text-wrapper-6 {
+  color: #d6fd51;
+  font-family: "Cabin-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .glogin {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d2d2d2;
+  height: 52px;
+  left: 164px;
+  position: absolute;
+  top: 376px;
+  width: 418px;
+}
+
+.register .frame-2 {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  gap: 12px;
+  left: 117px;
+  position: relative;
+  top: 15px;
+}
+
+.register .google {
+  height: 20px;
+  object-fit: cover;
+  position: relative;
+  width: 20px;
+}
+
+.register .text-wrapper-7 {
+  color: #2e2e2e;
+  font-family: "Cabin-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .heading {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 183px;
+  position: absolute;
+  top: 273px;
+}
+
+.register .p {
+  color: #000000;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .text-wrapper-8 {
+  color: #000000;
+  font-family: "Bebas Neue-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 300;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 178px;
+  width: 656px;
+}
+
+.register .image {
+  height: 1024px;
+  left: 757px;
+  position: absolute;
+  top: 0;
+  width: 956px;
+}
+
+.register .powerhouse {
+  color: transparent;
+  font-family: "Calligraphy Brillian-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 62px;
+}
+
+.register .text-wrapper-9 {
+  color: #d61c4e;
+}
+
+.register .text-wrapper-10 {
+  color: #d6fd51;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-style: italic;
+  font-weight: 700;
+}
+/* Default styles for register */
+.register {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for screens with a maximum width of 600px (e.g., mobile devices) */
+@media (max-width: 600px) {
+  .register {
+    max-width: 100%;
   }
-  
-  .classes-book-now .text-wrapper {
-    color: #d6fd51;
-    font-family: "Orbitron-Black", Helvetica;
-    font-size: 48px;
-    font-weight: 900;
-    left: 285px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 190px;
-    width: 952px;
-  }
-  
-  .classes-book-now .overlap {
-    height: 543px;
-    left: 1191px;
-    position: absolute;
-    top: 325px;
-    width: 377px;
-  }
-  
-  .classes-book-now .image {
-    height: 543px;
-    left: 12px;
-    position: absolute;
-    top: 0;
-    width: 360px;
-  }
-  
-  .classes-book-now .div {
-    color: #ffffff;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-size: 48px;
-    font-weight: 600;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 485px;
-    white-space: nowrap;
-    width: 377px;
-  }
-  
-  .classes-book-now .overlap-group {
-    height: 552px;
-    left: 687px;
-    position: absolute;
-    top: 334px;
-    width: 377px;
-  }
-  
-  .classes-book-now .img {
-    height: 552px;
-    left: 16px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 360px;
-  }
-  
-  .classes-book-now .text-wrapper-2 {
-    color: #ffffff;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-size: 48px;
-    font-weight: 600;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 478px;
-    white-space: nowrap;
-    width: 377px;
-  }
-  
-  .classes-book-now .overlap-2 {
-    height: 543px;
-    left: 186px;
-    position: absolute;
-    top: 325px;
-    width: 377px;
-  }
-  
-  .classes-book-now .image-2 {
-    height: 543px;
-    left: 4px;
-    position: absolute;
-    top: 0;
-    width: 368px;
-  }
-  
-  .classes-book-now .join-our-advanced {
-    color: transparent;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 1219px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 908px;
-    width: 340px;
-  }
-  
-  .classes-book-now .span {
-    color: #d61c4e;
-  }
-  
-  .classes-book-now .text-wrapper-3 {
-    color: #ffffff;
-  }
-  
-  .classes-book-now .achieve-your-fitness {
-    color: transparent;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 705px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 909px;
-    width: 340px;
-  }
-  
-  .classes-book-now .explore-our-beginner {
-    color: transparent;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 199px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 908px;
-    width: 340px;
-  }
-  
-  .classes-book-now .frame {
-    background-color: #d6fd51;
-    height: 60px;
-    left: 186px;
-    position: absolute;
-    top: 1039px;
-    width: 359px;
-  }
-  
-  .classes-book-now .text-wrapper-4 {
-    color: #000000;
-    font-family: "Inter-Black", Helvetica;
-    font-size: 24px;
-    font-weight: 900;
-    left: 117px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 14px;
-  }
-  
-  .classes-book-now .div-wrapper {
-    background-image: url(https://images.pexels.com/photos/14471495/pexels-photo-14471495.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
-    background-size: 100% 100%;
-    height: 60px;
-    left: 703px;
-    position: absolute;
-    top: 1039px;
-    width: 359px;
-  }
-  
-  .classes-book-now .frame-2 {
-    background-color: #d6fd51;
-    height: 60px;
-    left: 1209px;
-    position: absolute;
-    top: 1039px;
-    width: 359px;
-  }
-  
-  .classes-book-now .navbar {
-    height: 70px;
-    left: 369px;
-    position: absolute;
-    top: 51px;
-    width: 1147px;
-  }
-  
-  .classes-book-now .group {
-    height: 35px;
-    left: 920px;
-    position: absolute;
-    top: 14px;
-    width: 100px;
-  }
-  
-  .classes-book-now .bx-bx-search-alt {
-    height: 35px;
-    left: 65px;
-    position: absolute;
-    top: 0;
-    width: 35px;
-  }
-  
-  .classes-book-now .text-wrapper-5 {
-    color: #ffffff;
-    font-family: "Montserrat-Bold", Helvetica;
-    font-size: 24px;
-    font-weight: 700;
-    left: 81px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 16px;
-  }
-  
-  .classes-book-now .text-wrapper-6 {
-    color: #d6fd51;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 199px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 16px;
-  }
-  
-  .classes-book-now .text-wrapper-7 {
-    color: #ffffff;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 350px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 16px;
-  }
-  
-  .classes-book-now .text-wrapper-8 {
-    color: #ffffff;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 476px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 16px;
-  }
-  
-  .classes-book-now .text-wrapper-9 {
-    color: #ffffff;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 646px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 16px;
-  }
-  
-  .classes-book-now .powerhouse {
-    color: transparent;
-    font-family: "Calligraphy Brillian-Regular", Helvetica;
-    font-size: 36px;
-    font-weight: 400;
-    left: 68px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 57px;
-  }
-  
-  .classes-book-now .text-wrapper-10 {
-    color: #d6fd51;
-    font-family: "Inter-BoldItalic", Helvetica;
-    font-style: italic;
-    font-weight: 700;
-  }
+}

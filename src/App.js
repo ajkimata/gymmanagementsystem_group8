@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Classes from "./components/classes"
-import Login from "./components/login" 
+import { Classes } from "./components/classes";
+import Login from "./components/login";
 import AboutUs from "./components/about";
-import ContactUs from "./components/contact"
+import { Contact } from "./components/contact";
 import { Register } from "./components/Register";
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
           <Route path="/classes" element={<Classes />} />
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/contact" element={<ContactUs />} />
-          <Route path="/Register" element={<Register/>}/>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/Register" element={<Register />} />
         </Routes>
       </div>
     </Router>
