@@ -96,13 +96,13 @@ const Login = () => {
           <div className="overlap-wrapper">
             <div className="overlap-2">
               <div className="text-wrapper-3">Password</div>
-              <img className="img" alt="Frame" src="frame.svg" />
+              <img className="img" alt="Frame" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHZ-yIurzqBWnkQMLgjbFUZpO2pLfE42hC_poX74&s" />
             </div>
           </div>
           <div className="div-wrapper">
             <div className="overlap-2">
               <div className="text-wrapper-3">Username</div>
-              <img className="img" alt="Frame" src="image.svg" />
+              <img className="img" alt="Frame" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSpAnV7Eqy1ajdV__BGRrAU9KkCa3aJGDly4funAkQzosa99R5KIOe4oFG4e_H3cNfgFw&usqp=CAU" />
             </div>
           </div>
           <div className="group-2">
