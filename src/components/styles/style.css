@@ -1,18 +1,10 @@
 .user-login-page {
   background-color: #999999;
-  border-radius: 54px;
-  height: 800px;
-  overflow: hidden;
-  position: relative;
-  width: 2000px;
-}
-/* Default styles for register */
-.user-login-page {
+  display: flex;
+  height: 800px; 
   width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
 }
+
 
 /* Styles for screens with a maximum width of 600px (e.g., mobile devices) */
 @media (max-width: 800px) {
@@ -21,13 +13,10 @@
   }
 }
 .user-login-page .rectangle {
-  height: 773px;
-  left: 760px;
-  object-fit: cover;
+  height: 800px;
+  left: 700px;
   position: absolute;
-  top: -1px;
-  transform: rotate(0.16deg);
-  width: 961px;
+  top: -1px
 }
 
 .user-login-page .overlap {
