@@ -394,90 +394,10 @@ const GymTestimonialsRoot = styled.div`
   font-family: Orbitron;
 `;
 
-const about = () => {
+const AboutUS = () => {
   return (
-    <GymTestimonialsRoot>
-      <Layer12 alt="" src="/layer-1-2@2x.png" />
-      <WhatOurClients>WHAT OUR CLIENTS SAY</WhatOurClients>
-      <Image17 />
-      <GymTestimonialsChild alt="" src="/frame-2004.svg" />
-      <Powerhouse>
-        <P>P</P>
-        <Owerhouse>owerhouse</Owerhouse>
-      </Powerhouse>
-      <ThanksToThePersonalizedTraParent>
-        <ThanksToThe>
-          Thanks to the personalized training and encouragement from the
-          trainers at this gym, I've lost 30 pounds and gained confidence in
-          myself. I never thought I could enjoy working out, but this gym
-          changed my perspective completely!
-        </ThanksToThe>
-        <SliderIcon alt="" src="/slider.svg" />
-        <SliderIcon1 alt="" src="/slider1.svg" />
-        <InsertYourImageHereParent>
-          <InsertYourImageHere alt="" src="/insert-your-image-here@2x.png" />
-          <AlbertFloresParent>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <MemberSince2019>Member since 2019</MemberSince2019>
-          </AlbertFloresParent>
-        </InsertYourImageHereParent>
-        <TapToAddYourCommentParent>
-          <TapToAdd>Tap to add your comment</TapToAdd>
-          <Galaadd0Icon alt="" src="/galaadd0.svg" />
-        </TapToAddYourCommentParent>
-      </ThanksToThePersonalizedTraParent>
-      <Comment1>
-        <SubmitWrapper>
-          <Submit>submit</Submit>
-        </SubmitWrapper>
-        <RateYourExperience>Rate your experience :)</RateYourExperience>
-        <WhatDidYou>What did you like?</WhatDidYou>
-        <Comments>Comments</Comments>
-        <StarStruck>
-          <StarStruckIcon alt="" src="/starstruck@2x.png" />
-        </StarStruck>
-        <BeamingFaceWithSmilingEyes>
-          <StarStruckIcon alt="" src="/beaming-face-with-smiling-eyes@2x.png" />
-        </BeamingFaceWithSmilingEyes>
-        <ThinkingFace>
-          <StarStruckIcon alt="" src="/image-54@2x.png" />
-        </ThinkingFace>
-        <SlightlySmilingFace>
-          <StarStruckIcon alt="" src="/slightly-smiling-face@2x.png" />
-        </SlightlySmilingFace>
-        <NeutralFace>
-          <StarStruckIcon alt="" src="/image-58@2x.png" />
-        </NeutralFace>
-        <PensiveFace>
-          <StarStruckIcon alt="" src="/image-91@2x.png" />
-        </PensiveFace>
-        <NauseatedFace>
-          <StarStruckIcon alt="" src="/nauseated-face@2x.png" />
-        </NauseatedFace>
-        <AmbienceWrapper>
-          <Ambience>ambience</Ambience>
-        </AmbienceWrapper>
-        <MusicWrapper>
-          <Ambience1>music</Ambience1>
-        </MusicWrapper>
-        <QuantityWrapper>
-          <Ambience1>quantity</Ambience1>
-        </QuantityWrapper>
-        <WorkoutsWrapper>
-          <Ambience>Workouts</Ambience>
-        </WorkoutsWrapper>
-        <ServiceWrapper>
-          <Ambience1>service</Ambience1>
-        </ServiceWrapper>
-        <EquipmentWrapper>
-          <Ambience>Equipment</Ambience>
-        </EquipmentWrapper>
-        <CommentChild />
-        <TellUsWhat>Tell us what you liked...or didn’t</TellUsWhat>
-      </Comment1>
-      
-    </GymTestimonialsRoot>
-  );
-};
+    <div>about</div>
+  )
+}
 
-export default about;
+export default about
