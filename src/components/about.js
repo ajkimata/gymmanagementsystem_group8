@@ -400,4 +400,4 @@ const AboutUS = () => {
   )
 }
 
-export default about
+export default AboutUS

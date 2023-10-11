@@ -70,8 +70,9 @@
 
 import React from "react";
 import "./styles/style.css";
+import { Link } from "react-router-dom";
 
-const Classes = () => {
+export const Classes = () => {
   return (
     <div className="classes-book-now">
       <p className="text-wrapper">REGISTER FOR A CLASS TODAY</p>
@@ -88,21 +89,21 @@ const Classes = () => {
         <div className="div">BEGINNER</div>
       </div>
       <p className="join-our-advanced">
-        <span className="span">Join</span>
+        <span className="span"><Link to={"/register"}>Join</Link></span>
         <span className="text-wrapper-3">
           {" "}
           our advanced gym class designed for seasoned fitness ethusiats
         </span>
       </p>
       <p className="achieve-your-fitness">
-        <span className="span">Achieve</span>
+        <span className="span"><Link to={"/register"}>Achieve</Link></span>
         <span className="text-wrapper-3">
           {" "}
           your fitness goals by establishing a tailored fitness routine
         </span>
       </p>
       <p className="explore-our-beginner">
-        <span className="span">Explore</span>
+        <span className="span"><Link to={"/register"}>Explore</Link></span>
         <span className="text-wrapper-3">
           {" "}
           our beginner-friendly classes perfect for those new to fitness.
@@ -128,7 +129,7 @@ const Classes = () => {
        </div>
       <p className="powerhouse">
         <span className="span">P</span>
-        <span className="text-wrapper-10">Powerhouse</span>
+        <span className="text-wrapper-10">owerhouse</span>
       </p>
     </div>
   );

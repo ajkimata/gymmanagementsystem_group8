@@ -469,8 +469,8 @@
     top: 14px;
   }
   
-  .classes-book-now .div-wrapper {
-    background-image: url(https://images.pexels.com/photos/14471495/pexels-photo-14471495.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+  .classes-book-now .frame-2 {
+    background-color: #d6fd51;
     background-size: 100% 100%;
     height: 60px;
     left: 703px;
@@ -479,7 +479,7 @@
     width: 359px;
   }
   
-  .classes-book-now .frame-2 {
+  .classes-book-now .frame-3 {
     background-color: #d6fd51;
     height: 60px;
     left: 1209px;
