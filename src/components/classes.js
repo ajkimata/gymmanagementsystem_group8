@@ -110,13 +110,13 @@ export const Classes = () => {
         </span>
       </p>
       <div className="frame">
-        <div className="text-wrapper-4">Enroll now</div>
-      </div>
-      <div className="div-wrapper">
-        <div className="text-wrapper-4">Enroll now</div>
+        <div className="text-wrapper-4"><Link to={"/register"}>Enroll now</Link></div>
       </div>
       <div className="frame-2">
-        <div className="text-wrapper-4">Enroll now</div>
+        <div className="text-wrapper-4"><Link to={"/register"}>Enroll now</Link></div>
+      </div>
+      <div className="frame-3">
+        <div className="text-wrapper-4"><Link to={"/register"}>Enroll now</Link></div>
       </div>
       <div className="navbar">
         <div className="group">

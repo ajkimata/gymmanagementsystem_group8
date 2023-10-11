@@ -394,10 +394,10 @@ const GymTestimonialsRoot = styled.div`
   font-family: Orbitron;
 `;
 
-const AboutUS = () => {
+const AboutUs = () => {
   return (
     <div>about</div>
   )
 }
 
-export default AboutUS
+export default AboutUs
