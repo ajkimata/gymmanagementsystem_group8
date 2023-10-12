@@ -1,403 +1,301 @@
-import styled from "styled-components";
+import React from 'react'
+import "./about.css"
 
-const Layer12 = styled.img`
-  position: absolute;
-  top: 111px;
-  left: 0px;
-  border-radius: 30px;
-  width: 1720px;
-  height: 888px;
-  object-fit: cover;
-`;
-const WhatOurClients = styled.div`
-  position: absolute;
-  top: 99px;
-  left: 345px;
-  font-size: 64px;
-  line-height: 178.5%;
-  font-weight: 800;
-  display: inline-block;
-  width: 963px;
-  height: 72px;
-`;
-const Image17 = styled.div`
-  position: absolute;
-  top: 253px;
-  left: 169px;
-  border-radius: 16px;
-  width: 1460px;
-  height: 735px;
-`;
-const GymTestimonialsChild = styled.img`
-  position: absolute;
-  top: 118px;
-  left: 1338px;
-  width: 188px;
-  height: 85px;
-  overflow: hidden;
-`;
-const P = styled.span``;
-const Owerhouse = styled.i`
-  font-weight: 700;
-  font-family: Inter;
-  color: #000;
-`;
-const Powerhouse = styled.div`
-  position: absolute;
-  top: 50px;
-  left: 77px;
-  font-size: 36px;
-  color: #d61c4e;
-  font-family: "Calligraphy Brillian";
-`;
-const ThanksToThe = styled.div`
-  position: absolute;
-  top: calc(50% - 263px);
-  left: 146px;
-  letter-spacing: 0.1em;
-  line-height: 28px;
-  display: inline-block;
-  width: 698px;
-  height: 187px;
-`;
-const SliderIcon = styled.img`
-  position: absolute;
-  top: 193px;
-  left: 1028px;
-  width: 42.3px;
-  height: 60.04px;
-`;
-const SliderIcon1 = styled.img`
-  position: absolute;
-  top: 189px;
-  left: 37px;
-  width: 42.3px;
-  height: 60.04px;
-`;
-const InsertYourImageHere = styled.img`
-  position: relative;
-  border-radius: 100px;
-  width: 176px;
-  height: 128px;
-  object-fit: cover;
-`;
-const AlbertFlores = styled.div`
-  position: relative;
-  line-height: 160%;
-  display: inline-block;
-  width: 334px;
-`;
-const MemberSince2019 = styled.div`
-  position: relative;
-  line-height: 34px;
-  font-family: Inter;
-  display: inline-block;
-  width: 334px;
-`;
-const AlbertFloresParent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 8px;
-`;
-const InsertYourImageHereParent = styled.div`
-  position: absolute;
-  top: 249px;
-  left: 146px;
-  width: 558px;
-  height: 109px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  font-size: 20px;
-`;
-const TapToAdd = styled.div`
-  position: absolute;
-  top: 34px;
-  left: 27px;
-  text-transform: capitalize;
-  display: inline-block;
-  width: 628px;
-  height: 43px;
-`;
-const Galaadd0Icon = styled.img`
-  position: absolute;
-  height: 64.43%;
-  width: 8.68%;
-  top: 28.61%;
-  right: 8.16%;
-  bottom: 6.96%;
-  left: 83.16%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-`;
-const TapToAddYourCommentParent = styled.div`
-  position: absolute;
-  top: 432px;
-  left: 124px;
-  width: 720px;
-  height: 97px;
-  overflow: hidden;
-  font-size: 36px;
-`;
-const ThanksToThePersonalizedTraParent = styled.div`
-  position: absolute;
-  top: 302px;
-  left: 522px;
-  border-radius: 15px;
-  background-color: #d6fd51;
-  width: 1128px;
-  height: 620px;
-  overflow: hidden;
-  text-align: left;
-  font-family: "Dela Gothic One";
-`;
-const Submit = styled.div`
-  position: absolute;
-  top: 7px;
-  left: 24px;
-`;
-const SubmitWrapper = styled.div`
-  position: absolute;
-  top: 504px;
-  left: 298px;
-  border-radius: 5px;
-  background-color: #000;
-  width: 97px;
-  height: 31px;
-  overflow: hidden;
-  color: #fff;
-`;
-const RateYourExperience = styled.div`
-  position: absolute;
-  top: 27px;
-  left: 25px;
-  font-size: 20px;
-  font-weight: 900;
-`;
-const WhatDidYou = styled.div`
-  position: absolute;
-  top: 203px;
-  left: 25px;
-  font-size: 20px;
-  font-weight: 900;
-`;
-const Comments = styled.div`
-  position: absolute;
-  top: 358px;
-  left: 25px;
-  font-size: 20px;
-  font-weight: 900;
-`;
-const StarStruckIcon = styled.img`
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  left: 0%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-`;
-const StarStruck = styled.div`
-  position: absolute;
-  top: 84px;
-  left: 125px;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 40px;
-  height: 40px;
-`;
-const BeamingFaceWithSmilingEyes = styled.div`
-  position: absolute;
-  top: 82px;
-  left: 25px;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.28);
-  width: 40px;
-  height: 40px;
-  mix-blend-mode: normal;
-`;
-const ThinkingFace = styled.div`
-  position: absolute;
-  top: 82px;
-  left: 325px;
-  width: 40px;
-  height: 40px;
-`;
-const SlightlySmilingFace = styled.div`
-  position: absolute;
-  top: 82px;
-  left: 225px;
-  width: 40px;
-  height: 40px;
-`;
-const NeutralFace = styled.div`
-  position: absolute;
-  top: 141px;
-  left: 74px;
-  width: 40px;
-  height: 40px;
-`;
-const PensiveFace = styled.div`
-  position: absolute;
-  top: 141px;
-  left: 177px;
-  width: 40px;
-  height: 40px;
-`;
-const NauseatedFace = styled.div`
-  position: absolute;
-  top: 141px;
-  left: 280px;
-  width: 40px;
-  height: 40px;
-`;
-const Ambience = styled.b`
-  position: relative;
-`;
-const AmbienceWrapper = styled.div`
-  position: absolute;
-  top: 247.5px;
-  left: 6.5px;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.71);
-  border: 1.5px solid #000;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 10px;
-`;
-const Ambience1 = styled.div`
-  position: relative;
-`;
-const MusicWrapper = styled.div`
-  position: absolute;
-  top: 249px;
-  left: 303px;
-  border-radius: 5px;
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 10px;
-`;
-const QuantityWrapper = styled.div`
-  position: absolute;
-  top: 302px;
-  left: 96px;
-  border-radius: 5px;
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 10px;
-`;
-const WorkoutsWrapper = styled.div`
-  position: absolute;
-  top: 300.5px;
-  left: 200.5px;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.71);
-  border: 1.5px solid #000;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 10px;
-`;
-const ServiceWrapper = styled.div`
-  position: absolute;
-  top: 249px;
-  left: 212px;
-  border-radius: 5px;
-  border: 1px solid #000;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 10px;
-`;
-const EquipmentWrapper = styled.div`
-  position: absolute;
-  top: 244.5px;
-  left: 102.5px;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.71);
-  border: 1.5px solid #000;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 10px;
-`;
-const CommentChild = styled.div`
-  position: absolute;
-  top: 398px;
-  left: 25px;
-  border-radius: 5px;
-  background-color: #f5f5f5;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  width: 340px;
-  height: 81px;
-`;
-const TellUsWhat = styled.b`
-  position: absolute;
-  top: 410px;
-  left: 35px;
-  font-size: 10px;
-  display: flex;
-  color: #a0a0a0;
-  align-items: center;
-  width: 277px;
-  height: 12px;
-  mix-blend-mode: normal;
-`;
-const Comment1 = styled.div`
-  position: absolute;
-  top: 348px;
-  left: 44px;
-  border-radius: 15px;
-  background-color: rgba(214, 253, 81, 0.63);
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(25px);
-  border: 2px solid #fad3d8;
-  box-sizing: border-box;
-  width: 420px;
-  height: 575px;
-  overflow: hidden;
-  text-align: left;
-  font-size: 14px;
-  font-family: Merriweather;
-`;
-
-const GymTestimonialsRoot = styled.div`
-  position: relative;
-  border-radius: 30px;
-  background-color: #d6fd51;
-  width: 100%;
-  height: 1038px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 24px;
-  color: #000;
-  font-family: Orbitron;
-`;
-
-const AboutUs = () => {
+const about = () => {
   return (
-    <div>about</div>
-  )
-}
+    <div className="about-container">
+      <div>
+        <p>
+          <span className="P">P</span>OWERHOUSE
+        </p>
+      </div>
+      <div className="images-and-shapes">
+        {/* Image 1 */}
+        <div className="image-container">
+          <img className="image" src="about1.png" alt="image-1" />
+          <svg
+            className="custom-shape"
+            width="450"
+            height="390"
+            viewBox="0 0 409 342"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style={{ zIndex: 1 }}
+          >
+            <path d="M61.7359 0H409L347.264 342H0L61.7359 0Z" fill="black" />
+            <text
+              x="50%"
+              y="10%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="18"
+              dominantBaseline="middle"
+            >
+              BUILD MUSCLES
+            </text>
+            <text
+              x="50%"
+              y="20%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              Discover a variety of weightlifting
+            </text>
+            <text
+              x="50%"
+              y="30%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              routines and routine training techniques
+            </text>
+            <text
+              x="50%"
+              y="40%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              to achieve your bodybuilding goals.
+            </text>
+          </svg>
+        </div>
+        {/* Image 2 */}
+        <div className="image-container">
+          <img className="image" src="about2.png" alt="image-2" />
+          <svg
+            className="custom-shape"
+            width="450"
+            height="390"
+            viewBox="0 0 409 342"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style={{ zIndex: 1 }}
+          >
+            <path d="M61.7359 0H409L347.264 342H0L61.7359 0Z" fill="black" />
+            <text
+              x="50%"
+              y="10%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="18"
+              dominantBaseline="middle"
+            >
+              SHED POUNDS
+            </text>
+            <text
+              x="50%"
+              y="20%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              We offer specialized training to help burn calories,
+            </text>
+            <text
+              x="50%"
+              y="30%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              improve endurance, and reach
+            </text>
+            <text
+              x="50%"
+              y="40%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              your weight loss targets through cardio workouts.
+            </text>
+          </svg>
+        </div>
+        {/* Image 3 */}
+        <div className="image-container">
+          <img className="image" src="about3.png" alt="image-3" />
+          <svg
+            className="custom-shape"
+            width="450"
+            height="390"
+            viewBox="0 0 409 342"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style={{ zIndex: 1 }}
+          >
+            <path d="M61.7359 0H409L347.264 342H0L61.7359 0Z" fill="black" />
+            <text
+              x="50%"
+              y="10%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="18"
+              dominantBaseline="middle"
+            >
+              STAY FIT
+            </text>
+            <text
+              x="50%"
+              y="20%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              Join our fitness classes tailored for
+            </text>
+            <text
+              x="50%"
+              y="30%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              overall wellness that helps
+            </text>
+            <text
+              x="50%"
+              y="40%"
+              textAnchor="middle"
+              fill="white"
+              fontSize="14"
+              dominantBaseline="middle"
+            >
+              maintain a healthy lifestyle.
+            </text>
+          </svg>
+        </div>
+      </div>
+      <div style={{ width: '100%', height: '162px', position: 'relative' }}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1720 262"
+          fill="none"
+          style={{ position: 'absolute', top: -120, left: 0, zIndex: '0', width: '100%' }}
+        >
+          <path
+            d="M0 48.7791C0 48.7791 59.6808 -38.2949 732.88 20.2301C1406.08 78.7551 1720 20.2303 1720 20.2303V262H0V48.7791Z"
+            fill="url(#paint0_linear_270_118)"
+          />
+          <defs>
+            <linearGradient id="paint0_linear_270_118" x1="860" y1="-32.0953" x2="860" y2="300" gradientUnits="userSpaceOnUse">
+              <stop offset="0.578125" stopColor="#D6FD51" />
+              <stop offset="1" stopColor="#FFF4DA" stopOpacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div className="background-div">
+        <img
+          src="image5.png"
+          alt="background-image"
+          style={{
+            width: '100%',
+            height: '180vh',
+            objectFit: 'cover',
+            position: 'absolute',
+            top: '95vh', 
+          }}
+        />
 
-export default AboutUs
+      <div className="frame-13" style={{ width: '100%', height: '170vh', position: 'relative' , top: 680 }}>
+          {/* Add new content inside these divs */}
+          {/* Rectangles displayed in flex from left to right */}
+          <div className="meet-the-team">
+                <div className="rectangle-container">
+                  <img className="image-5" src="image 16.png" alt="Image 5" />
+                  <div className="button">
+                    <div className="cynthia">CYNTHIA</div>
+                  </div>
+                  <svg
+                    className="rectangle-89"
+                    width="477"
+                    height="202"
+                    viewBox="0 0 477 202"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
+                      fill="#D6FD51"
+                    />
+                  </svg>
+                </div>
+                
+                <div className="rectangle-container">
+                  <img className="image-16" src="image 15.png" alt="Image 16" />
+                  <div className="button2">
+                    <div className="alex">ALEX</div>
+                  </div>
+                  <svg
+                    className="rectangle-90"
+                    width="477"
+                    height="201"
+                    viewBox="0 0 477 201"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
+                      fill="#D6FD51"
+                    />
+                  </svg>
+                </div>
+                <div className="rectangle-container">
+                  <img className="image-15" src="image 12.png" alt="Image 15" />
+                  <div className="button3">
+                    <div className="alfred">ALFRED</div>
+                  </div>
+                  <svg
+                    className="rectangle-91"
+                    width="477"
+                    height="201"
+                    viewBox="0 0 477 201"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
+                      fill="#D6FD51"
+                    />
+                  </svg>
+                </div>
+                    <div className="circle-container">
+                    <img className="image-15" src="image 15.png" alt="Image 15" />
+                      <div className="button4">
+                        <div className="alfred">MOFFAT</div>
+                      </div>
+                      <svg
+                        className="rectangle-91"
+                        width="477"
+                        height="201"
+                        viewBox="0 0 477 201"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
+                          fill="#D6FD51"
+                        />
+                      </svg>
+                </div>
+              </div>
+
+          {/* End of new content */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default about;
