@@ -1,7 +1,7 @@
-
 import React from "react";
 import "./styles/style.css";
-import styled from "styled-components"; 
+import styled from "styled-components";
+import { Link } from "react-router-dom"; 
 
 const LinkContainer = styled.div`
   display: flex;
