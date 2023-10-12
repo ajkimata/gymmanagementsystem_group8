@@ -118,7 +118,6 @@ const Powerhouse = styled.h3`
 `;
 const MainLandingPageRoot = styled.section`
   position: relative;
-  border-radius: 30px;
   background-color: #fff;
   background-image: url(/Assets/LandingPage.jpg);
   background-size: cover;
