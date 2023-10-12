@@ -10,7 +10,7 @@ const LinkContainer = styled.div`
   height: 100%;
 `;
 
-const NextLink = styled.a`
+const NextLink = styled(Link)`
   color: black; 
   text-decoration: none; 
   font-weight: 700;
@@ -63,7 +63,7 @@ const Login = () => {
           <div className="group-2">
             <div className="overlap-3">
               <LinkContainer>
-                <NextLink href="/next">NEXT</NextLink>
+                <NextLink to="/classes">NEXT</NextLink>
               </LinkContainer>
             </div>
           </div>
