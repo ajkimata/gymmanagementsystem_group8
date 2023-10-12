@@ -38,13 +38,17 @@ const Login = () => {
           </div>
           <div className="group-2">
             <div className="overlap-3">
-              <div className="text-wrapper-4">NEXT</div>
+             <div className="text-wrapper-4">
+                 <a href="/next">NEXT</a>
+                </div>
             </div>
           </div>
           <div className="group-3">
             <p className="don-t-have-account">
               <span className="text-wrapper-5">Don’t have account? </span>
-              <span className="text-wrapper-6">Register Now</span>
+              <span className="text-wrapper-6">
+              <a href="/register">Register Now</a>
+              </span>
             </p>
             <div className="google-g-logo-wrapper">
               <img
@@ -68,3 +72,6 @@ const Login = () => {
 };
 
 export default Login;
+
+
+
