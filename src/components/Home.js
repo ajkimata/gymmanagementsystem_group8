@@ -1,5 +1,6 @@
 // import { Button } from "bootstrap";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const MainLandingPageChild = styled.div`
   position: absolute;
@@ -60,11 +61,19 @@ const RectangleDiv = styled.div`
   width: 306px;
   height: 90px;
 `;
+const ButtonDiv = styled.div`
+  position: absolute;
+  top: 720px;
+  left: 522px;
+  background-color: #d6fd51;
+  width: 306px;
+  height: 90px;
+`;
 const LearnMore = styled.b`
   position: absolute;
   top: 751px;
   left: 590px;
-  color: #ffff;
+  color: #000;
 `;
 const JoinNow = styled.b`
   position: absolute;
@@ -151,13 +160,14 @@ const Home = () => {
         commodo consequat.
       </LoremIpsumDolor>
       <RectangleDiv />
-      <a href="/register">
+      <Link to={"/register"}>
         <JoinNow>JOIN NOW</JoinNow>
-      </a>{" "}
+      </Link>
       {/* Link to Register page */}
-      <a href="/about">
+      <ButtonDiv />
+      <Link to={"/about"}>
         <LearnMore>LEARN MORE</LearnMore>
-      </a>{" "}
+        </Link>
       {/* Link to About Us page */}
       <GroupIcon alt="" src="/group-4.svg" />
       <Social>SOCIAL</Social>
