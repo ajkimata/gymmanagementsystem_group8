@@ -3,12 +3,6 @@ import React from "react";
 import "./styles/style.css";
 import styled from "styled-components"; 
 
-const LoginContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-`;
-
 const LinkContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -106,5 +100,4 @@ const Login = () => {
 };
 
 export default Login;
-
 
