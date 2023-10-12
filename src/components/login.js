@@ -119,11 +119,11 @@ const Login = () => {
               <img
                 className="google-g-logo"
                 alt="Google g logo"
-                src="google-g-logo.png"
+                src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
               />
             </div>
             <div className="XMLID-wrapper">
-              <img className="XMLID" alt="Xmlid" src="XMLID-17.png" />
+              <img className="XMLID" alt="Xmlid" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png" />
             </div>
           </div>
         </div>
