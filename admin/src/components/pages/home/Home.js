@@ -42,27 +42,27 @@ export const Home = () => {
               visible={visible}
               width='thin'
             >
-              <Menu.Item as='a'>
+              <Menu.Item as='a' onClick={() => handleSidebarLinkClick("Home")}>
                 <Icon name='home' />
                 Home
               </Menu.Item>
-              <Menu.Item as='a'>
+              <Menu.Item as='a' onClick={() => handleSidebarLinkClick("Clients")}>
                 <Icon name='users' />
                 Clients
               </Menu.Item>
-              <Menu.Item as='a'>
+              <Menu.Item as='a' onClick={() => handleSidebarLinkClick("Payments")}>
                 <Icon name='payment' />
                 Payments
               </Menu.Item>
-              <Menu.Item as='a'>
+              <Menu.Item as='a' onClick={() => handleSidebarLinkClick("Trainers")}>
                 <Icon name='user' />
                 Trainers
               </Menu.Item>
-              <Menu.Item as='a'>
+              <Menu.Item as='a' onClick={() => handleSidebarLinkClick("Equipment")}>
                 <Icon name='wrench' />
                 Gym Equipment
               </Menu.Item>
-              <Menu.Item as='a'>
+              <Menu.Item as='a' onClick={() => handleSidebarLinkClick("Maintenance")}>
                 <Icon name='cogs' />
                 Maintenance
               </Menu.Item>
