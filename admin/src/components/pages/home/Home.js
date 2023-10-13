@@ -2,14 +2,18 @@ import logo from './logo.svg';
 import {ThemeToggle} from "../../common";
 import './home.css';
 import { useState } from 'react'
-import { Checkbox, Grid, Icon, Menu, Segment, Sidebar } from 'semantic-ui-react'
+import { Checkbox, Grid, Icon, Menu, Segment, Sidebar } from 'semantic-ui-react';
 
 export const Home = () => {
 
     const panelcss = "flex flex-col min-h-screen items-center justify-center dark:bg-gray-800 dark:text-white";
     const labelcss = "items-center justify-center dark:bg-gray-800 dark:text-white mb-6";
-    const buttoncss = "text-lg bg-gray-200 dark:bg-gray-700 rounded-xl px-8 py-4"
-    const [visible, setVisible] = useState(false)
+    const buttoncss = "text-lg bg-gray-200 dark:bg-gray-700 rounded-xl px-8 py-4";
+    const [visible, setVisible] = useState(false);
+    const [activeSidebarLink, setActiveSidebarLink] = useState("Home");
+    const handleSidebarLinkClick = (linkName) => {
+      setActiveSidebarLink(linkName);
+    };
 
     return (
 
