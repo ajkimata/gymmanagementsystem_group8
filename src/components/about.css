@@ -109,9 +109,18 @@
     align-items: center;
   }
 
+  .rectangle-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; 
+  }
 
-  
-  
+  .rectangle-container img {
+    position: relative;
+    z-index: 2; 
+  }
   
   .circle-container .center-image {
     width: 100px; 
