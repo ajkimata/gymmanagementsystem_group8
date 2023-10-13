@@ -1,0 +1,353 @@
+.register {
+  background-color: #999999;
+  border-radius: 60px;
+  min-height: 100vh;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+}
+
+.register .form {
+  font-size: 2rem;
+}
+
+.register .div {
+  height: 401px;
+  position: relative;
+}
+
+.register .remember-me {
+  height: 22px;
+  left: 292px;
+  position: absolute;
+  top: 218px;
+  width: 120px;
+}
+
+.register .frame {
+  border: 1px solid;
+  border-color: #d6fd51;
+  border-radius: 3px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.register .text-wrapper {
+  color: #1c1c1c;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+.register .textfields {
+  align-items: flex-start;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 196px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 410px;
+}
+
+.register .username {
+  align-self: stretch;
+  background-color: #ffffff;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.register .group {
+  height: 18px;
+  left: 55px;
+  position: absolute;
+  top: 18px;
+  transform: rotate(-0.16deg);
+  width: 74px;
+}
+
+.register .text-wrapper-2 {
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 72px;
+}
+
+.register .bx-user {
+  height: 24px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 24px;
+}
+
+.register .email {
+  background-color: #ffffff;
+  height: 52px;
+  margin-right: -3.95px;
+  position: relative;
+  width: 414px;
+}
+
+.register .group-2 {
+  height: 19px;
+  left: 51px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(-0.16deg);
+  width: 40px;
+}
+
+.register .input {
+  background: transparent;
+  border: none;
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.register .mdi-light-email {
+  height: 24px;
+  left: 16px;
+  position: absolute;
+  top: 14px;
+  width: 24px;
+}
+
+.register .password {
+  background-color: #ffffff;
+  height: 50px;
+  margin-right: -3.95px;
+  position: relative;
+  width: 414px;
+}
+
+.register .iconamoon-eye-light {
+  height: 24px;
+  left: 374px;
+  position: absolute;
+  top: 13px;
+  width: 24px;
+}
+
+.register .circum-lock {
+  height: 24px;
+  left: 8px;
+  position: absolute;
+  top: 13px;
+  width: 24px;
+}
+
+.register .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+}
+
+.register .button {
+  all: unset;
+  box-sizing: border-box;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 262px;
+  width: 416px;
+}
+
+.register .overlap-group {
+  background-color: #d6fd51b2;
+  height: 50px;
+  position: relative;
+  width: 414px;
+}
+
+.register .text-wrapper-4 {
+  color: #000000;
+  font-family: "Cabin-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 171px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  width: 55px;
+}
+
+.register .already-have-an {
+  color: transparent;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 342px;
+  white-space: nowrap;
+}
+
+.register .span {
+  color: #ffffff;
+}
+
+.register .text-wrapper-5 {
+  color: #d6fd51;
+  font-family: "Urbanist-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.register .seperater {
+  align-items: center;
+  display: inline-flex;
+  gap: 16px;
+  left: 288px;
+  position: absolute;
+  top: 448px;
+}
+
+.register .line {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 60px;
+}
+
+.register .text-wrapper-6 {
+  color: #d6fd51;
+  font-family: "Cabin-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .glogin {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d2d2d2;
+}
+
+.register .frame-2 {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  gap: 12px;
+  left: 117px;
+  position: relative;
+  top: 15px;
+}
+
+.register .google {
+  object-fit: cover;
+}
+
+.register .text-wrapper-7 {
+  color: #2e2e2e;
+  font-family: "Cabin-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .heading {
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+}
+
+.register .p {
+  color: #000000;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.register .text-wrapper-8 {
+  color: #000000;
+  font-family: "Bebas Neue-Regular", Helvetica;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  
+}
+
+.register .image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.register .powerhouse {
+  color: transparent;
+  font-family: "Calligraphy Brillian-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 62px;
+}
+
+.register .text-wrapper-9 {
+  color: #d61c4e;
+}
+
+.register .text-wrapper-10 {
+  color: #d6fd51;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-style: italic;
+  font-weight: 700;
+}
