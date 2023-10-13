@@ -208,7 +208,7 @@ const AboutUs = () => {
           }}
         />
 
-      <div className="frame-13" style={{ width: '100%', height: '170vh', position: 'relative' , top: 680 }}>
+        <div className="frame-13" style={{ width: '100%', height: '170vh', position: 'relative' , top: 680 }}>
           {/* Add new content inside these divs */}
           {/* Rectangles displayed in flex from left to right */}
           <div className="meet-the-team">

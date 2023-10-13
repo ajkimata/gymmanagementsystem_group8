@@ -82,6 +82,9 @@
   .rectangle-container {
     text-align: center;
     position: relative;
+    flex-direction: column;
+    align-items: center;
+    
   }
   
   .rectangle-container .button,
@@ -106,12 +109,7 @@
     align-items: center;
   }
 
-  .rectangle-container svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
+
   
   
   
