@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/style.css";
+import "./styles/register.css";
 
 export const Register = () => {
   return (
@@ -62,16 +62,13 @@ export const Register = () => {
           <img className="google" alt="Google" src="google-1.png" />
           <div className="text-wrapper-7">Continue With Google</div>
         </div>
+        <div className="heading">
+          <p className="p">Please Sign Up for an awesome experience</p>
+        </div>
+        <div className="text-wrapper-8">WELCOME TO POWERHOUSE GYM</div>
       </div>
-      <div className="heading">
-        <p className="p">Please Sign Up for an awesome experience</p>
-      </div>
-      <div className="text-wrapper-8">WELCOME TO POWERHOUSE GYM</div>
-      <img
-        className="image"
-        alt=""
-        src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=400-1.png"
-      />
+
+      <img className="image" alt="" src="/Assets/Register.jpeg" />
       <p className="powerhouse">
         <span className="text-wrapper-9">P</span>
         <span className="text-wrapper-10">owerhouse</span>
