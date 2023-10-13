@@ -59,6 +59,10 @@ export const Home = () => {
                 <Icon name='cogs' />
                 Maintenance
               </Menu.Item>
+              <Menu.Item as='a'>
+                <Icon name='sign out alternate' />
+                Log Out
+              </Menu.Item>
             </Sidebar> 
           <Sidebar.Pusher dimmed={visible}>
             <Segment basic>
