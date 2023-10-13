@@ -73,14 +73,39 @@ export const Home = () => {
             </Sidebar> 
           <Sidebar.Pusher dimmed={visible}>
             <Segment basic>
-
+            {activeSidebarLink === "Home" && 
               <div className={panelcss}>
                   <img src={logo} className="App-logo" alt="logo" />
                   <h1 className="text-2xl mb-6">The Administrator Panel</h1>
                   <a href={'http://localhost:3000/'} target={'_blank'} rel={'noreferrer'} className={buttoncss}>Go to client homepage</a>
                   <ThemeToggle />
               </div>
-            
+            }
+            {activeSidebarLink === "Clients" && 
+              <div className={panelcss}>
+                <h1 className="text-4xl mb-6">The Clients Section</h1>
+              </div>
+             }
+            {activeSidebarLink === "Payments" && 
+              <div className={panelcss}>
+                <h1 className="text-4xl mb-6">The Payments Section</h1>
+              </div>
+            }
+            {activeSidebarLink === "Trainers" && 
+              <div className={panelcss}>
+                <h1 className="text-4xl mb-6">The Trainers Section</h1>
+              </div>
+            }
+            {activeSidebarLink === "Equipment" && 
+              <div className={panelcss}>
+                <h1 className="text-4xl mb-6">The Gym Equipment Section</h1>
+              </div>
+            }
+            {activeSidebarLink === "Maintenance" && 
+              <div className={panelcss}>
+                <h1 className="text-4xl mb-6">The Maintenance Section</h1>
+              </div>
+            }
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
