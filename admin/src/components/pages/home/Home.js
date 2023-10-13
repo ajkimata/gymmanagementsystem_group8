@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import {ThemeToggle} from "../../common";
 import './home.css';
-import { useState } from 'react'
+import { useState } from 'react';
 import { Checkbox, Grid, Icon, Menu, Segment, Sidebar } from 'semantic-ui-react';
 
 export const Home = () => {
@@ -18,19 +18,18 @@ export const Home = () => {
     return (
 
         <Grid columns={1} className={panelcss}>
-
+ 
         <Grid.Column>
-            <Grid.Row>
-                <Checkbox icon
+          <Grid.Row>
+                <Checkbox
                     checked={visible}
                     label={{ children: <div className={labelcss}> Menu <Icon name='sidebar' /> </div> }}
                     onChange={(e, data) => setVisible(data.checked)}
                 />
                 <ThemeToggle />
             </Grid.Row>
-        </Grid.Column>
-  
-        <Grid.Column>
+            
+            <Grid.Row>
           <Sidebar.Pushable as={Segment}>
             <Sidebar
               as={Menu}
@@ -109,7 +108,7 @@ export const Home = () => {
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
-
+        </Grid.Row>
       </Grid.Column>
     </Grid>
 

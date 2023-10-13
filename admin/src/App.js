@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import {PrivateRoute} from './use-cases/';
-import {Home, Login, NotFound, Single} from "./components/pages"
+import {Home, Login, NotFound, Register, Single} from "./components/pages"
 import {SiteSettingsProvider, ThemeProvider} from "./contexts";
 
 function App() {
@@ -14,6 +14,12 @@ function App() {
                   path={'/'}
                   element={
                       <Login />
+                  }
+              />
+              <Route
+                  path={'/register'}
+                  element={
+                      <Register />
                   }
               />
               <Route
