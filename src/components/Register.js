@@ -134,13 +134,6 @@ export const Register = () => {
         alt="Rectangle"
         src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMGdpcmx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
       />
-        <div className="frame-2">
-          <img
-            className="google"
-            alt="Google"
-            src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
-          />
-        </div>
       <div className="heading">
         <p className="p">Please Sign Up for an awesome experience</p>
       </div>
