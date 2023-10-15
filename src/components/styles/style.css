@@ -850,16 +850,16 @@
   
   .register .remember-me {
     height: 22px;
-    left: 292px;
+    left: 287px;
     position: absolute;
     top: 218px;
     width: 120px;
   }
   
   .register .frame {
-    border: 1px solid;
+    border: 1.5px solid;
     border-color: #d6fd51;
-    border-radius: 3px;
+    border-radius: 4px;
     height: 18px;
     left: 0;
     position: absolute;
@@ -870,9 +870,9 @@
   .register .text-wrapper {
     color: #1c1c1c;
     font-family: "Poppins-SemiBold", Helvetica;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
-    left: 30px;
+    left: 25px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -913,7 +913,7 @@
   .register .text-wrapper-2 {
     color: #1c1c1c;
     font-family: "Poppins-Regular", Helvetica;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
     left: 0;
     letter-spacing: 0;
@@ -977,9 +977,9 @@
   .register .text-wrapper-3 {
     color: #000000;
     font-family: "Poppins-Regular", Helvetica;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
-    left: 43px;
+    left: 45px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -1085,33 +1085,6 @@
     position: absolute;
     top: 50px;
   
-  }
-  .register .glogin {
-    background-color: #ffffff;
-    border: 1px solid;
-    border-color: #d2d2d2;
-    height: 52px;
-    left: 164px;
-    position: absolute;
-    top: 376px;
-    width: 418px;
-  }
-  
-  .register .frame-2 {
-    align-items: center;
-    background-color: #ffffff;
-    display: inline-flex;
-    gap: 12px;
-    left: 117px;
-    position: relative;
-    top: 15px;
-  }
-  
-  .register .google {
-    height: 20px;
-    object-fit: cover;
-    position: relative;
-    width: 20px;
   }
   
   .register .text-wrapper-7 {
