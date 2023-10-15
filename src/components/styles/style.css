@@ -1124,6 +1124,7 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    top:60px
   }
   
   .register .heading {
@@ -1165,7 +1166,9 @@
   
   .register .text-wrapper-9 {
     color: #d61c4e;
-    font-style:italic;
+    font-family: "Calligraphy Brillian-Regular", Helvetica;
+    font-style: italic;
+    font-weight: 700;
   }
   
   .register .text-wrapper-10 {

@@ -134,21 +134,13 @@ export const Register = () => {
         alt="Rectangle"
         src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMGdpcmx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
       />
-      <div className="seperater">
-        <img className="line" alt="Line" src="line-2.svg" />
-        <div className="text-wrapper-6">Or</div>
-        <img className="line" alt="Line" src="line-1.svg" />
-      </div>
-      <div className="glogin">
         <div className="frame-2">
           <img
             className="google"
             alt="Google"
             src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
           />
-          <div className="text-wrapper-7">Continue With Google</div>
         </div>
-      </div>
       <div className="heading">
         <p className="p">Please Sign Up for an awesome experience</p>
       </div>
@@ -162,6 +154,3 @@ export const Register = () => {
 };
 
 
-
-// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRawWf9WEOFkcnSrk2CEzW9TmNhBg14vavpscxphSZx3cIGOrekmc95ahfcbTOu15e6Q&usqp=CAU
-// https://images.pexels.com/photos/16358993/pexels-photo-16358993.jpeg?cs=srgb&dl=pexels-darkmode-cinema-16358993.jpg&fm=jpg
