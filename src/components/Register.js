@@ -46,7 +46,7 @@ export const Register = () => {
       <img
           className="rectangle"
           alt="Rectangle"
-          src="https://st5.depositphotos.com/62628780/62384/i/450/depositphotos_623846442-stock-photo-fitness-body-builder-woman-barbell.jpg"
+          src="https://images.pexels.com/photos/16358993/pexels-photo-16358993.jpeg?cs=srgb&dl=pexels-darkmode-cinema-16358993.jpg&fm=jpg"
         />
       <div className="seperater">
         <img className="line" alt="Line" src="line-2.svg" />

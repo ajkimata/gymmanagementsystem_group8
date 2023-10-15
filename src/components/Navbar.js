@@ -1,20 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-// Define a styled component for the navbar container
 const NavbarContainer = styled.nav`
-  background-color: #333; /* Background color */
-  color: #fff; /* Text color */
-  padding: 10px 0; /* Padding on top and bottom */
-  position: fixed; /* Fixed position at the top */
-  top: 0; /* Stick to the top of the viewport */
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 999; /* Ensure it's on top of other content */
+  z-index: 999;
 `;
 
-// Define a styled component for the list
 const NavbarList = styled.ul`
   list-style: none;
   display: flex;
@@ -23,20 +20,17 @@ const NavbarList = styled.ul`
   padding: 0;
 `;
 
-// Define a styled component for list items
 const NavbarItem = styled.li`
   margin: 0 10px;
 `;
 
-// Define a styled component for links
-const NavbarLink = styled(Link)`
+const ActiveNavbarLink = styled(NavLink)`
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-  transition: color 0.2s; /* Smooth color transition on hover */
 
-  &:hover {
-    color: #ff5733; /* Change color on hover */
+  &.active {
+    color: #d6fd51;
   }
 `;
 
@@ -45,22 +39,24 @@ const Navbar = () => {
     <NavbarContainer>
       <NavbarList>
         <NavbarItem>
-          <NavbarLink to="/">HOME</NavbarLink>
+          <ActiveNavbarLink exact to="/">
+            HOME
+          </ActiveNavbarLink>
         </NavbarItem>
         <NavbarItem>
-          <NavbarLink to="/classes">CLASSES</NavbarLink>
+          <ActiveNavbarLink to="/classes">CLASSES</ActiveNavbarLink>
         </NavbarItem>
         <NavbarItem>
-          <NavbarLink to="/login">LOG IN</NavbarLink>
+          <ActiveNavbarLink to="/login">LOG IN</ActiveNavbarLink>
         </NavbarItem>
         <NavbarItem>
-          <NavbarLink to="/about">ABOUT US</NavbarLink>
+          <ActiveNavbarLink to="/about">ABOUT US</ActiveNavbarLink>
         </NavbarItem>
         <NavbarItem>
-          <NavbarLink to="/contact">CONTACT US</NavbarLink>
+          <ActiveNavbarLink to="/contact">CONTACT US</ActiveNavbarLink>
         </NavbarItem>
         <NavbarItem>
-          <NavbarLink to="/Register">REGISTER</NavbarLink>
+          <ActiveNavbarLink to="/Register">REGISTER</ActiveNavbarLink>
         </NavbarItem>
       </NavbarList>
     </NavbarContainer>

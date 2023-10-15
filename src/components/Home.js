@@ -1,4 +1,3 @@
-// import { Button } from "bootstrap";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -7,20 +6,7 @@ const MainLandingPageChild = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-// const Image1Icon = styled.img`
-//   width: 100%;
-//   height: 100%;
-//   object-fit: cover;
-//   object-position: center;
-// `;
-const MainLandingPageItem = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.35);
-  width: 1920px;
-  height: 1080px;
-`;
+
 const ReachYourLimits = styled.h1`
   color: #fff;
   font-size: 2rem;
@@ -28,13 +14,7 @@ const ReachYourLimits = styled.h1`
 
   font-family: Poppins;
 `;
-const MainLandingPageInner = styled.img`
-  position: absolute;
-  top: 720px;
-  left: 522px;
-  width: 306px;
-  height: 90px;
-`;
+
 const LoremIpsumDolor = styled.div`
   font-size: 18px;
   font-weight: 500;
@@ -42,13 +22,7 @@ const LoremIpsumDolor = styled.div`
   display: inline-block;
   width: 887px;
 `;
-const RectangleDiv = styled.div`
-  top: 720px;
-  left: 904px;
-  background-color: #d6fd51;
-  width: 306px;
-  height: 90px;
-`;
+
 const ButtonDiv = styled.div`
   top: 720px;
   left: 522px;
@@ -93,13 +67,7 @@ const LineDiv = styled.div`
   width: 66px;
   height: 6px;
 `;
-// const FrameChild = styled.img`
-//   position: absolute;
-//   top: 14px;
-//   left: 920px;
-//   width: 100px;
-//   height: 35px;
-// `;
+
 
 const P = styled.span``;
 const Owerhouse = styled.i`
@@ -137,12 +105,7 @@ const MainLandingPageRoot = styled.section`
 const Home = () => {
   return (
     <MainLandingPageRoot>
-      {/* <MainLandingPageChild /> */}
-      {/* <Image1Icon
-        alt=""
-        src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=400-1.png"
-      /> */}
-      {/* <MainLandingPageItem /> */}
+
       <MainLandingPageChild>
         <ReachYourLimits>
           REACH YOUR LIMITS
@@ -150,18 +113,17 @@ const Home = () => {
           AND GET TO THE
           <br /> NEXT LEVEL
         </ReachYourLimits>
-        {/* <MainLandingPageInner alt="" src="/rectangle-2.svg" /> */}
         <LoremIpsumDolor>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </LoremIpsumDolor>
-        {/* <RectangleDiv /> */}
+      
         <Link to={"/register"}>
           <JoinNow>JOIN NOW</JoinNow>
         </Link>
-        {/* Link to Register page */}
+      
         <ButtonDiv />
         <Link to={"/about"}>
           <LearnMore>LEARN MORE</LearnMore>
