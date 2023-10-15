@@ -29,7 +29,6 @@ const AboutUs = () => {
               fill="#D6FD51"
               fontSize="28"
               dominantBaseline="middle"
-              fontColor='yellow'
               fontStyle="italic"
               fontWeight= "bold"
             >
@@ -216,11 +215,16 @@ const AboutUs = () => {
 
         <div className="frame-13" style={{ width: '100%', height: '50vh', position: 'relative' , top: 660 }}>
 
-              <div>
-                  <p className='P2'>
-                    MEET THE TEAM
-                  </p>
+              <div className="header-container">
+                <span className="meet-the-team-text">MEET THE TEAM</span>
+                <div className="arrow-container">
+                  <img src="Vector.png" alt="Arrow 1" className="arrow-image" />
+                  <img src="Vector.png" alt="Arrow 2" className="arrow-image" />
+                  <img src="Vector.png" alt="Arrow 3" className="arrow-image" />
+                </div>
               </div>
+
+
           
               <div className="meet-the-team">
                 <div className="rectangle-container">

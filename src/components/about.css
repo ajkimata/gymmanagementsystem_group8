@@ -111,11 +111,11 @@
     
   }
 
-  .P2 {
+  /* .P2 {
     font-size: 50px;
     color: #D6FD51;
     padding-left: 63px;
-  }
+  } */
 
   .button, .button2, .button3, .button4 {
     display: inline-block;
@@ -131,5 +131,27 @@
   
   .button:hover, .button2:hover, .button3:hover, .button4:hover {
     transform: skewX(0); 
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .arrow-container {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .arrow-image {
+    width: 20px; 
+    height: 20px; 
+  }
+  
+  .meet-the-team-text {
+    font-size: 18px; 
+    color: #D6FD51;
   }
   
