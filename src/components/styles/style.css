@@ -826,3 +826,378 @@
     font-style: italic;
     font-weight: 700;
   }
+
+
+  
+
+  .register {
+    background-color: #999999;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+    width: 1720px;
+  }
+  
+  .register .form {
+    height: 401px;
+    left: 167px;
+    position: absolute;
+    top: 479px;
+    width: 414px;
+  }
+  
+  .register .div {
+    height: 401px;
+    position: relative;
+  }
+  
+  .register .remember-me {
+    height: 22px;
+    left: 292px;
+    position: absolute;
+    top: 218px;
+    width: 120px;
+  }
+  
+  .register .frame {
+    border: 1px solid;
+    border-color: #d6fd51;
+    border-radius: 3px;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .register .text-wrapper {
+    color: #1c1c1c;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+  }
+  
+  .register .textfields {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 196px;
+    left: 2px;
+    position: absolute;
+    top: 0;
+    width: 410px;
+  }
+  
+  .register .username {
+    align-self: stretch;
+    background-color: #ffffff;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .register .group {
+    height: 18px;
+    left: 55px;
+    position: absolute;
+    top: 18px;
+    transform: rotate(-0.16deg);
+    width: 74px;
+  }
+  
+  .register .text-wrapper-2 {
+    color: #1c1c1c;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 72px;
+  }
+  
+  .register .bx-user {
+    height: 24px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 24px;
+  }
+  
+  .register .email {
+    background-color: #ffffff;
+    height: 52px;
+    margin-right: -3.95px;
+    position: relative;
+    width: 414px;
+  }
+  
+  .register .group-2 {
+    height: 19px;
+    left: 51px;
+    position: absolute;
+    top: 17px;
+    transform: rotate(-0.16deg);
+    width: 40px;
+  }
+  
+  .register .input {
+    background: transparent;
+    border: none;
+    color: #1c1c1c;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 38px;
+  }
+  
+  .register .mdi-light-email {
+    height: 24px;
+    left: 16px;
+    position: absolute;
+    top: 14px;
+    width: 24px;
+  }
+  
+  .register .password {
+    background-color: #ffffff;
+    height: 50px;
+    margin-right: -3.95px;
+    position: relative;
+    width: 414px;
+  }
+  
+  .register .iconamoon-eye-light {
+    height: 24px;
+    left: 374px;
+    position: absolute;
+    top: 13px;
+    width: 24px;
+  }
+  
+  .register .circum-lock {
+    height: 24px;
+    left: 8px;
+    position: absolute;
+    top: 13px;
+    width: 24px;
+  }
+  
+  .register .text-wrapper-3 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+  }
+  
+  .register .button {
+    all: unset;
+    box-sizing: border-box;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 262px;
+    width: 416px;
+  }
+  
+  .register .overlap-group {
+    background-color: #d6fd51;
+    height: 50px;
+    position: relative;
+    width: 414px;
+  }
+  
+  .register .text-wrapper-4 {
+    color: #000000;
+    font-family: "Cabin-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 171px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 20px;
+    width: 55px;
+  }
+  
+  .register .already-have-an {
+    color: transparent;
+    font-family: "Urbanist-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 94px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 342px;
+    white-space: nowrap;
+  }
+  
+  .register .span {
+    color: #ffffff;
+  }
+  
+  .register .text-wrapper-5 {
+    color: #d6fd51;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .register .seperater {
+    align-items: center;
+    display: inline-flex;
+    gap: 16px;
+    left: 288px;
+    position: absolute;
+    top: 448px;
+  }
+  
+  .register .line {
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 60px;
+  }
+  
+  .register .text-wrapper-6 {
+    color: #d6fd51;
+    font-family: "Cabin-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .register .glogin {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d2d2d2;
+    height: 52px;
+    left: 164px;
+    position: absolute;
+    top: 376px;
+    width: 418px;
+  }
+  
+  .register .frame-2 {
+    align-items: center;
+    background-color: #ffffff;
+    display: inline-flex;
+    gap: 12px;
+    left: 117px;
+    position: relative;
+    top: 15px;
+  }
+  
+  .register .google {
+    height: 20px;
+    object-fit: cover;
+    position: relative;
+    width: 20px;
+  }
+  
+  .register .text-wrapper-7 {
+    color: #2e2e2e;
+    font-family: "Cabin-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .register .heading {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    left: 183px;
+    position: absolute;
+    top: 273px;
+  }
+  
+  .register .p {
+    color: #000000;
+    font-family: "Urbanist-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .register .text-wrapper-8 {
+    color: #000000;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 68px;
+    font-weight: 400;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 178px;
+    width: 656px;
+  }
+  
+  .register .image {
+    height: 1024px;
+    left: 757px;
+    position: absolute;
+    top: 0;
+    width: 956px;
+  }
+  
+  .register .powerhouse {
+    color: transparent;
+    font-family: "Calligraphy Brillian-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 59px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 62px;
+  }
+  
+  .register .text-wrapper-9 {
+    color: #d61c4e;
+  }
+  
+  .register .text-wrapper-10 {
+    color: #d6fd51;
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
