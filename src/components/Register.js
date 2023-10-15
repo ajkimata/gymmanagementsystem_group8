@@ -107,7 +107,7 @@ export const Register = () => {
             </div>
             <div className="password">
               <img className="iconamoon-eye-light" alt="Iconamoon eye light" src="iconamoon-eye-light.svg" />
-              <img className="circum-lock" alt="Circum lock" src="circum-lock.svg" />
+              <img className="circum-lock" alt="Circum lock" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHZ-yIurzqBWnkQMLgjbFUZpO2pLfE42hC_poX74&s" />
               <div className="text-wrapper-3">Password</div>
             </div>
           </div>
