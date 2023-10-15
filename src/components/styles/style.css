@@ -1203,6 +1203,7 @@
   
   .register .text-wrapper-9 {
     color: #d61c4e;
+    font-style:italic;
   }
   
   .register .text-wrapper-10 {
@@ -1220,12 +1221,3 @@
   display: block;
 }
 
-
-/* .p {
-  margin-bottom: 5px;
-}
-
-.text-wrapper-8,
-.text-wrapper-10 {
-  margin-top: 5px; 
-} */
