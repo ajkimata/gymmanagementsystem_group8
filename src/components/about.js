@@ -15,21 +15,23 @@ const AboutUs = () => {
           <img className="image" src="about1.png" alt="image-1" />
           <svg
             className="custom-shape"
-            width="450"
-            height="390"
+            
             viewBox="0 0 409 342"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             style={{ zIndex: 1 }}
           >
             <path d="M61.7359 0H409L347.264 342H0L61.7359 0Z" fill="black" />
-            <text
+            <text 
               x="50%"
               y="10%"
               textAnchor="middle"
-              fill="white"
-              fontSize="18"
+              fill="#D6FD51"
+              fontSize="28"
               dominantBaseline="middle"
+              fontColor='yellow'
+              fontStyle="italic"
+              fontWeight= "bold"
             >
               BUILD MUSCLES
             </text>
@@ -78,13 +80,15 @@ const AboutUs = () => {
             style={{ zIndex: 1 }}
           >
             <path d="M61.7359 0H409L347.264 342H0L61.7359 0Z" fill="black" />
-            <text
+            <text 
               x="50%"
               y="10%"
               textAnchor="middle"
-              fill="white"
-              fontSize="18"
+              fill="#D6FD51"
+              fontSize="28"
               dominantBaseline="middle"
+              fontStyle= "italic"
+              fontWeight= "bold"
             >
               SHED POUNDS
             </text>
@@ -96,7 +100,7 @@ const AboutUs = () => {
               fontSize="14"
               dominantBaseline="middle"
             >
-              We offer specialized training to help burn calories,
+              We offer specialized training to help burn
             </text>
             <text
               x="50%"
@@ -106,7 +110,7 @@ const AboutUs = () => {
               fontSize="14"
               dominantBaseline="middle"
             >
-              improve endurance, and reach
+              calories, improve endurance, and reach
             </text>
             <text
               x="50%"
@@ -133,13 +137,15 @@ const AboutUs = () => {
             style={{ zIndex: 1 }}
           >
             <path d="M61.7359 0H409L347.264 342H0L61.7359 0Z" fill="black" />
-            <text
+            <text className='header'
               x="50%"
               y="10%"
               textAnchor="middle"
-              fill="white"
-              fontSize="18"
+              fill="#D6FD51"
+              fontSize="28"
               dominantBaseline="middle"
+              fontStyle="italic"
+              fontWeight= "bold"
             >
               STAY FIT
             </text>
@@ -176,12 +182,12 @@ const AboutUs = () => {
           </svg>
         </div>
       </div>
-      <div style={{ width: '100%', height: '162px', position: 'relative' }}>
+      <div style={{ width: '100%', height: '282px', position: "relative"}}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1720 262"
           fill="none"
-          style={{ position: 'absolute', top: -120, left: 0, zIndex: '0', width: '100%' }}
+          style={{  position:'absolute', top: -260, left: 0, zIndex: '0', width: '100%' }}
         >
           <path
             d="M0 48.7791C0 48.7791 59.6808 -38.2949 732.88 20.2301C1406.08 78.7551 1720 20.2303 1720 20.2303V262H0V48.7791Z"
@@ -201,35 +207,28 @@ const AboutUs = () => {
           alt="background-image"
           style={{
             width: '100%',
-            height: '180vh',
+            height: '160vh',
             objectFit: 'cover',
             position: 'absolute',
             top: '95vh', 
           }}
         />
 
-        <div className="frame-13" style={{ width: '100%', height: '170vh', position: 'relative' , top: 680 }}>
-          {/* Add new content inside these divs */}
-          {/* Rectangles displayed in flex from left to right */}
-          <div className="meet-the-team">
+        <div className="frame-13" style={{ width: '100%', height: '50vh', position: 'relative' , top: 660 }}>
+
+              <div>
+                  <p className='P2'>
+                    MEET THE TEAM
+                  </p>
+              </div>
+          
+              <div className="meet-the-team">
                 <div className="rectangle-container">
                   <img className="image-5" src="image 16.png" alt="Image 5" />
                   <div className="button">
                     <div className="cynthia">CYNTHIA</div>
                   </div>
-                  <svg
-                    className="rectangle-89"
-                    width="477"
-                    height="202"
-                    viewBox="0 0 477 202"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
-                      fill="#D6FD51"
-                    />
-                  </svg>
+                  
                 </div>
                 
                 <div className="rectangle-container">
@@ -237,61 +236,24 @@ const AboutUs = () => {
                   <div className="button2">
                     <div className="alex">ALEX</div>
                   </div>
-                  <svg
-                    className="rectangle-90"
-                    width="477"
-                    height="201"
-                    viewBox="0 0 477 201"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
-                      fill="#D6FD51"
-                    />
-                  </svg>
+                  
                 </div>
                 <div className="rectangle-container">
                   <img className="image-15" src="image 12.png" alt="Image 15" />
                   <div className="button3">
                     <div className="alfred">ALFRED</div>
                   </div>
-                  <svg
-                    className="rectangle-91"
-                    width="477"
-                    height="201"
-                    viewBox="0 0 477 201"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
-                      fill="#D6FD51"
-                    />
-                  </svg>
+                  
                 </div>
-                    <div className="circle-container">
+                    <div className="rectangle-container">
                     <img className="image-15" src="image 15.png" alt="Image 15" />
                       <div className="button4">
                         <div className="alfred">MOFFAT</div>
                       </div>
-                      <svg
-                        className="rectangle-91"
-                        width="477"
-                        height="201"
-                        viewBox="0 0 477 201"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M71.966 0H476.775L404.809 200.694H0L71.966 0Z"
-                          fill="#D6FD51"
-                        />
-                      </svg>
+                      
                 </div>
               </div>
 
-          {/* End of new content */}
         </div>
       </div>
     </div>
