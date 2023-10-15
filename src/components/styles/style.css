@@ -1133,7 +1133,8 @@
     gap: 20px;
     left: 183px;
     position: absolute;
-    top: 155px;
+    top: 160px;
+    font-size: 10px;
   }
   
   .register .p {
@@ -1147,16 +1148,6 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
-  }
-  
-
-  
-  .register .image {
-    height: 1024px;
-    left: 757px;
-    position: absolute;
-    top: 0;
-    width: 956px;
   }
   
   .register .powerhouse {
@@ -1187,13 +1178,14 @@
 
 .register .rectangle {
   height: 100vh;
-  left: 850px;
+  left: 700px;
   position: absolute;
-  top: -1px
+  top: -1px;
+ width:55%
   
 }
 
 .text-wrapper-8,
 .text-wrapper-10 {
-  margin-top: 60px; 
+  margin-top: 65px; 
 }

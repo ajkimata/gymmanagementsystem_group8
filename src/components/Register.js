@@ -132,7 +132,7 @@ export const Register = () => {
       <img
         className="rectangle"
         alt="Rectangle"
-        src="https://images.pexels.com/photos/16358993/pexels-photo-16358993.jpeg?cs=srgb&dl=pexels-darkmode-cinema-16358993.jpg&fm=jpg"
+        src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMGdpcmx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
       />
       <div className="seperater">
         <img className="line" alt="Line" src="line-2.svg" />
@@ -163,3 +163,5 @@ export const Register = () => {
 
 
 
+// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRawWf9WEOFkcnSrk2CEzW9TmNhBg14vavpscxphSZx3cIGOrekmc95ahfcbTOu15e6Q&usqp=CAU
+// https://images.pexels.com/photos/16358993/pexels-photo-16358993.jpeg?cs=srgb&dl=pexels-darkmode-cinema-16358993.jpg&fm=jpg
