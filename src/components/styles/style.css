@@ -828,37 +828,19 @@
   }
 
 
-  
-
   .register {
     background-color: #999999;
-    /* height: 1024px;
+    height: 100vh;
     overflow: hidden;
-    position: relative;
-    width: 1720px;
-    display: flex; */
-
-    position: relative;
- 
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    text-align: center;
-    justify-content: center;
-    font-size: 24px;
-    font-family: Montserrat;
   }
   
   .register .form {
-    height: 401px;
+    height: 100vh;
     left: 167px;
     position: absolute;
-    top: 479px;
-    width: 414px;
+   top: 200px;
+    width: 100%;
   }
   
   .register .div {
@@ -966,22 +948,7 @@
     width: 40px;
   }
   
-  .register .input {
-    background: transparent;
-    border: none;
-    color: #1c1c1c;
-    font-family: "Poppins-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 38px;
-  }
-  
+
   .register .mdi-light-email {
     height: 24px;
     left: 16px;
@@ -1071,7 +1038,7 @@
   .register .text-wrapper-5 {
     color: #d6fd51;
     font-family: "Urbanist-Bold", Helvetica;
-    font-weight: 700;
+    font-weight: 800;
   }
   
   .register .seperater {
@@ -1088,7 +1055,9 @@
     object-fit: cover;
     position: relative;
     width: 60px;
+    color: #d6fd51;
   }
+
   
   .register .text-wrapper-6 {
     color: #d6fd51;
@@ -1108,13 +1077,13 @@
     font-family: "Smooch Sans-Bold", Helvetica;
     font-size: 30px;
     font-weight: 900;
-    font-style: italic;
+    font-style: normal;
     align-items: center;
     display: inline-flex;
     flex-direction: column;
     left: 80px;
     position: absolute;
-    top: 150px;
+    top: 50px;
   
   }
   .register .glogin {
@@ -1164,7 +1133,7 @@
     gap: 20px;
     left: 183px;
     position: absolute;
-    top: 273px;
+    top: 155px;
   }
   
   .register .p {
@@ -1200,7 +1169,7 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 62px;
+    top: 50px;
   }
   
   .register .text-wrapper-9 {
@@ -1215,21 +1184,13 @@
     font-weight: 700;
   }
 
-.input {
- 
-  border: 1px solid #ccc;
-  font-size: 16px;
-  margin: 0 auto;
-  display: block;
-}
-
 
 .register .rectangle {
-  min-height: auto;
-  height: 800px;
-  left: 700px;
+  height: 100vh;
+  left: 850px;
   position: absolute;
   top: -1px
+  
 }
 
 .text-wrapper-8,
