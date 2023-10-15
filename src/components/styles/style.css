@@ -1160,7 +1160,7 @@
   .register .text-wrapper-8 {
     color: #000000;
     font-family: "Bebas Neue-Regular", Helvetica;
-    font-size: 68px;
+    font-size: 50px;
     font-weight: 400;
     left: 67px;
     letter-spacing: 0;
@@ -1201,3 +1201,13 @@
     font-style: italic;
     font-weight: 700;
   }
+
+.input {
+ 
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+}
+
+
