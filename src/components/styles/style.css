@@ -836,6 +836,7 @@
     overflow: hidden;
     position: relative;
     width: 1720px;
+    display: flex;
   }
   
   .register .form {
@@ -881,14 +882,7 @@
     position: absolute;
     top: 1px;
   }
-  /* .register .text-wrapper-8 {
-    color: #1c1c1c;
-    font-family: "Smooch Sans-Bold", Helvetica;
-    font-size: 50px;
-    font-weight: 2000;
 
-    
-  } */
   
   .register .textfields {
     align-items: flex-start;
@@ -990,13 +984,6 @@
     width: 414px;
   }
   
-  .register .iconamoon-eye-light {
-    height: 24px;
-    left: 374px;
-    position: absolute;
-    top: 13px;
-    width: 24px;
-  }
   
   .register .circum-lock {
     height: 24px;
@@ -1103,14 +1090,15 @@
   }
   
   .register .text-wrapper-8 {
-    color: #000000;
+    color: #1c1c1c;
     font-family: "Smooch Sans-Bold", Helvetica;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
+    font-style: italic;
     align-items: center;
     display: inline-flex;
     flex-direction: column;
-    left: 100px;
+    left: 80px;
     position: absolute;
     top: 150px;
   
@@ -1221,3 +1209,16 @@
   display: block;
 }
 
+
+.register .rectangle {
+  
+  height: 800px;
+  left: 700px;
+  position: absolute;
+  top: -1px
+}
+
+.text-wrapper-8,
+.text-wrapper-10 {
+  margin-top: 40px; 
+}
