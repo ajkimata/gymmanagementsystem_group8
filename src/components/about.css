@@ -142,16 +142,18 @@
   .arrow-container {
     display: flex; 
     align-items: center; 
-    gap: 10px; 
+    gap: 20px;
+    padding-right: 300px; 
   }
   
   .arrow-image {
     width: 20px; 
-    height: 20px; 
+    height: 30px; 
   }
   
   .meet-the-team-text {
     font-size: 18px; 
     color: #D6FD51;
+    padding-left: 64px;
   }
   
