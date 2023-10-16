@@ -37,11 +37,12 @@
   
   .image {
     width: 50%;
-    height: 50%;
+    /* height: 50%; */
     object-fit: cover;
     margin-bottom: 0px;
     max-height: fit-content;
     z-index: 1;
+    max-height: auto;
   }
   
   .custom-shape {
@@ -164,4 +165,34 @@
 
     .meet-the-team-text {
     font-family: 'Orbitron', sans-serif;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        height: 100vh; 
+      }
+    
+      .images-and-shapes {
+        margin-top: 100px; 
+      }
+    
+      .image-container {
+        width: 100%; 
+      }
+    
+      .image {
+        margin-bottom: 5px; 
+      }
+      .custom-shape {
+        width: 80%; 
+      }
+    
+      .rectangle-container {
+        margin: 0 5px; 
+        padding: 10px; 
+      }
+    
+      .arrow-container {
+        padding-right: 10px; 
+    }
     }
