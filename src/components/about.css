@@ -155,5 +155,13 @@
     font-size: 18px; 
     color: #D6FD51;
     padding-left: 64px;
+    font-size: 3rem;
+    font-weight: 800;
   }
+
   
+  @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+    .meet-the-team-text {
+    font-family: 'Orbitron', sans-serif;
+    }

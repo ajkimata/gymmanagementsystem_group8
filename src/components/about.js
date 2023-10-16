@@ -250,7 +250,7 @@ const AboutUs = () => {
                   
                 </div>
                     <div className="rectangle-container">
-                    <img className="image-15" src="image 15.png" alt="Image 15" />
+                    <img className="image-15" src="image 11.png" alt="Image 15" />
                       <div className="button4">
                         <div className="alfred">MOFFAT</div>
                       </div>
