@@ -1,20 +1,21 @@
 .user-login-page {
   background-color: #999999;
   display: flex;
-  height: 800px; 
+  height: 100vh; 
   width: 100%;
 }
 
 
 .user-login-page .rectangle {
-  height: 800px;
-  left: 700px;
+  height: 100vh;
+  left: 800px;
   position: absolute;
-  top: -1px
+  top: -1px;
+  width:100vh
 }
 
 .user-login-page .overlap {
-  height: 657px;
+  height: 200px;
   left: 60px;
   position: absolute;
   top: 58px;
@@ -22,7 +23,7 @@
 }
 
 .user-login-page .frame {
-  height: 620px;
+  height: 500px;
   left: 63px;
   position: absolute;
   top: 37px;
@@ -836,16 +837,11 @@
   }
   
   .register .form {
-    height: 100vh;
+    height: 290px;
     left: 167px;
     position: absolute;
    top: 200px;
     width: 100%;
-  }
-  
-  .register .div {
-    height: 401px;
-    position: relative;
   }
   
   .register .remember-me {
@@ -1076,7 +1072,7 @@
     color: #1c1c1c;
     font-family: "Smooch Sans-Bold", Helvetica;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 800;
     font-style: normal;
     align-items: center;
     display: inline-flex;
@@ -1112,8 +1108,6 @@
   }
   
   .register .p {
-    color: #000000;
-    font-family: "Urbanist-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
@@ -1122,6 +1116,9 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    color: #1c1c1c;
+    font-family: "Poppins-Regular", Helvetica;
+
   }
   
   .register .powerhouse {
@@ -1157,8 +1154,8 @@
   left: 700px;
   position: absolute;
   top: -1px;
- width:55%
-  
+ width:100vh;
+
 }
 
 .text-wrapper-8,
