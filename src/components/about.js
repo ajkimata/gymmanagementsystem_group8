@@ -10,7 +10,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="images-and-shapes">
-        {/* Image 1 */}
+        
         <div className="image-container">
           <img className="image" src="about1.png" alt="image-1" />
           <svg
@@ -66,7 +66,7 @@ const AboutUs = () => {
             </text>
           </svg>
         </div>
-        {/* Image 2 */}
+        
         <div className="image-container">
           <img className="image" src="about2.png" alt="image-2" />
           <svg
@@ -123,7 +123,7 @@ const AboutUs = () => {
             </text>
           </svg>
         </div>
-        {/* Image 3 */}
+     
         <div className="image-container">
           <img className="image" src="about3.png" alt="image-3" />
           <svg
