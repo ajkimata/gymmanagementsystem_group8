@@ -13,7 +13,8 @@
   left: 800px;
   position: absolute;
   top: -1px;
-  width:100vh
+  width:100vh;
+  background-size: cover;
 }
 
 .user-login-page .overlap {
@@ -186,7 +187,7 @@
 }
 
 .user-login-page .group-3 {
-  height: 101px;
+  height: 100vh;
   left: 96px;
   position: absolute;
   top: 431px;
@@ -199,11 +200,11 @@
   font-family: "Cabinet Grotesk-Medium", Helvetica;
   font-size: 14px;
   font-weight: 400;
-  left: 0;
+  left: 86px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 91px;
+  top: 400px;
   white-space: nowrap;
   width: 249px;
 }
