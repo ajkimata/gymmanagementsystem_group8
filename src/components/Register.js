@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const RegisterForm = styled.div`
-
+  max-height: 100vh; /* Ensure the container doesn't exceed the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push content to the top and bottom */
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%
 `;
 
 const InputContainer = styled.div`
@@ -16,8 +22,8 @@ align-items: center;
 const StyledInput = styled.input`
   flex: 1;
   padding: 11px;
-  text-align: center; 
-  line-height: 1.6; 
+  text-align: center;
+  line-height: 1.6;
 `;
 
 export const Register = () => {
