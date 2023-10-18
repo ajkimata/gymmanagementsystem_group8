@@ -13,6 +13,10 @@ import SideNav from "./admin/SideNav";
 import Footer from "./admin/Footer";
 import "./App.css";
 function App() {
+  function handleCallbackRespone(response) {
+    console.log("Encoded JWT tOKEN: " + response.credential);
+  }
+
   return (
     <Router>
       <div>

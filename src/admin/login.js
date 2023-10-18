@@ -1,23 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-const Login = () => {
-  function handleCallbackRespone(response) {
-    console.log("Encoded JWT Token: " + response.credential);
-  }
-  useEffect(() => {
-    /*global google */
-    google.accounts.id.initialize({
-      client_id:
-        "1084657286535-nmrbfqlvhlko4jr9j07aj4li768cnuaa.apps.googleusercontent.com",
-      callback: handleCallbackRespone,
-    });
-
-    google.accounts.id.renderButton(
-      document.getElementById("googleSignInButton"),
-      { theme: "outline", size: "large" }
-    );
-  }, []);
-
+const login = () => {
   return (
     <div>
       <meta charSet="utf-8" />
@@ -96,8 +79,9 @@ const Login = () => {
               <a href="#" className="btn btn-block btn-primary">
                 <i className="fab fa-facebook mr-2" /> Sign in using Facebook
               </a>
-              <div id="googleSignInButton"></div>{" "}
-              {/* This is where the Google One Tap button will be rendered */}
+              <a href="#" className="btn btn-block btn-danger">
+                <i className="fab fa-google-plus mr-2" /> Sign in using Google+
+              </a>
             </div>
             {/* /.social-auth-links */}
             <p className="mb-1">
@@ -120,4 +104,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default login;

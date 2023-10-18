@@ -70,10 +70,10 @@ const SideNav = () => {
                   <li className="nav-item">
                     <a href="./index.html" className="nav-link active">
                       <i className="far fa-circle nav-icon" />
-                      <p>Dashboard v1</p>
+                      <p>Dashboard </p>
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a href="./index2.html" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Dashboard v2</p>
@@ -84,10 +84,10 @@ const SideNav = () => {
                       <i className="far fa-circle nav-icon" />
                       <p>Dashboard v3</p>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="pages/widgets.html" className="nav-link">
                   <i className="nav-icon fas fa-th" />
                   <p>
@@ -95,16 +95,16 @@ const SideNav = () => {
                     <span className="right badge badge-danger">New</span>
                   </p>
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                {/* <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-copy" />
                   <p>
                     Layout Options
                     <i className="fas fa-angle-left right" />
                     <span className="badge badge-info right">6</span>
                   </p>
-                </a>
+                </a> */}
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
                     <a href="pages/layout/top-nav.html" className="nav-link">
@@ -177,13 +177,13 @@ const SideNav = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                {/* <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-chart-pie" />
                   <p>
                     Charts
                     <i className="right fas fa-angle-left" />
                   </p>
-                </a>
+                </a> */}
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
                     <a href="pages/charts/chartjs.html" className="nav-link">
@@ -212,13 +212,13 @@ const SideNav = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                {/* <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-tree" />
                   <p>
                     UI Elements
                     <i className="fas fa-angle-left right" />
                   </p>
-                </a>
+                </a> */}
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
                     <a href="pages/UI/general.html" className="nav-link">
@@ -271,13 +271,13 @@ const SideNav = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                {/* <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-edit" />
                   <p>
                     Forms
                     <i className="fas fa-angle-left right" />
                   </p>
-                </a>
+                </a> */}
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
                     <a href="pages/forms/general.html" className="nav-link">
@@ -305,7 +305,7 @@ const SideNav = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-table" />
                   <p>
@@ -333,10 +333,12 @@ const SideNav = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-header">EXAMPLES</li>
               <li className="nav-item">
                 <a href="pages/calendar.html" className="nav-link">
+                {/* <a href="admin/login" className="nav-link"> */}
+
                   <i className="nav-icon far fa-calendar-alt" />
                   <p>
                     Calendar
@@ -656,7 +658,7 @@ const SideNav = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-header">MISCELLANEOUS</li>
+              {/* <li className="nav-header">MISCELLANEOUS</li>
               <li className="nav-item">
                 <a href="iframe.html" className="nav-link">
                   <i className="nav-icon fas fa-ellipsis-h" />
@@ -733,7 +735,7 @@ const SideNav = () => {
                   <i className="fas fa-circle nav-icon" />
                   <p>Level 1</p>
                 </a>
-              </li>
+              </li> */}
               <li className="nav-header">LABELS</li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
