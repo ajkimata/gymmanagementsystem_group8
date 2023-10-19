@@ -1,121 +1,53 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
+import "./styles/login.css"; // Assuming you'll store the CSS in a file named Login.css
 
 const Login = () => {
-  function handleCallbackRespone(response) {
-    console.log("Encoded JWT Token: " + response.credential);
-  }
-  useEffect(() => {
-    /*global google */
-    google.accounts.id.initialize({
-      client_id:
-        "1084657286535-nmrbfqlvhlko4jr9j07aj4li768cnuaa.apps.googleusercontent.com",
-      callback: handleCallbackRespone,
-    });
+  const [loginData, setLoginData] = useState({
+    username: "",
+    password: "",
+  });
 
-    google.accounts.id.renderButton(
-      document.getElementById("googleSignInButton"),
-      { theme: "outline", size: "large" }
-    );
-  }, []);
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setLoginData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
 
   return (
-    <div>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>AdminLTE 3 | Log in</title>
-      {/* Google Font: Source Sans Pro */}
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
-      />
-      {/* Font Awesome */}
-      <link
-        rel="stylesheet"
-        href="../../plugins/fontawesome-free/css/all.min.css"
-      />
-      {/* icheck bootstrap */}
-      <link
-        rel="stylesheet"
-        href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css"
-      />
-      {/* Theme style */}
-      <link rel="stylesheet" href="../../dist/css/adminlte.min.css" />
-      <div className="login-box">
-        <div className="login-logo">
-          <a href="../../index2.html">
-            <b>Admin</b>LTE
-          </a>
+    <div className="login-container">
+      <div className="login-left">
+        <h1>Welcome</h1>
+        <p>We are glad you are working out with us</p>
+        <input
+          type="text"
+          placeholder="Username"
+          name="username"
+          value={loginData.username}
+          onChange={handleInputChange}
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          value={loginData.password}
+          onChange={handleInputChange}
+        />
+        <button className="login-btn">NEXT</button>
+        <div className="login-others">Login with Others</div>
+        <div className="social-buttons">
+          <button className="google-btn">G</button>
+          <button className="facebook-btn">F</button>
         </div>
-        {/* /.login-logo */}
-        <div className="card">
-          <div className="card-body login-card-body">
-            <p className="login-box-msg">Sign in to start your session</p>
-            <form action="../../index3.html" method="post">
-              <div className="input-group mb-3">
-                <input
-                  type="email"
-                  className="form-control"
-                  placeholder="Email"
-                />
-                <div className="input-group-append">
-                  <div className="input-group-text">
-                    <span className="fas fa-envelope" />
-                  </div>
-                </div>
-              </div>
-              <div className="input-group mb-3">
-                <input
-                  type="password"
-                  className="form-control"
-                  placeholder="Password"
-                />
-                <div className="input-group-append">
-                  <div className="input-group-text">
-                    <span className="fas fa-lock" />
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-8">
-                  <div className="icheck-primary">
-                    <input type="checkbox" id="remember" />
-                    <label htmlFor="remember">Remember Me</label>
-                  </div>
-                </div>
-                {/* /.col */}
-                <div className="col-4">
-                  <button type="submit" className="btn btn-primary btn-block">
-                    Sign In
-                  </button>
-                </div>
-                {/* /.col */}
-              </div>
-            </form>
-            <div className="social-auth-links text-center mb-3">
-              <p>- OR -</p>
-              <a href="#" className="btn btn-block btn-primary">
-                <i className="fab fa-facebook mr-2" /> Sign in using Facebook
-              </a>
-              <div id="googleSignInButton"></div>{" "}
-              {/* This is where the Google One Tap button will be rendered */}
-            </div>
-            {/* /.social-auth-links */}
-            <p className="mb-1">
-              <a href="forgot-password.html">I forgot my password</a>
-            </p>
-            <p className="mb-0">
-              <a href="register.html" className="text-center">
-                Register a new membership
-              </a>
-            </p>
-          </div>
-          {/* /.login-card-body */}
+        <div className="register-prompt">
+          Don't have an account?{" "}
+          <button className="link-style-button">Register Now</button>
         </div>
       </div>
-      {/* /.login-box */}
-      {/* jQuery */}
-      {/* Bootstrap 4 */}
-      {/* AdminLTE App */}
+      <div className="login-right">
+        {/* You can use background image style like in the Register component */}
+      </div>
     </div>
   );
 };

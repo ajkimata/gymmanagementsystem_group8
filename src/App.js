@@ -7,15 +7,15 @@ import { Classes } from "./components/classes";
 import Login from "./components/login";
 import AboutUs from "./components/about";
 import { Contact } from "./components/contact";
-import { Register } from "./components/Register";
+import Register from "./components/Register";
 import Header from "./admin/Header";
 import SideNav from "./admin/SideNav";
 import Footer from "./admin/Footer";
 import "./App.css";
 function App() {
-  function handleCallbackRespone(response) {
-    console.log("Encoded JWT tOKEN: " + response.credential);
-  }
+  // function handleCallbackRespone(response) {
+  //   console.log("Encoded JWT tOKEN: " + response.credential);
+  // }
 
   return (
     <Router>

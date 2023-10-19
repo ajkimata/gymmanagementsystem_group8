@@ -1,0 +1,92 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-left {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.google-btn, .facebook-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.google-btn {
+    background-color: #DB4437;
+    color: white;
+}
+
+.facebook-btn {
+    background-color: #3B5998;
+    color: white;
+}
+
+.register-prompt {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.link-style-button {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-right {
+    flex: 1;
+    background: url("/public/Assets/Login.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+.login-others {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
