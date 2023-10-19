@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import { Classes } from "./components/classes";
 import Login from "./components/login";
 import AboutUs from "./components/about";
+import Team from "./components/team";
 import Contact  from "./components/contact";
 import { Register } from "./components/Register";
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/classes" element={<Classes />} />
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Register" element={<Register />} />
         </Routes>

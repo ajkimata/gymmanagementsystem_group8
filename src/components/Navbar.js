@@ -57,6 +57,9 @@ const Navbar = () => {
           <NavbarLink to="/about">ABOUT US</NavbarLink>
         </NavbarItem>
         <NavbarItem>
+          <NavbarLink to="/team">MEET THE TEAM</NavbarLink>
+        </NavbarItem>
+        <NavbarItem>
           <NavbarLink to="/contact">CONTACT US</NavbarLink>
         </NavbarItem>
         <NavbarItem>

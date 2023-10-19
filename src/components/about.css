@@ -74,14 +74,17 @@
     font-weight: 400;
     line-height: normal;
   }
+  
   .background-div {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    /* max-height: fit-content; */
+    height: 100vh;
     z-index: 0; 
+    background-image: url('/public/image5.png');
     background-size: cover;
+    background-attachment: fixed;
     border-radius: 0;
     max-width: 100%;
   }
