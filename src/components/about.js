@@ -10,7 +10,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="images-and-shapes">
-        
+        <h2>About Us</h2>
         <div className="image-container">
           <img className="image" src="about1.png" alt="image-1" />
           <svg
@@ -39,7 +39,7 @@ const AboutUs = () => {
               y="20%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="18"
               dominantBaseline="middle"
             >
               Discover a variety of weightlifting
@@ -49,7 +49,7 @@ const AboutUs = () => {
               y="30%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="18"
               dominantBaseline="middle"
             >
               routines and routine training techniques
@@ -59,7 +59,7 @@ const AboutUs = () => {
               y="40%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="18"
               dominantBaseline="middle"
             >
               to achieve your bodybuilding goals.
@@ -96,7 +96,7 @@ const AboutUs = () => {
               y="20%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="16"
               dominantBaseline="middle"
             >
               We offer specialized training to help burn
@@ -106,20 +106,20 @@ const AboutUs = () => {
               y="30%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="16"
               dominantBaseline="middle"
             >
-              calories, improve endurance, and reach
+              calories, improve endurance, and reach your
             </text>
             <text
               x="50%"
               y="40%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="16"
               dominantBaseline="middle"
             >
-              your weight loss targets through cardio workouts.
+              weight loss targets through cardio workouts.
             </text>
           </svg>
         </div>
@@ -153,7 +153,7 @@ const AboutUs = () => {
               y="20%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="18"
               dominantBaseline="middle"
             >
               Join our fitness classes tailored for
@@ -163,7 +163,7 @@ const AboutUs = () => {
               y="30%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="18"
               dominantBaseline="middle"
             >
               overall wellness that helps
@@ -173,7 +173,7 @@ const AboutUs = () => {
               y="40%"
               textAnchor="middle"
               fill="white"
-              fontSize="14"
+              fontSize="18"
               dominantBaseline="middle"
             >
               maintain a healthy lifestyle.
@@ -199,66 +199,6 @@ const AboutUs = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
-      <div className="background-div">
-        <img
-          src="image5.png"
-          alt="background-image"
-          style={{
-            width: '100%',
-            height: '160vh',
-            objectFit: 'cover',
-            position: 'absolute',
-            top: '95vh', 
-          }}
-        />
-
-        <div className="frame-13" style={{ width: '100%', height: '50vh', position: 'relative' , top: 660 }}>
-
-              <div className="header-container">
-                <span className="meet-the-team-text">MEET THE TEAM</span>
-                <div className="arrow-container">
-                  <img src="Vector.png" alt="Arrow 1" className="arrow-image" />
-                  <img src="Vector.png" alt="Arrow 2" className="arrow-image" />
-                  <img src="Vector.png" alt="Arrow 3" className="arrow-image" />
-                </div>
-              </div>
-
-
-          
-              <div className="meet-the-team">
-                <div className="rectangle-container">
-                  <img className="image-5" src="image 16.png" alt="Image 5" />
-                  <div className="button">
-                    <div className="cynthia">CYNTHIA</div>
-                  </div>
-                  
-                </div>
-                
-                <div className="rectangle-container">
-                  <img className="image-16" src="image 15.png" alt="Image 16" />
-                  <div className="button2">
-                    <div className="alex">ALEX</div>
-                  </div>
-                  
-                </div>
-                <div className="rectangle-container">
-                  <img className="image-15" src="image 12.png" alt="Image 15" />
-                  <div className="button3">
-                    <div className="alfred">ALFRED</div>
-                  </div>
-                  
-                </div>
-                    <div className="rectangle-container">
-                    <img className="image-15" src="image 11.png" alt="Image 15" />
-                      <div className="button4">
-                        <div className="alfred">MOFFAT</div>
-                      </div>
-                      
-                </div>
-              </div>
-
-        </div>
       </div>
     </div>
   );
