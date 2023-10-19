@@ -184,6 +184,9 @@ const ButtonLearnContainer = styled.div`
 `;
 
 const ButtonDiv = styled.div`
+  &:hover  {
+    background-color: #b9e22c; 
+  }
   background-color: #d6fd51;
   width: 180px;
   height: 50px;
