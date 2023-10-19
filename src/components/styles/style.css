@@ -8,6 +8,11 @@ body, html {
     font-family: 'Oxygen', sans-serif;
 }
 
+.react-link { 
+  color: #fff; 
+  text-decoration: none;
+} 
+
 .user-login-page {
   background-color: #999999;
   display: flex;

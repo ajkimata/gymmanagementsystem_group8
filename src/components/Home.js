@@ -292,12 +292,12 @@ const Home = () => {
         </LoremIpsumDolor>
         <ButtonLearnContainer>
           <ButtonDiv>
-            <Link to={"/register"}>
+            <Link className="react-link" to={"/register"}>
               <JoinNow>JOIN NOW</JoinNow>
             </Link>
           </ButtonDiv>
           <LearnMoreDiv>
-            <Link to={"/about"}>
+            <Link className="react-link" to={"/about"}>
               <LearnMore>LEARN MORE</LearnMore>
             </Link>
           </LearnMoreDiv>
