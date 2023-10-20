@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './contact.css';
 
 function Contact() {
@@ -45,12 +47,12 @@ function Contact() {
                     </div>
               </div>
 
-              <div className="social-icons">
-                <a href="#"><img src="twitter-icon.png" alt="Twitter"/></a>
-                <a href="#"><img src="facebook-icon.png" alt="Facebook"/></a>
-                <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"/></a>
+              <div className='social-icons' >
+                <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
               </div>
-                <hr/>
+              <hr/>
               
               <p className="copyright">&copy; 2023</p>
             </div>
