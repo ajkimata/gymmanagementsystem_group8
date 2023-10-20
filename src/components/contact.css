@@ -54,7 +54,7 @@
   object-fit: cover;
 } */
 .contact-page {
-  height: 120vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
 }
@@ -64,7 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 80vh;
+  max-height: 60vh;
 }
 
 .bottom-image {
@@ -72,7 +72,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 40vh;
+  max-height: 60vh;
 }
 
 .top-image img,
@@ -80,6 +80,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 /*subscribe*/
@@ -118,7 +119,7 @@
   color: white;
 }
 .email-input::placeholder {
-  color: #D6FD51; 
+  color: white; 
 }
 .join-button {
   background-color: #D6FD51;
@@ -127,4 +128,5 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  
 }
