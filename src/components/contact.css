@@ -85,35 +85,38 @@
 /*subscribe*/
 .stay-updated {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   font-size: 20px;
   text-align: center;
   color: white;
 }
 .email-form {
   position: absolute;
-  bottom: 20px;
+  /* bottom: 300px; */
   left: 50%;
+  top: 30%;
   transform: translateX(-50%);
   border: 1px solid #ccc;
-  padding: 10px;
+  margin-top: 30px;
+  padding: 5px;
   text-align: center;
 }
 .email-label {
   margin-bottom: 5px;
   font-size: 14px;
+  color: white;
 }
 .email-input {
   width: 200px;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid ;
 }
 .join-button {
   background-color: #007bff;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 10px; 
   border: none;
   cursor: pointer;
 }
