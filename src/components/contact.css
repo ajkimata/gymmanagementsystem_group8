@@ -86,10 +86,10 @@
 /*subscribe*/
 .stay-updated {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   color: white;
 }
@@ -252,3 +252,9 @@ hr {
   color: #D6FD51;
   top: 105vh;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap");
+
+    .stay-updated {
+    font-family: 'Smooch sans', sans-serif;
+    }
