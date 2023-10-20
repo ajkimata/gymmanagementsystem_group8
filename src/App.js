@@ -11,41 +11,71 @@ import Register from "./components/Register";
 import Header from "./admin/Header";
 import SideNav from "./admin/SideNav";
 import Footer from "./admin/Footer";
+import AdminRoute from "./context/AdminRoute";
+import ClientRoute from "./context/ClientRoute";
+import { UserProvider } from "./context/UserContext";
 import "./App.css";
-function App() {
-  // function handleCallbackRespone(response) {
-  //   console.log("Encoded JWT tOKEN: " + response.credential);
-  // }
 
+function App() {
   return (
     <Router>
-      <div>
-        <Navbar />
-        {/* Client-side routes */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/classes" element={<Classes />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/Register" element={<Register />} />
-        </Routes>
+      <UserProvider>
+        <div>
+          <Navbar />
+          <Routes>
+            {/* Admin-side routes */}
+            <Route
+              path="/admin"
+              element={
+                <AdminRoute>
+                  <div className="wrapper">
+                    <Header />
+                    <Footer />
+                    <HomeAdmin />
+                    <SideNav />
+                  </div>
+                </AdminRoute>
+              }
+            />
 
-        {/* Admin-side routes */}
-        <Routes>
-          <Route
-            path="/admin"
-            element={
-              <div className="wrapper">
-                <Header />
-                <Footer />
-                <HomeAdmin />
-                <SideNav />
-              </div>
-            }
-          />
-        </Routes>
-      </div>
+            {/* Client-side routes */}
+            <Route
+              path="/"
+              element={
+                <ClientRoute>
+                  <Home />
+                </ClientRoute>
+              }
+            />
+            <Route
+              path="/classes"
+              element={
+                <ClientRoute>
+                  <Classes />
+                </ClientRoute>
+              }
+            />
+            <Route path="/login" element={<Login />} />
+            <Route
+              path="/about"
+              element={
+                <ClientRoute>
+                  <AboutUs />
+                </ClientRoute>
+              }
+            />
+            <Route
+              path="/contact"
+              element={
+                <ClientRoute>
+                  <Contact />
+                </ClientRoute>
+              }
+            />
+            <Route path="/Register" element={<Register />} />
+          </Routes>
+        </div>
+      </UserProvider>
     </Router>
   );
 }
