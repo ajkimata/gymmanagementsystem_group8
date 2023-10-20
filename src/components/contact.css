@@ -110,3 +110,10 @@
   padding: 5px;
   border: 1px solid #ccc;
 }
+.join-button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
