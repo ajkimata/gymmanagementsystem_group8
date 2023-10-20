@@ -130,3 +130,10 @@
   border-radius: 5px;
   
 }
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
