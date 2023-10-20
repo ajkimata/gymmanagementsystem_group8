@@ -112,6 +112,8 @@
   width: 200px;
   padding: 5px;
   border: 1px;
+  background-color: transparent;
+  color: white;
 }
 .join-button {
   background-color: #007bff;
