@@ -1,28 +1,83 @@
-.contact-page {
-  position: relative;
+/* .contact-page {
+  position: relative; 
   width: 100%;
   height: 100vh;
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  display: flex;
+}
 
-  
-  .top-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 75vh;  
-    background-size: cover;
-    background-position: center;
-  }
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75vh;  
+  background-size: cover;
+  background-position: center;
+}
+.bottom-image {
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25vh;
+  background-size: cover;
+  background-position: center;
+} */
 
-  
-  .bottom-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: calc(25vh - 1px);
-    background-size: cover;
-    background-position: center;
-  }
+/* .contact-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.top-image {
+  flex: 0.75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+ 
+}
+
+.bottom-image {
+  flex: 0.25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.contact-page {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-image {
+  flex: 0.75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 80vh;
+}
+
+.bottom-image {
+  flex: 0.25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 40vh;
+}
+
+.top-image img,
+.bottom-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

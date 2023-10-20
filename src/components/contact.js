@@ -8,7 +8,7 @@ function Contact() {
         <img src='image 6.png' alt='image-1'/>
       </div>
       <div className="bottom-image">
-      <img src='image20.png' alt='image-2'/>
+        <img src='image20.png' alt='image-2'/>
       </div>
     </div>
   );
