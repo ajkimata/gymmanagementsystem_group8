@@ -54,7 +54,7 @@ function Contact() {
               </div>
               <hr/>
               
-              <p className="copyright">&copy; 2023</p>
+              <p className="copyright">&copy; 2023 Design. All Rights Reserved</p>
             </div>
         
     </div>
