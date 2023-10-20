@@ -115,9 +115,12 @@
   background-color: transparent;
   color: white;
 }
+.email-input::placeholder {
+  color: #D6FD51; 
+}
 .join-button {
-  background-color: #007bff;
-  color: white;
+  background-color: #D6FD51;
+  color: black;
   padding: 5px 10px; 
   border: none;
   cursor: pointer;
