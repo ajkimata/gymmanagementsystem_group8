@@ -23,21 +23,6 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            {/* Admin-side routes */}
-            <Route
-              path="/admin"
-              element={
-                <AdminRoute>
-                  <div className="wrapper">
-                    <Header />
-                    <Footer />
-                    <HomeAdmin />
-                    <SideNav />
-                  </div>
-                </AdminRoute>
-              }
-            />
-
             {/* Client-side routes */}
             <Route
               path="/"
@@ -73,6 +58,25 @@ function App() {
               }
             />
             <Route path="/Register" element={<Register />} />
+
+            {/* Admin-side routes */}
+            <Route
+              path="/admin"
+              element={
+                <AdminRoute>
+                  <div className="wrapper">
+                    <Header />
+                    <Footer />
+                    <Routes>
+                      {/* Nested admin routes */}
+                      <Route path="/" element={<HomeAdmin />} />
+                      {/* Add other admin-specific routes here */}
+                    </Routes>
+                    <SideNav />
+                  </div>
+                </AdminRoute>
+              }
+            />
           </Routes>
         </div>
       </UserProvider>

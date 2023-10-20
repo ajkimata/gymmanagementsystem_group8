@@ -1,14 +1,16 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import the useNavigate hook
+import { useNavigate } from "react-router-dom";
+import { useUser } from "../context/UserContext"; // Import the useUser hook from UserContext
 import "./styles/login.css";
 
 const Login = () => {
   const [loginData, setLoginData] = useState({
-    identifier: "", // This can be either username or email
+    identifier: "",
     password: "",
   });
 
-  const navigate = useNavigate(); // Initialize the useNavigate hook
+  const navigate = useNavigate();
+  const { setUser } = useUser(); // Obtain setUser from UserContext
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -19,6 +21,8 @@ const Login = () => {
   };
 
   const handleLogin = async () => {
+    console.log("Attempting to login with data:", loginData);
+
     try {
       const response = await fetch("http://localhost:4000/users/sign_in", {
         method: "POST",
@@ -27,21 +31,22 @@ const Login = () => {
         },
         body: JSON.stringify({
           user: {
-            email: loginData.identifier, // Sending as email
-            username: loginData.identifier, // Sending as username
+            email: loginData.identifier,
+            username: loginData.identifier,
             password: loginData.password,
           },
         }),
       });
 
       const data = await response.json();
+      console.log("Received response:", data);
 
       if (data.status.code === 200) {
-        // Handle successful login
         localStorage.setItem("token", data.status.data.token);
         console.log("Logged in successfully!");
 
-        // Navigate based on role
+        setUser(data.status.data.user); // Update the user context
+
         if (
           data.status.data.user.role_type === "Admin" ||
           data.status.data.user.role_type === "Trainer"
@@ -51,7 +56,6 @@ const Login = () => {
           navigate("/");
         }
       } else {
-        // Handle unsuccessful login
         console.error("Login failed!");
       }
     } catch (error) {

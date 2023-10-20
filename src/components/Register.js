@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./styles/register.css";
-
+import { useNavigate } from "react-router-dom";
 const Register = () => {
+  const navigate = useNavigate(); // Initialize the useNavigate hook
+
   // Define the state for form data and other UI states
   const [formData, setFormData] = useState({
     username: "",
@@ -44,6 +46,7 @@ const Register = () => {
       const data = await response.json();
       if (response.ok) {
         setSuccess("User registered successfully!");
+        navigate("/login");
       } else {
         setError(
           data.errors ? data.errors.join(", ") : "Error registering user."
@@ -115,7 +118,7 @@ const Register = () => {
         </form>
         <div className="login-prompt">
           Already have an account?
-          <a href="#">Login</a>
+          <a href="/login">Login</a>
         </div>
       </div>
 
