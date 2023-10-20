@@ -58,28 +58,39 @@ body, html {
 }
 
 .user-login-page .text-wrapper {
-  color: #1c1c1c;
-  font-family: "Smooch Sans-Bold", Helvetica;
-  font-size: 50px;
+  /* color: #1c1c1c;
+  font-size: 60px;
   font-weight: 700;
   left: 0;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0;
+  top: 25px;
   white-space: nowrap;
+  font-family: Poppins; */
+  color: #1c1c1c;
+  font-family: poppins;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: italic;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 15px;
 }
 
 .user-login-page .div {
   color: #1c1c1c;
-  font-family: "Poppins-Regular", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  left: 48px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  left: 15px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 84px;
+  top: 90px;
 }
 
 .user-login-page .overlap-group-wrapper {
@@ -97,19 +108,12 @@ body, html {
   width: 364px;
 }
 
-.user-login-page .login-with-others {
-  color: #1c1c1c;
-  font-family: "Poppins-Bold", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 113px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
 
 .user-login-page .span {
+  font-weight: 700;
+  color: #d6fd51;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-style: italic;
   font-weight: 700;
 }
 
@@ -286,13 +290,19 @@ body, html {
 
 .user-login-page .text-wrapper-7 {
   color: #d61c4e;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 700;
+  font-size:60px
 }
 
 .user-login-page .text-wrapper-8 {
   color: #d6fd51;
-  font-family: "Inter-BoldItalic", Helvetica;
+  font-family: Poppins;
   font-style: italic;
   font-weight: 700;
+  font-size:50px;
+
 }
 
 
@@ -1072,31 +1082,19 @@ body, html {
   }
 
   
-  .register .text-wrapper-6 {
-    color: #d6fd51;
-    font-family: "Cabin-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
   
   .register .text-wrapper-8 {
     color: #1c1c1c;
-    font-family: "Smooch Sans-Bold", Helvetica;
-    font-size: 30px;
+    font-family: poppins;
+    font-size: 26px;
     font-weight: 800;
-    font-style: normal;
+    font-style: italic;
     align-items: center;
     display: inline-flex;
     flex-direction: column;
-    left: 80px;
+    left: 110px;
     position: absolute;
-    top: 50px;
+    top: 60px;
   
   }
   
@@ -1125,7 +1123,7 @@ body, html {
   }
   
   .register .p {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
@@ -1134,7 +1132,7 @@ body, html {
     white-space: nowrap;
     width: fit-content;
     color: #1c1c1c;
-    font-family: "Poppins-Regular", Helvetica;
+    font-family: poppins;
 
   }
   
@@ -1153,16 +1151,18 @@ body, html {
   
   .register .text-wrapper-9 {
     color: #d61c4e;
-    font-family: "Calligraphy Brillian-Regular", Helvetica;
+    font-family: poppins;
     font-style: italic;
     font-weight: 700;
+    font-size:55px
   }
   
   .register .text-wrapper-10 {
     color: #d6fd51;
-    font-family: "Inter-BoldItalic", Helvetica;
+    font-family: poppins;
     font-style: italic;
     font-weight: 700;
+    font-size:50px
   }
 
 
