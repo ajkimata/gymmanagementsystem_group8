@@ -50,7 +50,8 @@ function Contact() {
                 <a href="#"><img src="facebook-icon.png" alt="Facebook"/></a>
                 <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"/></a>
               </div>
-              <hr/>
+                <hr/>
+              
               <p className="copyright">&copy; 2023</p>
             </div>
         

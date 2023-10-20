@@ -190,7 +190,7 @@ hr {
   justify-content: flex-start;
   margin-right: 20px;
   color: white;
-  transform: translateX(-130%); /* Add margin to separate links from icons */
+  transform: translateX(-120%); /* Add margin to separate links from icons */
 }
 
 .menu-section,
@@ -241,14 +241,12 @@ a:hover {
   height: 30px;
   margin-left: 10px;
 }
-
 hr {
   position: absolute;
-  border: 1px solid white;
-  margin: 0px 0;
- 
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  width: 85%; 
 }
-
 .copyright {
   position: absolute;
   font-size: 12px;
