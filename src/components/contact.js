@@ -17,7 +17,7 @@ function Contact() {
       </div>
       <div className="bottom-image">
             <img src='image20.png' alt='image-2'/>
-            <div className="bottom-content">
+            
               <div className='links'>
                 <div className="menu-section">
                       <h3>Menu</h3>
@@ -53,7 +53,7 @@ function Contact() {
               <hr/>
               <p className="copyright">&copy; 2023</p>
             </div>
-          </div>
+        
     </div>
   );
 }
