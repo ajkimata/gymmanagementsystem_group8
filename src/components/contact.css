@@ -98,10 +98,12 @@
   left: 50%;
   top: 45%;
   transform: translateX(-50%);
-  border: 1px solid #ccc;
+  border: 2px solid #D6FD51;
   margin-top: 10px;
   padding: 5px;
   text-align: center;
+  border-radius: 5px;
+
 }
 .email-label {
   margin-bottom: 5px;
@@ -124,4 +126,5 @@
   padding: 5px 10px; 
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }

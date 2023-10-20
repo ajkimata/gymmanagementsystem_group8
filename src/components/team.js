@@ -8,7 +8,7 @@ const Team = () => {
         <div className="frame-13"
          style={{ 
             width: '100%', 
-            height: '80vh', 
+            height: '120vh', 
             position: 'absolute', 
             top: '10vh'
         }}>
