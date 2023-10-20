@@ -16,41 +16,44 @@ function Contact() {
         </div>
       </div>
       <div className="bottom-image">
-        <img src='image20.png' alt='image-2'/>
-        <div className="bottom-content">
-          <div className="menu-section">
-            <h3>Menu</h3>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Trainers</a></li>
-              <li><a href="#">Register</a></li>
-            </ul>
+            <img src='image20.png' alt='image-2'/>
+            <div className="bottom-content">
+              <div className='links'>
+                <div className="menu-section">
+                      <h3>Menu</h3>
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Trainers</a></li>
+                        <li><a href="#">Register</a></li>
+                      </ul>
+                    </div>
+                    <div className="classes-section">
+                      <h3>Classes</h3>
+                      <ul>
+                        <li><a href="#">Beginner</a></li>
+                        <li><a href="#">Intermediate</a></li>
+                        <li><a href="#">Advanced</a></li>
+                      </ul>
+                    </div>
+                    <div className="about-section">
+                      <h3>About</h3>
+                      <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Schedules</a></li>
+                      </ul>
+                    </div>
+              </div>
+
+              <div className="social-icons">
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"/></a>
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"/></a>
+                <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"/></a>
+              </div>
+              <hr/>
+              <p className="copyright">&copy; 2023</p>
+            </div>
           </div>
-          <div className="classes-section">
-            <h3>Classes</h3>
-            <ul>
-              <li><a href="#">Beginner</a></li>
-              <li><a href="#">Intermediate</a></li>
-              <li><a href="#">Advanced</a></li>
-            </ul>
-          </div>
-          <div className="about-section">
-            <h3>About</h3>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Schedules</a></li>
-            </ul>
-          </div>
-          <div className="social-icons">
-            <a href="#"><img src="twitter-icon.png" alt="Twitter"/></a>
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"/></a>
-            <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"/></a>
-          </div>
-          <hr/>
-          <p className="copyright">&copy; 2023</p>
-        </div>
-      </div>
     </div>
   );
 }

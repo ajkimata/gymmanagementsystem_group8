@@ -133,9 +133,16 @@
 
 .bottom-content {
   display: flex;
+  top: 70%;
+  position: absolute;
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .menu-section,
@@ -148,4 +155,20 @@ h3 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
 }
