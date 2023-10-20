@@ -5,12 +5,11 @@ const AboutUs = () => {
   return (
     <div className="about-container">
       <div>
-        <p>
+        {/* <p>
           <span className="P">P</span>OWERHOUSE
-        </p>
+        </p> */}
       </div>
       <div className="images-and-shapes">
-        <h2>About Us</h2>
         <div className="image-container">
           <img className="image" src="about1.png" alt="image-1" />
           <svg

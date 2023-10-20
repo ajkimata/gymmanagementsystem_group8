@@ -41,7 +41,7 @@
   
   .image {
     width: 50%;
-    /* height: 50%; */
+    /* height: 100%; */
     object-fit: cover;
     margin-bottom: 0px;
     max-height: fit-content;
