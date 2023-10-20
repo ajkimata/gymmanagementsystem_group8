@@ -92,3 +92,12 @@
   text-align: center;
   color: white;
 }
+.email-form {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
