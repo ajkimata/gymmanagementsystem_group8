@@ -57,13 +57,13 @@ const Navbar = () => {
           <NavbarLink to="/about">ABOUT US</NavbarLink>
         </NavbarItem>
         <NavbarItem>
-          <NavbarLink to="/team">MEET THE TEAM</NavbarLink>
+          <NavbarLink to="/team">TRAINERS</NavbarLink>
+        </NavbarItem>
+        <NavbarItem>
+          <NavbarLink to="/review">REVIEWS</NavbarLink>
         </NavbarItem>
         <NavbarItem>
           <NavbarLink to="/contact">CONTACT US</NavbarLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarLink to="/Register">REGISTER</NavbarLink>
         </NavbarItem>
       </NavbarList>
     </NavbarContainer>
