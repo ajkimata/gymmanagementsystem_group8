@@ -1,12 +1,106 @@
-.background{
-    background: #000; 
-    height: 125vh; 
+.comments-page {
+    height: 100vh;
+    background-color: #D6FD51; 
+    position: relative; 
+  }
+.image-review{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }    
+
+
+  .say-container {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    padding-right: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .clients-say {
+    margin-right: 10px;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    
+  }
+  
+  .vector-container {
+    position: absolute;
+    display: flex;
+    top:30%;
+    padding-left: 700px;
+   
+  }
+
+  .cards-container {
+    position: absolute; 
+    top: 35%; 
+    left: 0; 
+    width: 100%; 
+    height: 65vh; 
     display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-}
-.black{
-    top: 40%;
-    color: white;
-}
+    flex-direction: row; 
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  .comment-card {
+    flex: 1; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    text-align: center;
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+  }
+
+  .comment-card button {
+    width: 60%; 
+    margin-top: 10px;
+    transform: skew(-20deg);
+  }
+
+  .comment-card textarea {
+    width: 100%; 
+    height: 60%; 
+  }
+
+  .comment-card p {
+    font-family: 'Smooch sans', sans-serif;
+    font-size: 24px;
+  }
+  
+  .comments-display-card {
+    flex: 3; 
+    top: 60vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between;
+    width: 60%; 
+    border-radius: 10px;
+    
+  }
+  
+  .arrow-button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 30px;
+    color: #D6FD51; 
+  }
+  
+  .comments-section {
+    width: 100%; 
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap");

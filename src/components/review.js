@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './review.css';
 
-const CommentsPage = () => {
+const Review = () => {
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
 
@@ -38,13 +38,22 @@ const CommentsPage = () => {
 
   return (
     <div className="comments-page">
-      <img src="review-layer.png" alt="Background image" />
+      <img  className = "image-review" src="review-layer.png" alt="Background image" />
+        <div className="say-container">
+            <span className="clients-say">WHAT OUR CLIENTS SAY</span>
+            <div className="vector-container">
+                <img src="Vector.png" alt="Arrow 1" className="arrow-image" />
+                <img src="Vector.png" alt="Arrow 2" className="arrow-image" />
+                <img src="Vector.png" alt="Arrow 3" className="arrow-image" />
+                <img src="Vector.png" alt="Arrow 3" className="arrow-image" />
+            </div>
+        </div>
 
       <div className="cards-container">
         <div className="comment-card">
           <p>We'd love to hear your experience!</p>
           <textarea value={newComment} onChange={(e) => setNewComment(e.target.value)} />
-          <button onClick={handleCommentSubmit}>Submit</button>
+          <button className = "submit-comment"onClick={handleCommentSubmit}>Submit</button>
         </div>
 
         <div className="comments-display-card">
@@ -70,4 +79,4 @@ const CommentsPage = () => {
   );
 };
 
-export default CommentsPage;
+export default Review;
