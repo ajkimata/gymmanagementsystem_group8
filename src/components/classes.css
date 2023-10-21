@@ -52,4 +52,19 @@
     border-radius: 5px; 
     cursor: pointer; 
   }
+
+  .image-wrapper {
+    position: relative; 
+  }
+  
+  .beginner-text {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    padding: 10px; 
+  }
   
