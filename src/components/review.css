@@ -32,4 +32,14 @@ img {
     padding: 20px; 
     display: flex; 
     justify-content: space-between; 
+}
+.arrow-button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 30px; 
+  }
+  
+  .comments-section {
+    width: 100%;
   }
