@@ -24,4 +24,8 @@
     text-align: center;
     top: 15%;
   }
+  .classes-container {
+    display: flex; 
+    justify-content: space-between; 
+  }
   
