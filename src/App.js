@@ -7,7 +7,7 @@ import Login from "./components/login";
 import AboutUs from "./components/about";
 import Team from "./components/team";
 import Contact  from "./components/contact";
-import Review from "./components/review";
+// import Review from "./components/review";
 import { Register } from "./components/Register";
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Register" element={<Register />} />
-          <Route path="/review" element={<Review />} />
+          {/* <Route path="/review" element={<Review />} /> */}
         </Routes>
       </div>
     </Router>

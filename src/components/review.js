@@ -38,7 +38,7 @@ const Review = () => {
 
   return (
     <div className="comments-page">
-      <img src="background-image.jpg" alt="Background image" />
+      <img src="review-layer.png" alt="Background image" />
 
       <div className="cards-container">
         <div className="comment-card">
