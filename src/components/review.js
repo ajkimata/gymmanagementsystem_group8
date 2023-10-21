@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './review.css';
 
-const Review = () => {
+const CommentsPage = () => {
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
 
   const handleCommentSubmit = () => {
-    fetch('https://backend-url/api/comments', {
+    fetch('https://your-backend-url/api/comments', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -26,7 +26,7 @@ const Review = () => {
   };
 
   const handleFetchComments = () => {
-    fetch('https://your-backend-url/api/comments')
+    fetch('https://backend-url/api/comments')
       .then((response) => response.json())
       .then((data) => {
         setComments(data);
@@ -70,4 +70,4 @@ const Review = () => {
   );
 };
 
-export default Review;
+export default CommentsPage;
