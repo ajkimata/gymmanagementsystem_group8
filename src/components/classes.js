@@ -23,7 +23,7 @@ function Classes()  {
             <img src="image-3.png" alt="Class photo 2" />
             <span className="beginner-text">INTERMEDIATE</span>
           </div>
-          <p><span className="span">Achieve</span> your fitness goals by establishing a tailored fitness routine</p>
+          <p><span className="span">Achieve</span> your fitness goals by establishing a tailored fitness routine.</p>
           <button>Enroll Now</button>
         </div>
         <div className="class-card">
@@ -31,7 +31,7 @@ function Classes()  {
             <img src="image-1.png" alt="Class photo 3" />
             <span className="beginner-text">ADVANCED</span>
           </div>
-          <p><span className="span">Join</span> our advanced gym class designed for seasoned fitness ethusiats</p>
+          <p><span className="span">Join</span> our advanced gym class designed for seasoned fitness ethusiats.</p>
           <button>Enroll Now</button>
         </div>
       </div>

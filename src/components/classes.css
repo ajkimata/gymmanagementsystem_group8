@@ -56,8 +56,9 @@
     color: black; 
     padding: 7px 55px; 
     border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
+    border-radius: none; 
+    cursor: pointer;
+    transform: skew(-20deg); 
   }
 
   .image-wrapper {
