@@ -16,7 +16,7 @@ function Classes()  {
             <span className="beginner-text">BEGINNER</span>
           </div>
           <p><span className="span">Explore</span> our beginner-friendly classes perfect for those new to fitness.</p>
-          <button>Enroll</button>
+          <button>Enroll Now</button>
         </div>
         <div className="class-card">
           <div className="image-wrapper">
@@ -24,7 +24,7 @@ function Classes()  {
             <span className="beginner-text">INTERMEDIATE</span>
           </div>
           <p><span className="span">Achieve</span> your fitness goals by establishing a tailored fitness routine</p>
-          <button>Enroll</button>
+          <button>Enroll Now</button>
         </div>
         <div className="class-card">
           <div className="image-wrapper">
@@ -32,7 +32,7 @@ function Classes()  {
             <span className="beginner-text">ADVANCED</span>
           </div>
           <p><span className="span">Join</span> our advanced gym class designed for seasoned fitness ethusiats</p>
-          <button>Enroll</button>
+          <button>Enroll Now</button>
         </div>
       </div>
     </div>

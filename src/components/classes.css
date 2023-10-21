@@ -22,7 +22,11 @@
   .register {
     position: absolute;
     text-align: center;
-    top: 15%;
+    top: 10%;
+    font-family: 'Orbitron', sans-serif;
+    color: #D6FD51;
+    font-size: 40px;
+    font-weight: 800;
   }
 
   .classes-container {
@@ -65,14 +69,18 @@
     bottom: 0; 
     left: 0; 
     width: 100%;
-    top: 85%; 
+    top: 77%; 
     text-align: center; 
     background: transparent; 
     color: #fff; 
     padding: 10px; 
+    font-family: 'Smooch sans', sans-serif;
+    font-size: 50px;
   }
   .span{
     color: #D61C4E;
     font-weight: 800;
   }
-  
+  @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap");
+
+  @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap"); 
