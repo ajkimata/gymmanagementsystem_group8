@@ -48,9 +48,9 @@
   }
   
   .class-card button {
-    background: #000; 
-    color: #fff; 
-    padding: 10px 20px; 
+    background: #D6FD51; 
+    color: black; 
+    padding: 7px 55px; 
     border: none; 
     border-radius: 5px; 
     cursor: pointer; 
@@ -64,9 +64,10 @@
     position: absolute; 
     bottom: 0; 
     left: 0; 
-    width: 100%; 
+    width: 100%;
+    top: 85%; 
     text-align: center; 
-    background: rgba(0, 0, 0, 0.5); 
+    background: transparent; 
     color: #fff; 
     padding: 10px; 
   }

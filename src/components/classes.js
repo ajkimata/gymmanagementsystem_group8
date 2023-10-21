@@ -21,17 +21,17 @@ function Classes()  {
         <div className="class-card">
           <div className="image-wrapper">
             <img src="image-3.png" alt="Class photo 2" />
-            <span className="beginner-text">BEGINNER</span>
+            <span className="beginner-text">INTERMEDIATE</span>
           </div>
-          <p>Explore our beginner-friendly classes perfect for those new to fitness.</p>
+          <p>Achieve your fitness goals by establishing a tailored fitness routine</p>
           <button>Enroll</button>
         </div>
         <div className="class-card">
           <div className="image-wrapper">
             <img src="image-1.png" alt="Class photo 3" />
-            <span className="beginner-text">BEGINNER</span>
+            <span className="beginner-text">ADVANCED</span>
           </div>
-          <p>Explore our beginner-friendly classes perfect for those new to fitness.</p>
+          <p>Join our advanced gym class designed for seasoned fitness ethusiats</p>
           <button>Enroll</button>
         </div>
       </div>
