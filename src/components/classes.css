@@ -1,0 +1,27 @@
+/* .page{
+    background: black;
+    max-height: 100vh;  
+}
+.register{
+    color: #D6FD51;
+    text-align: center;
+    top: 20px;
+
+} */
+
+.page {
+    background: #000; 
+    height: 100vh; 
+    color: #fff; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .register {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+  }
+  

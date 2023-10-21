@@ -1,11 +1,16 @@
 
 import React from "react";
+import './classes.css'
 //import { Link } from "react-router-dom";
 
-export const Classes = () => {
+function Classes()  {
   return (
-    <div>
-      classes
+    <div className="page">
+      <div className="register">
+        <p>REGISTER FOR A CLASS TODAY</p>
+      </div>
     </div>
   );
 };
+
+export default Classes;
