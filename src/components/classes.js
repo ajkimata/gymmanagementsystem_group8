@@ -12,7 +12,7 @@ function Classes()  {
       <div className="classes-container">
         <div className="class-card">
           <div className="image-wrapper">
-            <img src="image4.png" alt="Class photo 1" />
+            <img src="image-4.png" alt="Class photo 1" />
             <span className="beginner-text">BEGINNER</span>
           </div>
           <p>Explore our beginner-friendly classes perfect for those new to fitness.</p>
@@ -20,7 +20,7 @@ function Classes()  {
         </div>
         <div className="class-card">
           <div className="image-wrapper">
-            <img src="image3.png" alt="Class photo 2" />
+            <img src="image-3.png" alt="Class photo 2" />
             <span className="beginner-text">BEGINNER</span>
           </div>
           <p>Explore our beginner-friendly classes perfect for those new to fitness.</p>
@@ -28,7 +28,7 @@ function Classes()  {
         </div>
         <div className="class-card">
           <div className="image-wrapper">
-            <img src="image1.png" alt="Class photo 3" />
+            <img src="image-1.png" alt="Class photo 3" />
             <span className="beginner-text">BEGINNER</span>
           </div>
           <p>Explore our beginner-friendly classes perfect for those new to fitness.</p>
