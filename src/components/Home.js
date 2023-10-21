@@ -1,182 +1,128 @@
-// import { Button } from "bootstrap";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
-const MainLandingPageChild = styled.div`
+const StyledLandingPage = styled.section`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
-// const Image1Icon = styled.img`
-//   width: 100%;
-//   height: 100%;
-//   object-fit: cover;
-//   object-position: center;
-// `;
-const MainLandingPageItem = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.35);
-  width: 1920px;
-  height: 1080px;
-`;
-const ReachYourLimits = styled.h1`
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 700;
-
-  font-family: Poppins;
-`;
-const MainLandingPageInner = styled.img`
-  position: absolute;
-  top: 720px;
-  left: 522px;
-  width: 306px;
-  height: 90px;
-`;
-const LoremIpsumDolor = styled.div`
-  font-size: 18px;
-  font-weight: 500;
-  font-family: Poppins;
-  display: inline-block;
-  width: 887px;
-`;
-const RectangleDiv = styled.div`
-  top: 720px;
-  left: 904px;
-  background-color: #d6fd51;
-  width: 306px;
-  height: 90px;
-`;
-const ButtonDiv = styled.div`
-  top: 720px;
-  left: 522px;
-  background-color: #d6fd51;
-  width: 306px;
-  height: 90px;
-`;
-const LearnMore = styled.b`
-  color: #fff;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-`;
-const JoinNow = styled.b`
-  top: 751px;
-  left: 983px;
-  color: #000;
-`;
-const GroupIcon = styled.img`
-  position: absolute;
-  top: 994px;
-  left: 1300px;
-  width: 195px;
-  height: 30px;
-`;
-const Social = styled.div`
-  position: absolute;
-  top: 994px;
-  left: 1122px;
-  font-size: 18px;
-  font-weight: 600;
-`;
-const LineDiv = styled.div`
-  position: absolute;
-  top: 1003px;
-  left: 1214px;
-  border-top: 6px solid #d6fd51;
-  box-sizing: border-box;
-  width: 66px;
-  height: 6px;
-`;
-// const FrameChild = styled.img`
-//   position: absolute;
-//   top: 14px;
-//   left: 920px;
-//   width: 100px;
-//   height: 35px;
-// `;
-
-const P = styled.span``;
-const Owerhouse = styled.i`
-  font-weight: 700;
-  font-family: Inter;
-  color: #d6fd51;
-`;
-const Powerhouse = styled.h3`
-  margin: 0;
-  position: absolute;
-  top: 44px;
-  left: 68px;
-  font-size: 36px;
-  color: #d61c4e;
-  font-family: "Calligraphy Brillian";
-`;
-const MainLandingPageRoot = styled.section`
-  position: relative;
-  border-radius: 30px;
-  background-color: #fff;
+  justify-content: flex-start;
   background-image: url(/Assets/LandingPage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  background-position: center;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  text-align: center;
-  justify-content: center;
-  font-size: 24px;
   color: #fff;
   font-family: Montserrat;
+  padding: 4rem 2rem 2rem 2rem; // Added horizontal padding and adjusted top padding
+`;
+
+const Title = styled.h1`
+  font-size: 4vw;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem; // Increased space below the title
+  letter-spacing: 1px; // Small letter spacing to match the design
+
+  @media (max-width: 600px) {
+    font-size: 5vw;
+  }
+`;
+
+const Subtitle = styled.p`
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-align: center;
+  max-width: 900px;
+  margin-bottom: 3rem; // Increased space below the subtitle
+  color: #b7b7b7;
+
+  @media (max-width: 600px) {
+    font-size: 2vw;
+  }
+`;
+
+const StyledButton = styled(Link)`
+  display: inline-block;
+  background-color: #d6fd51;
+  color: #000;
+  padding: 10px 25px; // Fixed padding for better control
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0.5rem;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Adding a shadow to the buttons
+
+  &:hover {
+    background-color: #c5e542;
+  }
+
+  @media (max-width: 600px) {
+    padding: 12px 24px; // Adjusted padding for mobile
+  }
+`;
+
+const SocialBar = styled.div`
+  position: absolute;
+  bottom: 1rem; // Bring it closer to the bottom edge
+  left: 80%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  color: #b7b7b7;
+`;
+
+const SocialLabel = styled.span`
+  font-weight: 600;
+  margin-right: 1rem;
+`;
+
+const SocialIcons = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+
+  & > * {
+    margin: 0 0.5rem;
+  }
 `;
 
 const Home = () => {
   return (
-    <MainLandingPageRoot>
-      {/* <MainLandingPageChild /> */}
-      {/* <Image1Icon
-        alt=""
-        src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=400-1.png"
-      /> */}
-      {/* <MainLandingPageItem /> */}
-      <MainLandingPageChild>
-        <ReachYourLimits>
-          REACH YOUR LIMITS
-          <br />
-          AND GET TO THE
-          <br /> NEXT LEVEL
-        </ReachYourLimits>
-        {/* <MainLandingPageInner alt="" src="/rectangle-2.svg" /> */}
-        <LoremIpsumDolor>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </LoremIpsumDolor>
-        {/* <RectangleDiv /> */}
-        <Link to={"/register"}>
-          <JoinNow>JOIN NOW</JoinNow>
-        </Link>
-        {/* Link to Register page */}
-        <ButtonDiv />
-        <Link to={"/about"}>
-          <LearnMore>LEARN MORE</LearnMore>
-        </Link>
-        {/* Link to About Us page */}
-        <GroupIcon alt="" src="/group-4.svg" />
-        <Social>SOCIAL</Social>
-        <LineDiv />
-        <Powerhouse>
-          <P>P</P>
-          <Owerhouse>owerhouse</Owerhouse>
-        </Powerhouse>{" "}
-      </MainLandingPageChild>
-    </MainLandingPageRoot>
+    <StyledLandingPage>
+      <Title>
+        REACH YOUR LIMITS
+        <br />
+        AND GET TO THE
+        <br />
+        NEXT LEVEL
+      </Title>
+      <Subtitle>
+        Unlock Your Full Potential At Powerhouse, we believe that fitness is
+        more than just a routine – it's a lifestyle. Our state-of-the-art
+        facilities and dedicated trainers ensure that every member gets the
+        personalized attention they deserve. Whether you're a seasoned athlete
+        or just starting out, our community is here to support and empower you
+        every step of the way. Take the leap and transform your body, mind, and
+        spirit. Dive into a diverse range of classes, from high-octane cardio
+        workouts to calming yoga sessions. At Powerhouse, every day is a chance
+        to challenge yourself, exceed your limits, and become the best version
+        of you. Join our family and experience the difference.
+      </Subtitle>
+      <div>
+        <StyledButton to="/about">LEARN MORE</StyledButton>
+        <StyledButton to="/register">JOIN NOW</StyledButton>
+      </div>
+      <SocialBar>
+        <SocialLabel>SOCIAL</SocialLabel>
+        <SocialIcons>
+          <FontAwesomeIcon icon={faFacebookF} />
+          <FontAwesomeIcon icon={faTwitter} />
+        </SocialIcons>
+      </SocialBar>
+    </StyledLandingPage>
   );
 };
 

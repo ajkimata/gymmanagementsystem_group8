@@ -1,68 +1,69 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-// Define a styled component for the navbar container
 const NavbarContainer = styled.nav`
-  background-color: #333; /* Background color */
-  color: #fff; /* Text color */
-  padding: 10px 0; /* Padding on top and bottom */
-  position: fixed; /* Fixed position at the top */
-  top: 0; /* Stick to the top of the viewport */
-  left: 0;
-  right: 0;
-  z-index: 999; /* Ensure it's on top of other content */
-`;
-
-// Define a styled component for the list
-const NavbarList = styled.ul`
-  list-style: none;
   display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0
+  ); // adjusted the color for slight transparency
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; // to ensure navbar stays on top
 `;
 
-// Define a styled component for list items
-const NavbarItem = styled.li`
-  margin: 0 10px;
-`;
-
-// Define a styled component for links
-const NavbarLink = styled(Link)`
-  text-decoration: none;
-  color: #fff;
+const Logo = styled(Link)`
   font-weight: bold;
-  transition: color 0.2s; /* Smooth color transition on hover */
+  font-size: 1.5rem;
+  color: #d6fd51; // adjusted the color to match the design
+  text-decoration: none;
+`;
+
+const NavItems = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+const NavLink = styled(Link)`
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
 
   &:hover {
-    color: #ff5733; /* Change color on hover */
+    color: #d6fd51;
   }
+`;
+
+const SearchIcon = styled(FontAwesomeIcon)`
+  cursor: pointer;
+  margin-left: 2rem;
+  color: white;
 `;
 
 const Navbar = () => {
   return (
     <NavbarContainer>
-      <NavbarList>
-        <NavbarItem>
-          <NavbarLink to="/">HOME</NavbarLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarLink to="/classes">CLASSES</NavbarLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarLink to="/login">LOG IN</NavbarLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarLink to="/about">ABOUT US</NavbarLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarLink to="/contact">CONTACT US</NavbarLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarLink to="/Register">REGISTER</NavbarLink>
-        </NavbarItem>
-      </NavbarList>
+      <Logo to="/">Powerhouse</Logo>
+      <NavItems>
+        <NavLink to="/">HOME</NavLink>
+        <NavLink to="/classes">CLASSES</NavLink>
+        <NavLink to="/login">LOG IN</NavLink>
+        <NavLink to="/about">ABOUT US</NavLink>
+        <NavLink to="/contact">CONTACT US</NavLink>
+        <SearchIcon icon={faSearch} />
+      </NavItems>
     </NavbarContainer>
   );
 };
