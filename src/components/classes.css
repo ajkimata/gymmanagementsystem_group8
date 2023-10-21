@@ -11,7 +11,7 @@
 
 .page {
     background: #000; 
-    height: 100vh; 
+    height: 125vh; 
     color: #fff; 
     display: flex; 
     flex-direction: column; 
@@ -26,17 +26,20 @@
   }
 
   .classes-container {
+    position: absolute;
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-between;
+    top: 20vh; 
   }
 
   .class-card {
     width: 300px; 
     margin: 20px; 
     padding: 20px; 
-    background: #fff; 
+    background: none; 
     border-radius: 10px; 
-    text-align: center; 
+    text-align: center;
+    border: 2px solid #D6FD51;
   }
   .class-card img {
     width: 100%; 
