@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { useLocation } from "react-router-dom";
 
 const NavbarContainer = styled.nav`
   display: flex;
@@ -53,13 +54,18 @@ const SearchIcon = styled(FontAwesomeIcon)`
 `;
 
 const Navbar = () => {
+  let location = useLocation();
+  // If current path is "/login", don't render the navbar.
+  // If current path is "/login" or "/register", don't render the navbar.
+  if (location.pathname === "/login" || location.pathname === "/register") {
+    return null;
+  }
   return (
     <NavbarContainer>
       <Logo to="/">Powerhouse</Logo>
       <NavItems>
         <NavLink to="/">HOME</NavLink>
         <NavLink to="/classes">CLASSES</NavLink>
-        <NavLink to="/login">LOG IN</NavLink>
         <NavLink to="/about">ABOUT US</NavLink>
         <NavLink to="/contact">CONTACT US</NavLink>
         <SearchIcon icon={faSearch} />

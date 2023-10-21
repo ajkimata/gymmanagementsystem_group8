@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useUser } from "../context/UserContext"; // Import the useUser hook from UserContext
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import FontAwesome icon component
+import { faGoogle } from "@fortawesome/free-brands-svg-icons"; // Import Google icon from FontAwesome
 import "./styles/login.css";
 
 const Login = () => {
@@ -87,12 +89,14 @@ const Login = () => {
         </button>
         <div className="login-others">Login with Others</div>
         <div className="social-buttons">
-          <button className="google-btn">G</button>
-          <button className="facebook-btn">F</button>
+          <button className="google-btn">
+            <FontAwesomeIcon icon={faGoogle} />
+          </button>
         </div>
         <div className="register-prompt">
           Don't have an account?{" "}
-          <button className="link-style-button">Register Now</button>
+          {/* <button className="link-style-button">Register Now</button> */}
+          <a href="/register">Register</a>
         </div>
       </div>
       <div className="login-right">

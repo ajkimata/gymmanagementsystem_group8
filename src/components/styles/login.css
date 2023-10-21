@@ -1,6 +1,8 @@
 /* Login.css */
 
 .login-container {
+    background: #999;
+
     display: flex;
     width: 100%;
     height: 100vh;
@@ -25,7 +27,7 @@ p {
 }
 
 input {
-    padding: 8px;
+    padding: px;
     margin-bottom: 20px;
     width: 80%;
     border: none;
@@ -48,7 +50,8 @@ input {
     margin-top: 10px;
 }
 
-.google-btn, .facebook-btn {
+.google-btn,
+.facebook-btn {
     padding: 10px;
     border: none;
     border-radius: 50%;

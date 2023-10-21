@@ -37,7 +37,7 @@ const Subtitle = styled.p`
   text-align: center;
   max-width: 900px;
   margin-bottom: 3rem; // Increased space below the subtitle
-  color: #b7b7b7;
+  color: #fff;
 
   @media (max-width: 600px) {
     font-size: 2vw;
