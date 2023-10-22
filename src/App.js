@@ -34,7 +34,6 @@ function App() {
               }
             />
             <Route path="/classes" element={<Classes />} />
-            <Rout path="/aboutus" element={<MainPage />} />
             <Route
               path="/classes"
               element={
@@ -48,7 +47,7 @@ function App() {
               path="/about"
               element={
                 <ClientRoute>
-                  <AboutUs />
+                  <MainPage />
                 </ClientRoute>
               }
             />
