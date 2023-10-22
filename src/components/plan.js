@@ -1,4 +1,5 @@
 import React from 'react'
+import './plan.css'
 
 function Plan() {
   return (
@@ -22,8 +23,8 @@ function Plan() {
                 <button>Join Now</button>
             </div>
             <div className='premium-card'>
-                <p> Basic membership</p>
-                <p>Kshs.1000<span>/Month</span></p>
+                <p> Premium membership</p>
+                <p>Kshs.5000<span>/Month</span></p>
                 <hr/>
                 <p>Includes access to our gym facilities
                     <br/>

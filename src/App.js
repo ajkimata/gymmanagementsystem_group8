@@ -9,6 +9,7 @@ import Team from "./components/team";
 import Contact  from "./components/contact";
 import Review  from "./components/review";
 import { Register } from "./components/Register";
+import Plan  from "./components/plan";
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/plan" element={<Plan />} />
           <Route path="/review" element={<Review />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Register" element={<Register />} />
