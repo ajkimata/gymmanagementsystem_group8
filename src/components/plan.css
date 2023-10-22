@@ -36,28 +36,32 @@ body{
   
   
   .basic-card {
-    background-color: #fff;
+    background-color: #27282E;
     border-radius: 10px; 
     width: 25%; 
     padding: 20px; 
     margin-left: 20px; 
     display: flex; 
     flex-direction: column; 
-    align-items: flex-start; 
+    align-items: flex-start;
+    color: white; 
   }
   
   .basic-card hr {
+    position: inherit;
     width: 100%; 
+    color: white;
   }
   
   
   .premium-card {
-    background-color: #e5e5e5; 
+    background-color: #8FFF00; 
     border-radius: 10px; 
     width: 75%; 
     padding: 20px; 
     margin-left: 20px; 
-    display: flex; 
+    display: flex;
+    margin-right: 20px; 
     flex-direction: column; 
     align-items: flex-start; 
   }
