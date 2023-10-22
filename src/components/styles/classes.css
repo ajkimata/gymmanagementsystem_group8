@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+.page {
+    background: #000;
+    height: 125vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.register h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #D6FD51;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5vh;
+}
+
+.classes-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+}
+
+.class-card {
+    width: 300px;
+    padding: 20px;
+    background: none;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #D6FD51;
+    transition: transform 0.3s ease-in-out;
+    /* smoother hover effect */
+}
+
+.class-card:hover {
+    transform: scale(1.05);
+}
+
+.class-card img {
+    width: 100%;
+    height: 200px;
+    /* set fixed height */
+    object-fit: cover;
+    /* ensures images retain their aspect ratio */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.class-card button {
+    background: #D6FD51;
+    color: black;
+    padding: 7px 55px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: skew(-20deg);
+    font-weight: bold;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.level-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    /* increased opacity for better readability */
+    color: #D6FD51;
+    /* changed color for distinction */
+    padding: 5px 0;
+    font-family: 'Smooch sans', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000;
+    /* added shadow for better visibility */
+}
+
+p {
+    margin: 15px 0;
+}
+
+p span {
+    color: #D61C4E;
+    font-weight: 800;
+}

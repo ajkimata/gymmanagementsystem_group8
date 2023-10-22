@@ -1,0 +1,64 @@
+.about-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 2rem 0;
+    background-image: url("/public//Assets/about-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.offerings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offering {
+    flex: 1;
+    position: relative;
+    margin: 0 1rem;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* This gives a semi-transparent black background to the text area */
+}
+
+.offering-image {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.offering:hover .offering-image {
+    transform: scale(1.1);
+}
+
+.offering-description {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    color: white;
+    backdrop-filter: blur(5px);
+    /* This adds a subtle blur to the background behind the text, making it more readable */
+}
+
+.offering h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #D6FD51;
+    /* Adjusted color as per design */
+    font-style: italic;
+    font-weight: bold;
+}
+
+.offering p {
+    font-size: 0.9rem;
+}

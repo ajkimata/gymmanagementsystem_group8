@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import HomeAdmin from "./admin/HomeAdmin";
-import { Classes } from "./components/classes";
+import Classes from "./components/classes";
 import Login from "./components/login";
 import AboutUs from "./components/about";
 import { Contact } from "./components/contact";
 import Register from "./components/Register";
+import MainPage from "./components/aboutcombined";
 import Header from "./admin/Header";
 import SideNav from "./admin/SideNav";
 import Footer from "./admin/Footer";
@@ -32,6 +33,8 @@ function App() {
                 </ClientRoute>
               }
             />
+            <Route path="/classes" element={<Classes />} />
+            <Rout path="/aboutus" element={<MainPage />} />
             <Route
               path="/classes"
               element={

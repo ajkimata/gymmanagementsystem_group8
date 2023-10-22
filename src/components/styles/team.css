@@ -1,0 +1,67 @@
+.background-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #202020;
+}
+
+.frame-13 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 5% auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meet-the-team-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF4081;
+}
+
+.arrow-container {
+    display: flex;
+    gap: 8px;
+}
+
+.arrow-image {
+    width: 24px;
+    height: 24px;
+}
+
+.meet-the-team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.rectangle-container {
+    position: relative;
+}
+
+.trainer-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-button {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.trainer-name {
+    color: #FFF;
+    font-weight: bold;
+}
