@@ -1,56 +1,63 @@
+
 .plans-page {
-    height: 100vh;
-    background-color: #D6FD51; 
-    position: relative; 
+    background-color: #f2f2f2; 
+    height: 80vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
   }
-.unlock-plans {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.payment-card-container {
-    position: absolute; 
-    top: 35%; 
-    left: 0; 
+  
+  
+  .unlock-plans {
+    text-align: center; 
+  }
+  
+  .unlock-plans p {
+    font-size: 24px; 
+  }
+  
+  .unlock-plans span {
+    font-size: 16px; 
+  }
+  
+  
+  .payment-card-container {
+    display: flex; 
     width: 100%; 
-    height: 65vh; 
-    display: flex; 
-    flex-direction: row; 
-    padding: 20px;
-    justify-content: space-between;
   }
-.basic-card {
-    flex: 1; 
-    background-color: #27282E; 
+  
+  
+  .basic-card {
+    background-color: #fff;
+    border-radius: 10px; 
+    width: 25%; 
     padding: 20px; 
-    text-align: center;
-    width: 30%;
-    margin-right: 20px;
-    border-radius: 10px;
-    color: white;
-    
-}
-
-.basic-card button {
-    width: 60%; 
-    margin-top: 10px;
-    transform: skew(-20deg);
-    background-color: #D6FD51;
-    color: black;
-}
-
-.premium-card {
-    flex: 3; 
-    top: 60vh;
-    background-color: #8FFF00; 
-    padding: 20px; 
+    margin-left: 20px; 
     display: flex; 
-    width: 60%; 
-    border-radius: 10px;
-    color: black;
-    
+    flex-direction: column; 
+    align-items: flex-start; 
   }
+  
+  .basic-card hr {
+    width: 100%; 
+  }
+  
+  
+  .premium-card {
+    background-color: #e5e5e5; 
+    border-radius: 10px; 
+    width: 75%; 
+    padding: 20px; 
+    margin-left: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .premium-card p {
+    margin-bottom: 0; 
+  }
+  .premium-card hr {
+    width: 100%; 
+  }
+  
