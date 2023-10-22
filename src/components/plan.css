@@ -65,6 +65,9 @@ body{
     border-radius: 5px;
     height: 10%;
   }
+  .basic-card button:hover {
+    background-color: #8f9097; 
+  }
   
   
   .premium-card {
@@ -95,9 +98,11 @@ body{
     color: white;
     width: 15%;
     border-radius: 5px;
-    height: 10%;
-
+    height: 11%;
 }
+.premium-card button:hover {
+    background-color: #8f9097; 
+  }
 .gothic-word{
     font-family: 'Dela Gothic One', sans-serif;
     font-size: 24px;
