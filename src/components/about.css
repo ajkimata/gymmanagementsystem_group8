@@ -47,6 +47,21 @@
     max-height: fit-content;
     z-index: 1;
     max-height: auto;
+    transform: translateX(-50%); 
+    opacity: 0; 
+    animation: slideIn 1s ease-in-out;
+    animation-fill-mode: forwards; 
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
   
   .custom-shape {
@@ -174,7 +189,7 @@
     font-family: 'Orbitron', sans-serif;
     }
 
-    /* @media (max-width: 768px) {
+    @media (max-width: 768px) {
       .about-container {
         height: 100vh; 
       }
@@ -202,4 +217,4 @@
       .arrow-container {
         padding-right: 10px; 
     }
-    } */
+    }
