@@ -58,6 +58,13 @@ body{
     width: 100%; 
     color: white;
   }
+  .basic-card button {
+    background-color: white;
+    color: #17181F;
+    width: 35%;
+    border-radius: 5px;
+    height: 10%;
+  }
   
   
   .premium-card {
@@ -84,6 +91,12 @@ body{
 }
 .premium-card button{
     margin-top:20px ;
+    background-color: #17181F;
+    color: white;
+    width: 15%;
+    border-radius: 5px;
+    height: 10%;
+
 }
 .gothic-word{
     font-family: 'Dela Gothic One', sans-serif;
