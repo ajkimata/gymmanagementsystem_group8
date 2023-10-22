@@ -60,6 +60,9 @@ const Navbar = () => {
           <NavbarLink to="/team">TRAINERS</NavbarLink>
         </NavbarItem>
         <NavbarItem>
+          <NavbarLink to="/plan">PLANS</NavbarLink>
+        </NavbarItem>
+        <NavbarItem>
           <NavbarLink to="/review">REVIEWS</NavbarLink>
         </NavbarItem>
         <NavbarItem>
