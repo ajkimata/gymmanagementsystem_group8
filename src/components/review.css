@@ -53,7 +53,7 @@
   
   .comment-card {
     flex: 1; 
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(208, 245, 122, 0.8); 
     padding: 20px; 
     text-align: center;
     width: 30%;
@@ -66,6 +66,8 @@
     width: 60%; 
     margin-top: 10px;
     transform: skew(-20deg);
+    background-color: black;
+    color: white;
   }
 
   .comment-card textarea {
