@@ -5,7 +5,7 @@ function Plan() {
   return (
     <div className='plans-page'>
         <div className='unlock-plans'>
-            <p>Unlock the Full Potential of Your 
+            <p className='gothic-word'>Unlock the Full Potential of Your 
             <br/>
             Fitness with Our Membership Plans</p>
             <span>We offer a range of membership options designed to meet your needs and help you achieve your goals.</span>
@@ -13,8 +13,9 @@ function Plan() {
 
         <div className='payment-card-container'>
             <div className='basic-card'>
-                <p> Basic membership</p>
-                <p>Kshs.1000<span>/Month</span></p>
+                <p className='gothic-word'> Basic membership</p>
+                <p className='gothic-word'>Kshs.1000</p>
+                <span>/Month</span>
                 <hr/>
                 <p>Includes access to our gym facilities
                     <br/>
@@ -23,12 +24,13 @@ function Plan() {
                 <button>Join Now</button>
             </div>
             <div className='premium-card'>
-                <p> Premium membership</p>
-                <p>Kshs.5000<span>/Month</span></p>
+                <p className='gothic-word'> Premium membership</p>
+                <p className='gothic-word'>Kshs.5000</p>
+                <span>/Month</span>
                 <hr/>
-                <p>Includes access to our gym facilities
+                <p>Includes all the benefits of our Basic Membership, plus unlimited access to our premium
                     <br/>
-                    and group fitness classes
+                    amenities, such as sauna and steam rooms, personal training sessions, and more.
                 </p>
                 <button>Join Now</button>
 

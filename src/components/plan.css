@@ -70,6 +70,17 @@ body{
     margin-bottom: 0; 
   }
   .premium-card hr {
+    position: inherit;
     width: 100%; 
-  }
-  
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 48px;
+}
+.premium-card button{
+    margin-top:20px ;
+}
+.gothic-word{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 24px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Smooch+Sans:wght@500&display=swap"); 
