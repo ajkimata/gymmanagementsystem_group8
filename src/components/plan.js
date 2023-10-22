@@ -11,7 +11,7 @@ function Plan() {
             <span>We offer a range of membership options designed to meet your needs and help you achieve your goals.</span>
         </div>
 
-        <div className='payment-cards'>
+        <div className='payment-card-container'>
             <div className='basic-card'>
                 <p> Basic membership</p>
                 <p>Kshs.1000<span>/Month</span></p>
