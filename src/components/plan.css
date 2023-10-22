@@ -1,15 +1,21 @@
-
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
 .plans-page {
-    background-color: #f2f2f2; 
-    height: 80vh; 
+    background-color: #D6FD51;  
     display: flex; 
+    height: 100vh;
     flex-direction: column; 
     align-items: center; 
+    overflow-x: hidden;
   }
   
   
   .unlock-plans {
     text-align: center; 
+    height: 40%;
   }
   
   .unlock-plans p {
@@ -24,6 +30,8 @@
   .payment-card-container {
     display: flex; 
     width: 100%; 
+    top: 80vh;
+    height: 55vh;
   }
   
   
