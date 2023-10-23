@@ -1,0 +1,1237 @@
+.user-login-page {
+  background-color: #999999;
+  display: flex;
+  height: 800px; 
+  width: 100%;
+}
+
+
+/* Styles for screens with a maximum width of 600px (e.g., mobile devices) */
+@media (max-width: 800px) {
+  .user-login-page {
+    max-width: 100%;
+  }
+}
+.user-login-page .rectangle {
+  height: 800px;
+  left: 700px;
+  position: absolute;
+  top: -1px
+}
+
+.user-login-page .overlap {
+  height: 657px;
+  left: 60px;
+  position: absolute;
+  top: 58px;
+  width: 511px;
+}
+
+.user-login-page .frame {
+  height: 620px;
+  left: 63px;
+  position: absolute;
+  top: 37px;
+  transform: rotate(0.16deg);
+  width: 447px;
+}
+
+.user-login-page .group {
+  height: 105px;
+  left: 44px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(-0.16deg);
+  width: 351px;
+}
+
+.user-login-page .text-wrapper {
+  color: #1c1c1c;
+  font-family: "Smooch Sans-Bold", Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.user-login-page .div {
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 84px;
+}
+
+.user-login-page .overlap-group-wrapper {
+  height: 24px;
+  left: 37px;
+  position: absolute;
+  top: 383px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .overlap-group {
+  height: 24px;
+  position: relative;
+  width: 364px;
+}
+
+.user-login-page .login-with-others {
+  color: #1c1c1c;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 113px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.user-login-page .span {
+  font-weight: 700;
+}
+
+.user-login-page .text-wrapper-2 {
+  font-family: "Poppins-Regular", Helvetica;
+}
+
+.user-login-page .subtract {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  transform: rotate(0.16deg);
+  width: 364px;
+}
+
+.user-login-page .overlap-wrapper {
+  height: 52px;
+  left: 36px;
+  position: absolute;
+  top: 231px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .overlap-2 {
+  background-color: #ffffff;
+  height: 52px;
+  position: relative;
+  width: 364px;
+}
+
+.user-login-page .text-wrapper-3 {
+  color: #1c1c1c;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+}
+
+.user-login-page .img {
+  height: 24px;
+  left: 18px;
+  position: absolute;
+  top: 14px;
+  transform: rotate(0.16deg);
+  width: 24px;
+}
+
+.user-login-page .div-wrapper {
+  height: 52px;
+  left: 36px;
+  position: absolute;
+  top: 155px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .group-2 {
+  height: 52px;
+  left: 37px;
+  position: absolute;
+  top: 307px;
+  transform: rotate(-0.16deg);
+  width: 366px;
+}
+
+.user-login-page .overlap-3 {
+  background-color: #d6fd51b2;
+  height: 52px;
+  position: relative;
+  width: 364px;
+}
+
+.user-login-page .text-wrapper-4 {
+  color: #000000;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 166px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+}
+
+.user-login-page .group-3 {
+  height: 101px;
+  left: 96px;
+  position: absolute;
+  top: 431px;
+  transform: rotate(-0.16deg);
+  width: 256px;
+}
+
+.user-login-page .don-t-have-account {
+  color: #000000;
+  font-family: "Cabinet Grotesk-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 91px;
+  white-space: nowrap;
+  width: 249px;
+}
+
+.user-login-page .text-wrapper-5 {
+  font-weight: 500;
+}
+
+.user-login-page .text-wrapper-6 {
+  font-family: "Cabinet Grotesk-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.user-login-page .google-g-logo-wrapper {
+  background-color: #e6f1f4;
+  border-radius: 9px;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 113px;
+}
+
+.user-login-page .google-g-logo {
+  height: 27px;
+  left: 43px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(0.16deg);
+  width: 28px;
+}
+
+.user-login-page .XMLID-wrapper {
+  background-color: #e6f1f4;
+  border-radius: 9px;
+  height: 60px;
+  left: 140px;
+  position: absolute;
+  top: 0;
+  width: 113px;
+}
+
+.user-login-page .XMLID {
+  height: 27px;
+  left: 42px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(0.16deg);
+  width: 29px;
+}
+
+.user-login-page .powerhouse {
+  color: transparent;
+  font-family: "Calligraphy Brillian-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: rotate(0.16deg);
+}
+
+.user-login-page .text-wrapper-7 {
+  color: #d61c4e;
+}
+
+.user-login-page .text-wrapper-8 {
+  color: #d6fd51;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-style: italic;
+  font-weight: 700;
+}
+
+
+.classes-book-now {
+    background-color: #000000;
+    border-radius: 0px;
+    height: 1308px;
+    overflow: hidden;
+    position: relative;
+    width: 1720px;
+  }
+  
+  .classes-book-now .text-wrapper {
+    color: #d6fd51;
+    font-family: "Orbitron-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 285px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 190px;
+    width: 952px;
+  }
+  
+  .classes-book-now .overlap {
+    height: 543px;
+    left: 1191px;
+    position: absolute;
+    top: 325px;
+    width: 377px;
+  }
+  
+  .classes-book-now .image {
+    height: 543px;
+    left: 12px;
+    position: absolute;
+    top: 0;
+    width: 360px;
+  }
+  
+  .classes-book-now .div {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 485px;
+    white-space: nowrap;
+    width: 377px;
+  }
+  
+  .classes-book-now .overlap-group {
+    height: 552px;
+    left: 687px;
+    position: absolute;
+    top: 334px;
+    width: 377px;
+  }
+  
+  .classes-book-now .img {
+    height: 552px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 360px;
+  }
+  
+  .classes-book-now .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 478px;
+    white-space: nowrap;
+    width: 377px;
+  }
+  
+  .classes-book-now .overlap-2 {
+    height: 543px;
+    left: 186px;
+    position: absolute;
+    top: 325px;
+    width: 377px;
+  }
+  
+  .classes-book-now .image-2 {
+    height: 543px;
+    left: 4px;
+    position: absolute;
+    top: 0;
+    width: 368px;
+  }
+  
+  .classes-book-now .join-our-advanced {
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 1219px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 908px;
+    width: 340px;
+  }
+  
+  .classes-book-now .span {
+    color: #d61c4e;
+  }
+  
+  .classes-book-now .text-wrapper-3 {
+    color: #ffffff;
+  }
+  
+  .classes-book-now .achieve-your-fitness {
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 705px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 909px;
+    width: 340px;
+  }
+  
+  .classes-book-now .explore-our-beginner {
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 199px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 908px;
+    width: 340px;
+  }
+  
+  .classes-book-now .frame {
+    background-color: #d6fd51;
+    height: 60px;
+    left: 186px;
+    position: absolute;
+    top: 1039px;
+    width: 359px;
+  }
+  
+  .classes-book-now .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 24px;
+    font-weight: 900;
+    left: 117px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+  }
+  
+  .classes-book-now .frame-2 {
+    background-color: #d6fd51;
+    background-size: 100% 100%;
+    height: 60px;
+    left: 703px;
+    position: absolute;
+    top: 1039px;
+    width: 359px;
+  }
+  
+  .classes-book-now .frame-3 {
+    background-color: #d6fd51;
+    height: 60px;
+    left: 1209px;
+    position: absolute;
+    top: 1039px;
+    width: 359px;
+  }
+  
+  .classes-book-now .navbar {
+    height: 70px;
+    left: 369px;
+    position: absolute;
+    top: 51px;
+    width: 1147px;
+  }
+  
+  .classes-book-now .group {
+    height: 35px;
+    left: 920px;
+    position: absolute;
+    top: 14px;
+    width: 100px;
+  }
+  
+  .classes-book-now .bx-bx-search-alt {
+    height: 35px;
+    left: 65px;
+    position: absolute;
+    top: 0;
+    width: 35px;
+  }
+  
+  .classes-book-now .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .classes-book-now .text-wrapper-6 {
+    color: #d6fd51;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 199px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .classes-book-now .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .classes-book-now .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 476px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .classes-book-now .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 646px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .classes-book-now .powerhouse {
+    color: transparent;
+    font-family: "Calligraphy Brillian-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 57px;
+  }
+  
+  .classes-book-now .text-wrapper-10 {
+    color: #d6fd51;
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+
+  .main-landing-page {
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 1080px;
+    overflow: hidden;
+    width: 1720px;
+  }
+  
+  .main-landing-page .overlap-group {
+    background-color: #c4c4c4;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .main-landing-page .image {
+    height: 1080px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1720px;
+  }
+  
+  .main-landing-page .rectangle {
+    background-color: #00000059;
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .main-landing-page .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 534px;
+    letter-spacing: 0;
+    line-height: 85px;
+    position: absolute;
+    text-align: center;
+    top: 290px;
+    width: 658px;
+  }
+  
+  .main-landing-page .img {
+    height: 90px;
+    left: 522px;
+    position: absolute;
+    top: 720px;
+    width: 306px;
+  }
+  
+  .main-landing-page .div {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 416px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 572px;
+    width: 887px;
+  }
+  
+  .main-landing-page .rectangle-2 {
+    background-color: #d6fd51;
+    height: 90px;
+    left: 904px;
+    position: absolute;
+    top: 720px;
+    width: 306px;
+  }
+  
+  .main-landing-page .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 750px;
+  }
+  
+  .main-landing-page .text-wrapper-3 {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 983px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 750px;
+  }
+  
+  .main-landing-page .group {
+    height: 30px;
+    left: 1300px;
+    position: absolute;
+    top: 994px;
+    width: 195px;
+  }
+  
+  .main-landing-page .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 1122px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 993px;
+  }
+  
+  .main-landing-page .line {
+    height: 6px;
+    left: 1217px;
+    position: absolute;
+    top: 1000px;
+    width: 60px;
+  }
+  
+  .main-landing-page .navbar {
+    height: 70px;
+    left: 376px;
+    position: absolute;
+    top: 37px;
+    width: 1147px;
+  }
+  
+  .main-landing-page .bx-bx-search-alt-wrapper {
+    height: 35px;
+    left: 920px;
+    position: absolute;
+    top: 14px;
+    width: 100px;
+  }
+  
+  .main-landing-page .bx-bx-search-alt {
+    height: 35px;
+    left: 65px;
+    position: absolute;
+    top: 0;
+    width: 35px;
+  }
+  
+  .main-landing-page .text-wrapper-5 {
+    color: #d6fd51;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .main-landing-page .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 199px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .main-landing-page .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .main-landing-page .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 476px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .main-landing-page .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 646px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .main-landing-page .powerhouse {
+    color: transparent;
+    font-family: "Calligraphy Brillian-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 43px;
+  }
+  
+  .main-landing-page .span {
+    color: #d61c4e;
+  }
+  
+  .main-landing-page .text-wrapper-10 {
+    color: #d6fd51;
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+
+  /* .meet-the-team {
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 1043px;
+    overflow: hidden;
+    width: 1720px;
+  }
+  
+  .meet-the-team .overlap-group {
+    background-image: url(./image-5.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1043px;
+    position: relative;
+  }
+  
+  .meet-the-team .overlap {
+    height: 322px;
+    left: 36px;
+    position: absolute;
+    top: 264px;
+    width: 477px;
+  }
+  
+  .meet-the-team .rectangle {
+    height: 201px;
+    left: 0;
+    position: absolute;
+    top: 79px;
+    width: 477px;
+  }
+  
+  .meet-the-team .image {
+    height: 322px;
+    left: 82px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 311px;
+  }
+  
+  .meet-the-team .div {
+    height: 316px;
+    left: 604px;
+    position: absolute;
+    top: 264px;
+    width: 477px;
+  }
+  
+  .meet-the-team .img {
+    height: 316px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 310px;
+  }
+  
+  .meet-the-team .overlap-2 {
+    height: 316px;
+    left: 1172px;
+    position: absolute;
+    top: 264px;
+    width: 477px;
+  }
+  
+  .meet-the-team .image-2 {
+    height: 316px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 311px;
+  }
+  
+  .meet-the-team .overlap-3 {
+    height: 311px;
+    left: 604px;
+    position: absolute;
+    top: 675px;
+    width: 477px;
+  }
+  
+  .meet-the-team .rectangle-2 {
+    height: 201px;
+    left: 0;
+    position: absolute;
+    top: 55px;
+    width: 477px;
+  }
+  
+  .meet-the-team .image-3 {
+    height: 311px;
+    left: 87px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 303px;
+  }
+  
+  .meet-the-team .overlap-4 {
+    height: 155px;
+    left: 81px;
+    position: absolute;
+    top: 41px;
+    width: 1434px;
+  }
+  
+  .meet-the-team .text-wrapper {
+    color: #d6fd51;
+    font-family: "Orbitron-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 139px;
+    letter-spacing: 0;
+    line-height: 85.7px;
+    position: absolute;
+    text-align: center;
+    top: 43px;
+    white-space: nowrap;
+    width: 815px;
+  }
+  
+  .meet-the-team .frame {
+    height: 111px;
+    left: 1174px;
+    position: absolute;
+    top: 44px;
+    width: 260px;
+  }
+  
+  .meet-the-team .vector {
+    height: 37px;
+    left: 36px;
+    position: absolute;
+    top: 45px;
+    width: 26px;
+  }
+  
+  .meet-the-team .vector-2 {
+    height: 37px;
+    left: 115px;
+    position: absolute;
+    top: 45px;
+    width: 26px;
+  }
+  
+  .meet-the-team .vector-3 {
+    height: 37px;
+    left: 194px;
+    position: absolute;
+    top: 45px;
+    width: 26px;
+  }
+  
+  .meet-the-team .powerhouse {
+    color: transparent;
+    font-family: "Calligraphy Brillian-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+  }
+  
+  .meet-the-team .span {
+    color: #d61c4e;
+  }
+  
+  .meet-the-team .text-wrapper-2 {
+    color: #d6fd51;
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .meet-the-team .navbar {
+    background-color: #0000001a;
+    height: 70px;
+    left: 237px;
+    position: absolute;
+    top: 0;
+    width: 1147px;
+  }
+  
+  .meet-the-team .group {
+    height: 35px;
+    left: 920px;
+    position: absolute;
+    top: 14px;
+    width: 100px;
+  }
+  
+  .meet-the-team .bx-bx-search-alt {
+    height: 35px;
+    left: 65px;
+    position: absolute;
+    top: 0;
+    width: 35px;
+  }
+  
+  .meet-the-team .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 199px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-6 {
+    color: #d6fd51;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 476px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 646px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+  }
+  
+  .meet-the-team .button-wrapper {
+    background-image: url(./rectangle-86.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 168px;
+    position: absolute;
+    top: 603px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 38px;
+    position: relative;
+    top: 5px;
+    width: 141px;
+  }
+  
+  .meet-the-team .text-wrapper-8 {
+    color: var(--white);
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 30.6px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .meet-the-team .div-wrapper {
+    background-image: url(./image.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 736px;
+    position: absolute;
+    top: 595px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 69px;
+    position: relative;
+    top: 5px;
+    width: 78px;
+  }
+  
+  .meet-the-team .group-2 {
+    background-image: url(./rectangle-86-2.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 1268px;
+    position: absolute;
+    top: 598px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 48px;
+    position: relative;
+    top: 5px;
+    width: 115px;
+  }
+  
+  .meet-the-team .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 30.6px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .meet-the-team .group-3 {
+    background-image: url(./rectangle-86-3.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    left: 736px;
+    position: absolute;
+    top: 991px;
+    width: 212px;
+  }
+  
+  .meet-the-team .button-4 {
+    all: unset;
+    box-sizing: border-box;
+    height: 46px;
+    left: 40px;
+    position: relative;
+    top: 5px;
+    width: 129px;
+  }
+  
+  .meet-the-team .browse-all-trainers {
+    background-color: #d6fd51;
+    height: 126px;
+    left: 1246px;
+    position: absolute;
+    top: 860px;
+    width: 340px;
+  }
+  
+  .meet-the-team .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 38px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 21px;
+    width: 266px;
+  }
+   */
+/* 
+  https://img.freepik.com/premium-photo/black-woman-fitness-break-exercise-workout-sports-gym-training-club-wellness-portrait-happy-motivation-strong-african-athlete-with-healthy-lifestyle-goal-vision-active-rest_590464-80824.jpg
+  https://i.pinimg.com/736x/6d/67/93/6d67935203d463683c04a6885dee44be.jpg
+  https://metro.co.uk/wp-content/uploads/2023/04/SEI_150983416_1680702901.127-238b.jpg?quality=90&strip=all&zoom=1&resize=480%2C320
+  https://www.shutterstock.com/image-photo/shirtless-african-american-muscular-bodybuilder-260nw-1926302177.jpg */

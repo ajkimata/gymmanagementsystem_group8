@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.plans-page {
+    background-color: #D6FD51;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.unlock-plans {
+    text-align: center;
+}
+
+.unlock-plans h1 {
+    font-size: 24px;
+    color: #27282E;
+}
+
+.unlock-plans p {
+    font-size: 16px;
+    color: #27282E;
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+.payment-card-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.basic-card {
+    background-color: #27282E;
+    width: 45%;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.price {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.basic-button,
+.premium-button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+}
+
+.basic-button {
+    background-color: white;
+    color: #27282E;
+}
+
+.basic-button:hover {
+    background-color: #8f9097;
+}
+
+.premium-card {
+    background-color: #8FFF00;
+    width: 45%;
+    color: #27282E;
+    border-radius: 20px;
+
+}
+
+.premium-button {
+    background-color: #27282E;
+    color: white;
+}
+
+.premium-button:hover {
+    background-color: #8f9097;
+}
+
+.gothic-word {
+    font-family: 'Dela Gothic One', sans-serif;
+}

@@ -1,0 +1,114 @@
+.home-container {
+    background-image: url("/public/Assets/LandingPage.jpg");
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-header h1 {
+    color: pink;
+    /* Logo color */
+}
+
+.home-header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("");
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    /* Adjust according to your needs */
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.main-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.join-btn {
+    background-color: limegreen;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-content button:hover {
+    opacity: 0.8;
+}
+
+.social {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social hr {
+    width: 90%;
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .home-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-header nav {
+        margin-top: 10px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .social-icons img {
+        margin: 5px;
+    }
+}
