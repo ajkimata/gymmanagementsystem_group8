@@ -50,14 +50,14 @@ input {
     margin-top: 10px;
 }
 
-.google-btn,
+/* .google-btn,
 .facebook-btn {
     padding: 10px;
     border: none;
     border-radius: 50%;
     cursor: pointer;
     font-weight: bold;
-}
+} */
 
 .google-btn {
     background-color: #DB4437;
