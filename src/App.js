@@ -15,6 +15,7 @@ import ClientRoute from "./context/ClientRoute";
 import { UserProvider } from "./context/UserContext";
 import Plan from "./components/plan";
 import Contact from "./components/contact";
+import ClassPlan from "./components/classplan";
 import "./App.css";
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
               path="/classes"
               element={
                 <ClientRoute>
-                  <Classes />
+                  <ClassPlan />
                 </ClientRoute>
               }
             />
