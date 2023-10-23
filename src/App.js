@@ -5,8 +5,6 @@ import Home from "./components/Home";
 import HomeAdmin from "./admin/HomeAdmin";
 import Classes from "./components/classes";
 import Login from "./components/login";
-import AboutUs from "./components/about";
-import { Contact } from "./components/contact";
 import Register from "./components/Register";
 import MainPage from "./components/aboutcombined";
 import Header from "./admin/Header";
@@ -15,6 +13,8 @@ import Footer from "./admin/Footer";
 import AdminRoute from "./context/AdminRoute";
 import ClientRoute from "./context/ClientRoute";
 import { UserProvider } from "./context/UserContext";
+import Plan from "./components/plan";
+import Contact from "./components/contact";
 import "./App.css";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
                 </ClientRoute>
               }
             />
-            <Route path="/classes" element={<Classes />} />
+            <Route path="/plan" element={<Plan />} />
             <Route
               path="/classes"
               element={
