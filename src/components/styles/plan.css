@@ -22,8 +22,9 @@ body {
 }
 
 .unlock-plans h1 {
-    font-size: 24px;
+    font-size: 26px;
     color: #27282E;
+    font-weight: 600;
 }
 
 .unlock-plans p {
@@ -48,9 +49,11 @@ body {
 
 .basic-card {
     background-color: #27282E;
-    width: 45%;
+    width: 30%;
     color: white;
     border-radius: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -82,14 +85,20 @@ body {
 
 .premium-card {
     background-color: #8FFF00;
-    width: 45%;
-    color: #27282E;
+    width: 70%;
     border-radius: 20px;
+    padding-left:20px ;
 
 }
 
+.premium-card p{
+    color: #27282E;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
 .premium-button {
-    background-color: #27282E;
+    background-color: #000000;
     color: white;
 }
 

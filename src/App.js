@@ -29,35 +29,35 @@ function App() {
             <Route
               path="/"
               element={
-                <ClientRoute>
+                // <ClientRoute>
                   <Home />
-                </ClientRoute>
+                // </ClientRoute>
               }
             />
             <Route path="/plan" element={<Plan />} />
             <Route
               path="/classes"
               element={
-                <ClientRoute>
+                // <ClientRoute>
                   <ClassPlan />
-                </ClientRoute>
+                // </ClientRoute>
               }
             />
             <Route path="/login" element={<Login />} />
             <Route
               path="/about"
               element={
-                <ClientRoute>
+                // <ClientRoute>
                   <MainPage />
-                </ClientRoute>
+                // </ClientRoute>
               }
             />
             <Route
               path="/contact"
               element={
-                <ClientRoute>
+                // <ClientRoute>
                   <Contact />
-                </ClientRoute>
+                // </ClientRoute>
               }
             />
             <Route path="/Register" element={<Register />} />

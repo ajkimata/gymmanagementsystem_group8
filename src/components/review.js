@@ -28,13 +28,13 @@ const Review = () => {
     // ... (As previously defined)
   };
 
-  const handleAddCommentClick = () => {
-    setShowAddComment(!showAddComment);
-  };
+  // const handleAddCommentClick = () => {
+  //   setShowAddComment(!showAddComment);
+  // };
 
   return (
     <div className="powerhouse-container">
-      <header>
+      {/* <header>
         <img src="powerhouse-logo.png" alt="Powerhouse logo" className="logo" />
         <nav>
           <a href="/">HOME</a>
@@ -44,7 +44,7 @@ const Review = () => {
           <a href="/contact">CONTACT US</a>
         </nav>
         <input type="search" placeholder="Search..." className="search-bar" />
-      </header>
+      </header> */}
       <section className="comments-page">
         <h1>WHAT OUR CLIENTS SAY</h1>
         <div className="slider-arrows">
@@ -103,10 +103,10 @@ const Review = () => {
             </div>
           </div>
         </div>
-        <div className="add-comment" onClick={handleAddCommentClick}>
+        {/* <div className="add-comment" onClick={handleAddCommentClick}>
           Tap To Add Your Comment{" "}
           <FontAwesomeIcon icon={faPlusCircle} size="2x" />
-        </div>
+        </div> */}
         {showAddComment && (
           <div className="add-comment-section">
             {/* The comment form will appear here once the above section is clicked */}

@@ -59,7 +59,7 @@ function Classes() {
                 <div className="level-text">BEGINNER</div>
               </div>
               <p>
-                Explore our beginner-friendly classes perfect for those new to
+              <span>Explore</span> our beginner-friendly classes perfect for those new to
                 fitness.
               </p>
               <button onClick={() => handleEnroll("Beginner")}>
@@ -76,7 +76,7 @@ function Classes() {
                 <div className="level-text">INTERMEDIATE</div>
               </div>
               <p>
-                Achieve your fitness goals by establishing a tailored fitness
+              <span>Achieve</span> your fitness goals by establishing a tailored fitness
                 routine.
               </p>
               <button onClick={() => handleEnroll("Intermediate")}>
@@ -90,7 +90,7 @@ function Classes() {
                 <div className="level-text">ADVANCED</div>
               </div>
               <p>
-                Join our advanced gym class designed for seasoned fitness
+                <span>Join</span> our advanced gym class designed for seasoned fitness
                 enthusiasts.
               </p>
               <button onClick={() => handleEnroll("Advanced")}>
