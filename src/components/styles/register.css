@@ -106,6 +106,24 @@ input[type="checkbox"]+label {
   cursor: pointer;
 }
 
+select[name="role_type"] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select[name="role_type"] option {
+  background-color: #fff;
+  color: #000; 
+}
+
+select[name="role_type"] option:focus {
+  background-color: #4caf50;
+  color: #fff;
+}
+
 .login-prompt {
   margin-top: 20px;
   font-size: 1rem;

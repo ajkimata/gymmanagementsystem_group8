@@ -98,21 +98,34 @@ const Register = () => {
             value={formData.password}
             onChange={handleInputChange}
           />
-          <input
-            type="text"
-            placeholder="Role Type (e.g. Admin)"
+          <select
             name="role_type"
             value={formData.role_type}
             onChange={handleInputChange}
-          />
+          >
+            <option value="" disabled>Select Role Type (e.g. Client, Trainer or Administrator)</option>
+            <option value="Client">Client</option>
+            <option value="Trainer">Trainer</option>
+            <option value="Admin">Admin</option>
+          </select>
           <div>
+          <table>
+          <tbody>
+          <tr>
+          <td>
             <input
               type="checkbox"
               name="remember"
               checked={formData.remember}
               onChange={handleInputChange}
             />
+          </td>
+          <td>
             <label htmlFor="remember">Remember me</label>
+          </td>
+          </tr>
+          </tbody>
+          </table>
           </div>
           <button type="submit">Register</button>
         </form>
