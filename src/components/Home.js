@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
+
 
 const StyledLandingPage = styled.section`
   position: relative;
@@ -21,6 +23,7 @@ const StyledLandingPage = styled.section`
 
 const Title = styled.h1`
   font-size: 4vw;
+  font-family: 'Orbitron', sans-serif;
   font-weight: 700;
   text-align: center;
   margin-bottom: 2rem; // Increased space below the title
@@ -32,6 +35,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.p`
+  font-family: 'Smooch Sans', sans-serif;
   font-size: 1.2vw;
   font-weight: 500;
   text-align: center;
@@ -46,6 +50,7 @@ const Subtitle = styled.p`
 
 const StyledButton = styled(Link)`
   display: inline-block;
+  font-family: 'Smooch Sans', sans-serif;
   background-color: #d6fd51;
   color: #000;
   padding: 10px 25px; // Fixed padding for better control
@@ -56,7 +61,7 @@ const StyledButton = styled(Link)`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Adding a shadow to the buttons
 
   &:hover {
-    background-color: #c5e542;
+    background-color: #8FFF00;
   }
 
   @media (max-width: 600px) {
@@ -75,12 +80,14 @@ const SocialBar = styled.div`
 `;
 
 const SocialLabel = styled.span`
+  color: #d6fd51;
   font-weight: 600;
   margin-right: 1rem;
 `;
 
 const SocialIcons = styled.div`
   display: flex;
+  color: #d6fd51;
   align-items: center;
   margin-left: 1rem;
 
@@ -120,6 +127,7 @@ const Home = () => {
         <SocialIcons>
           <FontAwesomeIcon icon={faFacebookF} />
           <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faWhatsapp} />
         </SocialIcons>
       </SocialBar>
     </StyledLandingPage>
