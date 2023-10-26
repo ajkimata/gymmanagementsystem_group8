@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10vh;
+    overflow-y: hidden;
 }
 
 .register h1 {
@@ -126,7 +127,7 @@ p span {
 
 .page {
     background: #000;
-    height: 125vh;
+    /* height: 125vh; */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -136,6 +137,7 @@ p span {
     /* transition effect */
     opacity: 1;
     /* default opacity */
+    overflow-y: hidden;
 }
 
 .page.modal-open {

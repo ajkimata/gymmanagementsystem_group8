@@ -62,6 +62,7 @@ const StyledButton = styled(Link)`
 
   &:hover {
     background-color: #8FFF00;
+    color: #000000;
   }
 
   @media (max-width: 600px) {

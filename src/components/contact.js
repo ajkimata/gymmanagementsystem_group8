@@ -104,7 +104,7 @@ function Contact() {
         <div className="email-form">
           
         <input type="email" className="email-input" placeholder="Enter your email"/>
-          <button className="join-button">Join Now</button>
+          <button className="join-button">Subscribe</button>
         </div>
       </div>
       <div className="bottom-image">

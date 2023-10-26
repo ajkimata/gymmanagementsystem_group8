@@ -181,7 +181,7 @@ li a:hover {
     text-align: center;
     color: white;
   }
-  .email-form {
+  /* .email-form {
     position: absolute;
     align-content: flex;
     flex-direction: row;
@@ -194,8 +194,21 @@ li a:hover {
     width: 300px;
     text-align: center;
     border-radius: 5px;
-    /* justify-content: space-between; */
-}
+} */
+.email-form {
+  position: absolute;
+  transform: translateX(65%);
+  display: flex; 
+  top: 35%;
+  align-items: center; 
+  gap: 10px; 
+  border: 2px solid #D6FD51;
+  width: 600px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+} 
+
 
   /* .email-form {
     display: flex;
@@ -205,7 +218,7 @@ li a:hover {
     border: 2px solid #D6FD51;
     } */
 
-    .email-input {
+    /* .email-input {
         
         align-items: center;
         padding: px;
@@ -218,7 +231,20 @@ li a:hover {
         color: white;
         outline: none;
     
-    }
+    } */
+    .email-input {
+      
+      border: none; 
+      border-bottom: 1px solid #ccc; 
+      margin-bottom: 10px; 
+      width: 60%; 
+      flex-grow: 1; 
+      height: 5%;
+      margin-left: 5px;
+      background-color: transparent;
+      margin-left: 10px;
+}
+    
 
   .email-label {
     margin-bottom: 5px;
@@ -235,7 +261,7 @@ li a:hover {
   .email-input::placeholder {
     color: white; 
   }
-  .join-button {
+  /* .join-button {
     background-color: #D6FD51;
     color: black;
     padding: 5px 10px; 
@@ -243,8 +269,22 @@ li a:hover {
     cursor: pointer;
     border-radius: 5px;
     
+  } */
+
+  .join-button {
+    
+    /* padding: 10px 20px;  */
+    background-color: #D6FD51; 
+    color: #000000; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 50%; 
+    margin-bottom: 5px;
+    height: 10%;
+
+    margin-top: 2px;
   }
-  
   .links {
     position: absolute;
     display: flex;

@@ -88,6 +88,7 @@ const Review = () => {
             <button onClick={handleCommentSubmit}>Submit</button>
           </div>
           <div className="testimonial-card">
+            
             <p>
               Thanks to the personalized training and encouragement from the
               trainers at this gym, I've lost 30 pounds and gained confidence in
@@ -101,6 +102,15 @@ const Review = () => {
                 <span>Member since 2019</span>
               </div>
             </div>
+            <div className="comment-navigation">
+              <div className="arrow left-arrow" >
+                &lt;
+              </div>
+              <div className="arrow right-arrow" >
+                &gt;
+              </div>
+            </div>
+
           </div>
         </div>
         {/* <div className="add-comment" onClick={handleAddCommentClick}>

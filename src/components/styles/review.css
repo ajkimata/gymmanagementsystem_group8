@@ -42,6 +42,7 @@ nav a {
     text-align: left;
     margin-bottom: 10px;
     color: black;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .slider-arrows {
@@ -61,7 +62,12 @@ nav a {
     justify-content: space-between;
 }
 
-.feedback-card,
+.feedback-card{
+    background-color: rgba(208, 236, 116, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
 .testimonial-card {
     background-color: #81D41A;
     padding: 20px;
@@ -72,6 +78,7 @@ nav a {
 .feedback-card h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
 .feedback-tags span {
@@ -80,6 +87,8 @@ nav a {
     padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
+    font-family: 'Smooch Sans', sans-serif;
+    cursor: pointer;
 }
 
 .feedback-card textarea {
@@ -96,6 +105,7 @@ nav a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
 .feedback-card button:hover {
@@ -148,3 +158,29 @@ nav a {
 .emoji-icon:hover {
     color: #d4c81a;
 }
+
+.comment-navigation {
+    display: flex;
+    justify-content: space-between; 
+  }
+.arrow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .left-arrow {
+    margin-right: 10px;
+  }
+  
+  .right-arrow {
+    margin-left: 10px;
+  }
