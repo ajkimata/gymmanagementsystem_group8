@@ -69,10 +69,11 @@ nav a {
     width: 45%;
 }
 .testimonial-card {
-    background-color: #81D41A;
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
     width: 45%;
+    border: 2px solid rgba(255, 255, 255, 0.5); 
 }
 
 .feedback-card h2 {
@@ -114,7 +115,9 @@ nav a {
 }
 
 .testimonial-card p {
-    font-size: 16px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 24;
+
 }
 
 .testimonial-footer {
@@ -128,6 +131,11 @@ nav a {
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.testimonial-footer span{
+    color: white;
+    font-size: 28;
 }
 
 .add-comment {
@@ -170,7 +178,7 @@ nav a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #81D41A;
     color: white;
     border-radius: 50%;
     cursor: pointer;

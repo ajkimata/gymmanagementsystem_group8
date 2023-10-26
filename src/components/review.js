@@ -96,7 +96,7 @@ const Review = () => {
               changed my perspective completely!
             </p>
             <div className="testimonial-footer">
-              <img src="profile-pic.png" alt="Profile" />
+              {/* <img src="profile-pic.png" alt="Profile" /> */}
               <div>
                 <span>Albert Flores</span>
                 <span>Member since 2019</span>

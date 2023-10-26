@@ -78,12 +78,16 @@ const SocialBar = styled.div`
   display: flex;
   align-items: center;
   color: #b7b7b7;
+  border: 2px solid #d6fd51;
+  padding: 3px;
+  border-radius:6px;
 `;
 
 const SocialLabel = styled.span`
   color: #d6fd51;
   font-weight: 600;
   margin-right: 1rem;
+  font-family: 'Smooch Sans', sans-serif;
 `;
 
 const SocialIcons = styled.div`
@@ -91,6 +95,7 @@ const SocialIcons = styled.div`
   color: #d6fd51;
   align-items: center;
   margin-left: 1rem;
+  font-size: 22px;
 
   & > * {
     margin: 0 0.5rem;
