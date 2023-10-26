@@ -4,7 +4,13 @@ import "./styles/classes.css";
 function Classes() {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedClass, setSelectedClass] = useState("");
-  const [feedbackMsg, setFeedbackMsg] = useState(""); // To display feedback after form submission
+  const [feedbackMsg, setFeedbackMsg] = useState("");
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phoneNumber: "",
+    comments: "",
+  });
 
   const handleEnroll = (classType) => {
     setSelectedClass(classType);
@@ -14,13 +20,52 @@ function Classes() {
   const closeEnrollmentForm = () => {
     setModalOpen(false);
     setSelectedClass("");
-    setFeedbackMsg(""); // Reset feedback message
+    setFeedbackMsg("");
+    setFormData({
+      fullName: "",
+      email: "",
+      phoneNumber: "",
+      comments: "",
+    });
   };
 
-  const handleSubmit = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // You can process form data here (e.g., send to backend API)
-    setFeedbackMsg(`Thank you for enrolling in the ${selectedClass} class!`);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xknlykwq", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          class: selectedClass,
+        }),
+      });
+
+      if (response.ok) {
+        setFeedbackMsg(
+          `Thank you for enrolling in the ${selectedClass} class!`
+        );
+        setFormData({
+          fullName: "",
+          email: "",
+          phoneNumber: "",
+          comments: "",
+        });
+      } else {
+        setFeedbackMsg("Oops! Something went wrong.");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      setFeedbackMsg("Oops! Something went wrong.");
+    }
   };
 
   return (

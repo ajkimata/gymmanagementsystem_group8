@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { useLocation } from "react-router-dom";
+import Users from "../admin/User";
 
 const NavbarContainer = styled.nav`
   display: flex;
@@ -27,8 +28,13 @@ const NavbarContainer = styled.nav`
 const Logo = styled(Link)`
   font-weight: bold;
   font-size: 1.5rem;
-  color: #d6fd51; // adjusted the color to match the design
+  color: #d6fd51;
   text-decoration: none;
+
+  span {
+    display: inline-block;
+    transform: skew(-15deg); // Adds a slight slant to the "P"
+  }
 `;
 
 const NavItems = styled.div`
@@ -57,12 +63,20 @@ const Navbar = () => {
   let location = useLocation();
   // If current path is "/login", don't render the navbar.
   // If current path is "/login" or "/register", don't render the navbar.
-  if (location.pathname === "/login" || location.pathname === "/register") {
+  if (
+    location.pathname === "/login" ||
+    location.pathname === "/register" ||
+    location.pathname === "/admin" ||
+    location.pathname == "/contact" ||
+    location.pathname === "/admin/users"
+  ) {
     return null;
   }
   return (
     <NavbarContainer>
-      <Logo to="/">Powerhouse</Logo>
+      <Logo to="/">
+        <span>P</span>owerhouse
+      </Logo>
       <NavItems>
         <NavLink to="/">HOME</NavLink>
         <NavLink to="/classes">CLASSES</NavLink>

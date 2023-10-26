@@ -1,24 +1,35 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React, { useState } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Outlet,
+} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import HomeAdmin from "./admin/HomeAdmin";
-import Classes from "./components/classes";
 import Login from "./components/login";
 import Register from "./components/Register";
 import MainPage from "./components/aboutcombined";
 import Header from "./admin/Header";
-import SideNav from "./admin/SideNav";
-import Footer from "./admin/Footer";
+import Sidebar from "./admin/SideBar";
 import AdminRoute from "./context/AdminRoute";
 import ClientRoute from "./context/ClientRoute";
 import { UserProvider } from "./context/UserContext";
 import Plan from "./components/plan";
 import Contact from "./components/contact";
 import ClassPlan from "./components/classplan";
-import "./App.css";
+import Users from "./admin/User";
+import "./admin/Styles/App.css";
 
 function App() {
+  const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
+
+  const OpenSidebar = () => {
+    setOpenSidebarToggle(!openSidebarToggle);
+  };
+  
+
   return (
     <Router>
       <UserProvider>
@@ -64,22 +75,24 @@ function App() {
 
             {/* Admin-side routes */}
             <Route
-              path="/admin"
+              path="/admin/*"
               element={
                 <AdminRoute>
-                  <div className="wrapper">
-                    <Header />
-                    <Footer />
-                    <Routes>
-                      {/* Nested admin routes */}
-                      <Route path="/" element={<HomeAdmin />} />
-                      {/* Add other admin-specific routes here */}
-                    </Routes>
-                    <SideNav />
+                  <div className="grid-container">
+                    <Header OpenSidebar={OpenSidebar} />
+                    <Sidebar
+                      openSidebarToggle={openSidebarToggle}
+                      OpenSidebar={OpenSidebar}
+                    />
+                    <Outlet />
                   </div>
                 </AdminRoute>
               }
-            />
+            >
+              <Route index element={<HomeAdmin />} />
+              <Route path="users" element={<Users />} />
+              {/* Add other admin sub-routes here as needed */}
+            </Route>
           </Routes>
         </div>
       </UserProvider>
