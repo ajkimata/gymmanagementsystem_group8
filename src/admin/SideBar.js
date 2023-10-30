@@ -49,9 +49,9 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
           </a>
         </li>
         <li className="sidebar-list-item">
-          <a href="">
-            <BsFillGrid3X3GapFill className="icon" /> Workouts
-          </a>
+          <Link to="/admin/workout">
+            <BsPeopleFill className="icon" /> Workouts
+          </Link>
         </li>
         <li className="sidebar-list-item">
           <Link to="/admin/users">

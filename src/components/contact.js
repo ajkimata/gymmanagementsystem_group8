@@ -117,9 +117,9 @@ const styles = `
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #080808;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   }
 
   /* Style the form elements */

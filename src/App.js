@@ -20,6 +20,7 @@ import Plan from "./components/plan";
 import Contact from "./components/contact";
 import ClassPlan from "./components/classplan";
 import Users from "./admin/User";
+import Workout from "./admin/Workout";
 import "./admin/Styles/App.css";
 
 function App() {
@@ -28,7 +29,6 @@ function App() {
   const OpenSidebar = () => {
     setOpenSidebarToggle(!openSidebarToggle);
   };
-  
 
   return (
     <Router>
@@ -91,6 +91,7 @@ function App() {
             >
               <Route index element={<HomeAdmin />} />
               <Route path="users" element={<Users />} />
+              <Route path="workout" element={<Workout />} />
               {/* Add other admin sub-routes here as needed */}
             </Route>
           </Routes>

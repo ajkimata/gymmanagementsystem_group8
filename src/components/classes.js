@@ -81,12 +81,38 @@ function Classes() {
             <div>
               <h2>You're enrolling for the {selectedClass} class!</h2>
               <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="Full Name" required />
-                <input type="email" placeholder="Email Address" required />
-                <input type="tel" placeholder="Phone Number" />
-                <textarea placeholder="Any special requests or comments"></textarea>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  required
+                  name="fullName"
+                  value={formData.fullName}
+                  onChange={handleChange}
+                />
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  required
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                />
+                <input
+                  type="tel"
+                  placeholder="Phone Number"
+                  name="phoneNumber"
+                  value={formData.phoneNumber}
+                  onChange={handleChange}
+                />
+                <textarea
+                  placeholder="Any special requests or comments"
+                  name="comments"
+                  value={formData.comments}
+                  onChange={handleChange}
+                />
                 <button type="submit">Enroll</button>
               </form>
+
               <button onClick={closeEnrollmentForm}>Cancel</button>
             </div>
           )}

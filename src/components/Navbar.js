@@ -16,9 +16,9 @@ const NavbarContainer = styled.nav`
     0,
     0,
     0,
-    0
+    0.8
   ); // adjusted the color for slight transparency
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -67,7 +67,6 @@ const Navbar = () => {
     location.pathname === "/login" ||
     location.pathname === "/register" ||
     location.pathname === "/admin" ||
-    location.pathname == "/contact" ||
     location.pathname === "/admin/users"
   ) {
     return null;
