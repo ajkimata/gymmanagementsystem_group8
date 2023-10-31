@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# README - Gym Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Gym management software or fitness software is a software solution that helps businesses to streamline, organize, and run their operations. While you can have a wide range of functionality, most gym management systems offer both admin and a client-facing portal. The platform allows gym owners to manage their facilities and members better. 
 
-## Available Scripts
+## Problem Statement
+Gym owners find it hard to keep up with their client's information as well as the trainers and equipment in the facility.
+Most gyms maintain their client's records manually but digital record handling has shown to be more efficient, cost-effective, and provides easy maintenance.
 
-In the project directory, you can run:
+## Solution
+We have come up with a system that will enable gym owners to run their facilities efficiently ensuring that they keep their clients satisfied as well as their employees. This will allow them to run a profitable business. At the same time, the system will try and cater to all client needs within a gym environment.
 
-### `npm start`
+## Minimum Viable Product
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Client
+* Allows users to register for gym memberships.
+* Keeps track of registered users
+* Clients can be linked to trainers based on their level of fitness i.e beginner, intermediate and advanced.
+* Takes in client reviews
+* Allows clients to keep track of their own progress.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Admin
+* Keeps track of client payments.
+* Keeps track of registered users.
+* Keeps track of employee performance.
+* Keeps track of gym equipment.
+* Keeps track of gym maintenance.
+* Keeps track of client progress.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies
+* Backend: Ruby on Rails and JSON Web Token (JWT). Database: ​PostgreSQL.
+* Frontend: ReactJs, Redux Toolkit, React Context (state management) and Styled Components.
+* Testing Frameworks: RSpec, ​Jest and Minitests.
+* [Backend Source Code](https://github.com/ajkimata/gymbackend_group8 "Backend Github Page")
+* [Prototype Deployment](https://gymmanagementsystem-group8.vercel.app/ "Powerhouse Homepage")
